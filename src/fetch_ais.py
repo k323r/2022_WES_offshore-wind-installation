@@ -25,7 +25,8 @@ def fetch_ais():
     response = requests.get(URL, headers=HEADERS)
     if response.status_code == 200:
         utcnow = datetime.datetime.utcnow()
-        dir_data = os.path.join(DIR_DATA_AIS, utcnow.strftime('utc_%Y-%m-%d'))
+        dir_data = os.path.join(
+            DIR_DATA_AIS, 'raw', utcnow.strftime('utc_%Y-%m-%d'))
         os.makedirs(dir_data, exist_ok=True)
         path_data = os.path.join(
             dir_data,

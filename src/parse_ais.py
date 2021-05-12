@@ -6,8 +6,11 @@ import xml.etree.cElementTree as ET
 
 from config import DIR_DATA_AIS
 
-PATH_FETCH_TEST = os.path.join(
-    DIR_DATA_AIS, 'test', 'utc_2021-05-11-20-38-00.xml')
+PATHS_FETCH_TEST = [
+    os.path.join(DIR_DATA_AIS, 'test_raw', fname)
+    for fname in [
+        'utc_2021-05-11-20-38-00.xml',
+        'utc_2021-05-12-13-53-00.xml']]
 
 def get_epoch_fetch(path):
     '''
@@ -34,7 +37,7 @@ def get_records_raw(path):
     return records_raw
 
 def test_get_records_raw():
-    print(get_records_raw(PATH_FETCH_TEST))
+    print(get_records_raw(PATHS_FETCH_TEST[0]))
 
 def parse_record(record_raw):
     '''
@@ -47,7 +50,7 @@ def parse_record(record_raw):
         vessel_length = float(record_raw.attrib['L'])   # meters?
     except ValueError:
         vessel_length = None
-    time_elapsed_since_received_minutes = float(record_raw.attrib['E'])
+    time_since_received_seconds = float(record_raw.attrib['E']) * 60
     latitude = float(record_raw.attrib['LAT'])
     longitude = float(record_raw.attrib['LON'])
     try:
@@ -63,7 +66,7 @@ def parse_record(record_raw):
         vessel_name,
         vessel_type,
         vessel_length,
-        time_elapsed_since_received_minutes,
+        time_since_received_seconds,
         latitude,
         longitude,
         heading_degrees,
@@ -71,10 +74,10 @@ def parse_record(record_raw):
     return record
 
 def test_parse_record():
-    records_raw = get_records_raw(PATH_FETCH_TEST)
-    for record_raw in records_raw:
-        print(parse_record(record_raw))
-
+    for path_fetch in PATHS_FETCH_TEST:
+        records_raw = get_records_raw(path_fetch)
+        for record_raw in records_raw:
+            print(parse_record(record_raw))
 
 if __name__ == '__main__':
 #    test_get_epoch_fetch()
