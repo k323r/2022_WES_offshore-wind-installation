@@ -3,6 +3,8 @@
 import os
 import sqlite3
 import sys
+import datetime
+from glob import glob
 
 from config import DIR_DATA_AIS
 from parse_ais import (
@@ -67,13 +69,24 @@ def import_ais():
     if not os.path.exists(PATH_DATABASE):
         init_database()
     try:
-        start_date = sys.argv[1]
+        start_date = datetime.datetime.strptime(sys.argv[1], '%Y-%m-%d')    # -> maybe use argparse in the future?
     except IndexError:
-        start_date = '2021-05-11'
+        start_date = datetime.datetime.strptime('2021-05-11', '%Y-%m-%d')
+        # start_date = datetime.datetime.strptime('2021-05-11', '%Y-%m-%d')
+
+    #days = sorted([
+    #    day for day in os.listdir(os.path.join(DIR_DATA_AIS, 'raw'))
+    #    if day != '.gitkeep'
+    #    and day >= start_date])   # -> utc_2021-05-13 > 2021-05-11
+    
+    # convert folder names into datetime objects to warant sane comparison
     days = sorted([
-        day for day in os.listdir(os.path.join(DIR_DATA_AIS, 'raw'))
-        if day != '.gitkeep'
-        and day >= start_date])
+        datetime.datetime.strptime(day.split('_')[-1], '%Y-%m-%d') for day in glob(os.path.join(os.path.join(DIR_DATA_AIS, 'raw'), 'utc_*'))
+    ])
+
+    # remove all dates > start_date and convert back to folder name
+    days = [f'utc_{datetime.datetime.strftime(day, "%Y-%m-%d")}' for day in days if day > start_date]
+
     for day in days:
         fnames = sorted(os.listdir(os.path.join(DIR_DATA_AIS, 'raw', day)))
         for fname in fnames:

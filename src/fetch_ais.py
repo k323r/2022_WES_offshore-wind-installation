@@ -33,6 +33,9 @@ def fetch_ais():
             utcnow.strftime('utc_%Y-%m-%d-%H-%M-00.xml'))
         with open(path_data, 'w') as f:
             print(response.text, file=f)
+    else:
+        print(f'request return the following response status: {response.status_code}')
+        print(f'failed to fetch AIS data... exit')
 
 if __name__ == '__main__':
     fetch_ais()
