@@ -4,7 +4,6 @@
 
 ![architecture](architecture.png)
 
-
 ## ERA5 Data
 
 ERA5 Data are data sets provided by ECWMF, containing hourly estimates of a vast number of atmospheric and oceaning parameters. A short description can be found [here](https://confluence.ecmwf.int/display/CKB/The+family+of+ERA5+datasets) (ECMWF -> European Center for Medium-range Weather Forecasts). 
