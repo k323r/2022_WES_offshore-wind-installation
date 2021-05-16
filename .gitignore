@@ -1,0 +1,6 @@
+data/ais/db/*
+!data/ais/db/.gitkeep
+data/ais/raw/*
+!data/ais/raw/.gitkeep
+
+__pycache__
