@@ -19,10 +19,13 @@ If you believe this is an error, please contact us via <a href="http://help.mari
 '''
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'}
-URL = 'https://www.marinetraffic.com/legacy/getxml_i?sw_x=7.93&sw_y=52.07&ne_x=10.69&ne_y=53.83&zoom=14'
+#URL = 'https://www.marinetraffic.com/legacy/getxml_i?sw_x=7.93&sw_y=52.07&ne_x=10.69&ne_y=53.83&zoom=14'
+URL_PREFIX = 'https://www.marinetraffic.com/legacy/getxml_i?'
 
-def fetch_ais():
-    response = requests.get(URL, headers=HEADERS)
+def fetch_ais(sw_x=7.93, sw_y=52.07, ne_x=10.69, ne_y=53.83):
+    response = requests.get(
+        f'{URL_PREFIX}sw_x={sw_x}&sw_y={sw_y}&ne_x={ne_x}&ne_y={ne_y}&zoom=14',
+        headers=HEADERS)
     if response.status_code == 200:
         utcnow = datetime.datetime.utcnow()
         dir_data = os.path.join(
@@ -30,7 +33,8 @@ def fetch_ais():
         os.makedirs(dir_data, exist_ok=True)
         path_data = os.path.join(
             dir_data,
-            utcnow.strftime('utc_%Y-%m-%d-%H-%M-00.xml'))
+            utcnow.strftime(
+                f'utc_%Y-%m-%d-%H-%M-%S_pos_{sw_x}-{sw_y}-{ne_x}-{ne_y}.xml'))
         with open(path_data, 'w') as f:
             print(response.text, file=f)
 

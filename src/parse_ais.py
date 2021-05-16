@@ -1,35 +1,36 @@
 #!/usr/bin/env python3
 
 import datetime
+import glob
 import os
 import xml.etree.cElementTree as ET
 
 from config import DIR_DATA_AIS
 
-PATHS_FETCH_TEST = [
-    os.path.join(DIR_DATA_AIS, 'test_raw', fname)
-    for fname in [
-        'utc_2021-05-11-20-38-00.xml',
-        'utc_2021-05-12-13-53-00.xml']]
+TEST_FETCH_PATHS = sorted(
+    glob.glob(os.path.join(DIR_DATA_AIS, 'test_raw/utc_*/utc_*.xml')))
 
 def get_epoch_fetch(path):
     '''
-    utc_2021-05-11-20-38-00.xml
+    utc_2021-05-11-20-38-00_pos_7.93-52.07-10.69-53.83.xml
     '''
     fname = os.path.basename(path)
+    assert fname.startswith('utc_') and '_pos_' in fname
     epoch_fetch = int(
         datetime.datetime.strptime(
-            fname, 'utc_%Y-%m-%d-%H-%M-%S.xml').replace(
-            tzinfo=datetime.timezone.utc).timestamp())
+            fname.split('_pos_')[0],
+            'utc_%Y-%m-%d-%H-%M-%S').replace(
+                tzinfo=datetime.timezone.utc).timestamp())
     return epoch_fetch
 
 def test_get_epoch_fetch():
-    path_fetch = 'utc_2021-05-11-20-38-00.xml'
-    epoch_fetch = get_epoch_fetch(path_fetch)
-    utc_fetch = datetime.datetime.utcfromtimestamp(epoch_fetch)
-    print(path_fetch)
-    print(utc_fetch)
-    print(epoch_fetch)
+    for fetch_path in TEST_FETCH_PATHS:
+        epoch_fetch = get_epoch_fetch(fetch_path)
+        utc_fetch = datetime.datetime.utcfromtimestamp(epoch_fetch)
+        print()
+        print(epoch_fetch)
+        print(os.path.basename(fetch_path))
+        print(utc_fetch)
 
 def get_records_raw(path):
     tree = ET.ElementTree(file=path)
@@ -37,7 +38,8 @@ def get_records_raw(path):
     return records_raw
 
 def test_get_records_raw():
-    print(get_records_raw(PATHS_FETCH_TEST[0]))
+    for fetch_path in TEST_FETCH_PATHS:
+        print(get_records_raw(fetch_path))
 
 def parse_record(record_raw):
     '''
@@ -74,12 +76,12 @@ def parse_record(record_raw):
     return record
 
 def test_parse_record():
-    for path_fetch in PATHS_FETCH_TEST:
-        records_raw = get_records_raw(path_fetch)
+    for fetch_path in TEST_FETCH_PATHS:
+        records_raw = get_records_raw(fetch_path)
         for record_raw in records_raw:
             print(parse_record(record_raw))
 
 if __name__ == '__main__':
-#    test_get_epoch_fetch()
-#    test_get_records_raw()
+    test_get_epoch_fetch()
+    test_get_records_raw()
     test_parse_record()
