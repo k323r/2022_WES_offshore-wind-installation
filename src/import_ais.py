@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import glob
 import os
 import sqlite3
 import sys
@@ -69,17 +70,17 @@ def import_ais():
     try:
         start_date = sys.argv[1]
     except IndexError:
-        start_date = '2021-05-11'
-    days = sorted([
-        day for day in os.listdir(os.path.join(DIR_DATA_AIS, 'raw'))
-        if day != '.gitkeep'
-        and day >= start_date])
-    for day in days:
-        fnames = sorted(os.listdir(os.path.join(DIR_DATA_AIS, 'raw', day)))
-        for fname in fnames:
-            path_fetch = os.path.join(DIR_DATA_AIS, 'raw', day, fname)
-            epoch_fetch = get_epoch_fetch(path_fetch)
-            records_raw = get_records_raw(path_fetch)
+        start_date = 'utc_2021-05-11'
+    assert start_date.startswith('utc_'), "Start date needs prefix 'utc_'."
+    day_dirs = sorted([
+        d for d in glob.glob(os.path.join(DIR_DATA_AIS, 'raw', 'utc_*'))
+        if os.path.isdir(d)
+        and os.path.basename(d) >= start_date])
+    for day_dir in day_dirs:
+        fetch_paths = sorted(glob.glob(os.path.join(day_dir, 'utc_*.xml')))
+        for fetch_path in fetch_paths:
+            epoch_fetch = get_epoch_fetch(fetch_path)
+            records_raw = get_records_raw(fetch_path)
             values_vessels = []
             values_positions = []
             for record_raw in records_raw:
