@@ -12,10 +12,13 @@ COLUMN_NAMES = [
     'timestamp',
 ]
 
-SHIP_NAMES = {
+VESSEL_NAMES = {
     253366000 : "Vole au Vent",
+    218657000 : "Vole au Vent",
     5179000   : "Aeolus",
+    245179000 : "Aeolus",
     215644000 : "Blue Tern",
+    235090598 : "Blue Tern",
     229080000 : "Bold Tern",
     229044000 : "Brave Tern",
     253609000 : "Taillevent",
