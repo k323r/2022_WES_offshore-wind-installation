@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "plot_mttdata",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/marine-traffic/plot_mtdata.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--input-dir",
+                "data/marine-traffic/sanitized",
+                "--verbose",
+            ]
+        },
+
+        {
+            "name": "sanitize_mttdata",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/marine-traffic/plot_mtdata.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--input-dir",
+                "data/marine-traffic/raw",
+                "--verbose",
+                "--output-dir",
+                "data/marine-traffic/sanitized/plots"
+            ]
+        },
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": []
+        }
+    ]
+}
