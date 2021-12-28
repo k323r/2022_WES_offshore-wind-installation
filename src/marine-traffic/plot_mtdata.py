@@ -8,7 +8,7 @@ import logging
 
 from config import parse_args
 
-def plot_track(vessel_track : pd.DataFrame, vessel_id : str, margin = 1, figsize=(9,9), save_fig = None):
+def plot_track(vessel_track : pd.DataFrame, vessel_id : str, wind_farms : pd.DataFrame = pd.DataFrame, margin = 1, figsize=(9,9), save_fig = None):
     # create new figure, axes instances.
     fig = plt.figure(figsize=figsize)
 
@@ -39,10 +39,11 @@ def plot_track(vessel_track : pd.DataFrame, vessel_id : str, margin = 1, figsize
     m.drawmeridians(np.arange(-180,180,2),labels=[1,1,1,1])
 
     lons, lats = m(vessel_track.longitude, vessel_track.latitude)
+    m.scatter(lons, lats, marker = 'o', color='tab:red', zorder=5, s=2)
 
-    m.scatter(lons, lats, marker = 'o', color='r', zorder=5, s=2)
-
-    #m.plot(vessel_track.latitude, vessel_track.longitude)
+    if not wind_farms.empty:
+        lons_wf, lats_wf = m(wind_farms.longitude, wind_farms.latitude)
+        m.scatter(lons_wf, lats_wf, marker = 's', color='tab:green', zorder = 5, s = 50)
 
     fig.tight_layout()
 
