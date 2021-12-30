@@ -1,0 +1,62 @@
+|-
+| [[Offshore-Windpark Block Island|Block Island]] * || [[Atlantischer Ozean]] || {{USA}} || 30 || GE Haliade 150-6MW<br /><small>(6,0&nbsp;MW, 150,0 m)</small> || 5 || {{Coordinate|simple=y|NS=41.115|EW=-71.521|type=building|region=US|name=Block Island|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2016 || <ref>[http://www.offshorewind.biz/2016/12/12/americas-first-offshore-wind-farm-goes-live/ ''America’s First Offshore Wind Farm Goes Live'']. In: ''offshoreWIND.biz'', 12. Dezember 2016, abgerufen am 13. Dezember 2016</ref>
+|-
+| [[Offshore-Windpark Coastal Virginia|Coastal Virginia]]<br /><small>(Demonstrator)</small> || Atlantischer Ozean || {{USA}} || 12 || Siemens SWT-6.0-154<br /><small>(6,0&nbsp;MW, 154,0 m)</small> || 2 || {{Coordinate|simple=y|NS=36.907|EW=-75.491|type=building|region=US|name=Coastal Virginia (Demonstrator)|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2020 || <ref>[https://renews.biz/63435/watch-coastal-virginia-starts-generating-power/ ''WATCH: Dominion unleashes Coastal Virginia'']. In: ''reNEWS.biz'', 29. September 2020, abgerufen am 29. September 2020</ref>
+|-
+| [[Offshore-Windpark Vineyard Wind|Vineyard Wind]] || Atlantischer Ozean || {{USA}} || 806 || GE Haliade-X 13 MW<br /><small>(13,0&nbsp;MW, 218,0 m)</small> || 62 || {{Coordinate|simple=y|NS=41.033|EW=-70.490|type=building|region=US|name=Vineyard Wind|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2023) || 16. September 2021: endgültige Investitionsentscheidung getroffen<ref>[https://www.offshorewind.biz/2021/09/16/americas-first-large-scale-offshore-wind-farm-reaches-financial-close/ ''America’s First Large-Scale Offshore Wind Farm Reaches Financial Close'']. In: ''offshoreWIND.biz'', 16. September 2021, abgerufen am 16. September 2021</ref>
+|-
+| [[Offshore-Windpark South Fork|South Fork]] || Atlantischer Ozean || {{USA}} || 132 || Siemens Gamesa SG 11.0-200 DD<br /><small>(11,0&nbsp;MW, 200,0&nbsp;m)</small> || 12 || {{Coordinate|simple=y|NS=41.068|EW=-71.166|type=building|region=US|name=South Fork|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2023) || <ref>[https://www.offshorewind.biz/2021/06/07/south-fork-to-feature-11-mw-offshore-wind-turbines/ ''South Fork to Feature 11 MW Offshore Wind Turbines'']. In: ''offshoreWIND.biz'', 7. Juni 2021, abgerufen am 7. Juni 2021</ref>
+|-
+| [[Offshore-Windpark Revolution Wind|Revolution Wind]] || Atlantischer Ozean || {{USA}} || 715 || Siemens Gamesa SG 11.0-200 DD<br /><small>(11,0&nbsp;MW, 200,0&nbsp;m)</small> || 65 || {{Coordinate|simple=y|NS=41.147|EW=-71.073|type=building|region=US|name=Revolution Wind|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2024) || 23. Mai 2018: Deepwater Wind erhält Zuschlag für 400 MW bei Ausschreibung<ref>[https://www.offshorewind.biz/2018/05/23/deepwater-wind-claims-rhode-island-offshore-wind-prize/ ''Deepwater Wind Claims Rhode Island Offshore Wind Prize'']. In: ''offshoreWIND.biz'', 23. Mai 2018, abgerufen am 4. Juni 2018</ref><br />14. Juni 2018: Deepwater Wind erhält Zuschlag für 200 MW bei Ausschreibung<ref>[https://www.offshorewind.biz/2018/06/14/connecticut-joins-revolution-wind/ ''Connecticut Joins Revolution Wind'']. In: ''offshoreWIND.biz'', 14. Juni 2018, abgerufen am 14. Juni 2018</ref>
+28. Dezember 2018: Ørsted erhält Zuschlag für 100 MW bei Ausschreibung<ref>[https://renews.biz/50733/100mw-connecticut-calling-for-orsted/ ''100MW Connecticut calling for Orsted'']. In: ''reNEWS.biz'', 28. Dezember 2018, abgerufen am 29. Dezember 2018</ref>
+|-
+| [[Offshore-Windpark Empire Wind|Empire Wind]]<br /><small>(Phase 1)</small> || Atlantischer Ozean || {{USA}} || 810 || Vestas V236-15.0 MW<br /><small>(15,0&nbsp;MW, 236,0 m)</small> || 54 || {{Coordinate|simple=y|NS=40.35|EW=-73.545|type=building|region=US|name=Empire Wind 1|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 19. Juli 2019: Equinor erhält Zuschlag bei Ausschreibung<ref>[https://renews.biz/54377/orsted-equinor-share-17gw-new-york-offshore-prize/ ''Orsted, Equinor share 1.7GW New York offshore prize'']. In: ''reNEWS.biz'', 19. Juli 2019, abgerufen am 19. Juli 2019</ref>
+|-
+| [[Offshore-Windpark Marwind|Marwind]] || Atlantischer Ozean || {{USA}} || 268,8 || je 8,4 MW || 32 || {{Coordinate|simple=y|NS=38.347|EW=-74.760|type=building|region=US|name=Maryland|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) ||<ref>[https://www.offshorewind.biz/2019/02/08/us-wind-and-natixis-go-exclusive-offshore-maryland/ ''US Wind and Natixis Go Exclusive Offshore Maryland'']. In: ''offshoreWIND.biz'', 8. Februar 2019, abgerufen am 9. Februar 2019</ref>
+|-
+| [[Offshore-Windpark Mayflower|Mayflower]] || Atlantischer Ozean || {{USA}} || 804 |||||| {{Coordinate|simple=y|NS=40.84|EW=-70.275|type=building|region=US|name=Mayflower|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 31. Oktober 2019: Shell und EDPR erhalten Zuschlag bei Ausschreibung<ref>[https://renews.biz/56140/mayflower-to-deliver-second-massachusetts-offshore-wind-farm/ ''Mayflower to deliver second Massachusetts offshore wind farm'']. In: ''reNEWS.biz'', 31. Oktober 2019, abgerufen am 31. Oktober 2019</ref>
+|-
+| [[Offshore-Windpark Ocean Wind|Ocean Wind]]<br /><small>(Phase 1)</small> || Atlantischer Ozean || {{USA}} || 1170 || GE Haliade-X 13 MW<br /><small>(13,0&nbsp;MW, 218,0 m)</small> || 90 || {{Coordinate|simple=y|NS=39.092|EW=-74.282|type=building|region=US|name=Ocean Wind 1|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 21. Juni 2019: Ørsted erhält Zuschlag bei Ausschreibung<ref>[https://renews.biz/53883/orsteds-ocean-wind-wins-new-jersey-offshore-prize/ ''Orsted wins New Jersey offshore prize'']. In: ''reNEWS.biz'', 21. Juni 2019, abgerufen am 22. Juni 2019</ref><ref>[https://www.offshorewind.biz/2019/09/19/orsted-to-use-ge-haliade-x-12-mw-on-us-offshore-wind-farms/ ''Ørsted to Use GE Haliade-X 12 MW on US Offshore Wind Farms'']. In: ''offshoreWIND.biz'', 19. September 2019, abgerufen am 19. September 2019</ref>
+|-
+| [[Offshore-Windpark Park City Wind|Park City Wind]] || Atlantischer Ozean || {{USA}} || 804 |||||| {{Coordinate|simple=y|NS=41.051|EW=-70.552|type=building|region=US|name=Park City Wind|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 6. Dezember 2019: CIP und Iberdrola erhalten Zuschlag bei Ausschreibung<ref>[https://renews.biz/56846/vineyard-wind-wins-connecticut-offshore-prize/ ''Vineyard Wind wins Connecticut offshore prize'']. In: ''reNEWS.biz'', 6. Dezember 2019, abgerufen am 6. Dezember 2019</ref>
+|-
+| [[Offshore-Windpark Sunrise Wind|Sunrise Wind]] || Atlantischer Ozean || {{USA}} || 924 || Siemens Gamesa || || {{Coordinate|simple=y|NS=40.925|EW=-70.967|type=building|region=US|name=Sunrise Wind|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 19. Juli 2019: Ørsted erhält Zuschlag bei Ausschreibung<ref>[https://renews.biz/54377/orsted-equinor-share-17gw-new-york-offshore-prize/ ''Orsted, Equinor share 1.7GW New York offshore prize'']. In: ''reNEWS.biz'', 19. Juli 2019, abgerufen am 19. Juli 2019</ref>
+|-
+| [[Offshore-Windpark Coastal Virginia|Coastal Virginia]] || Atlantischer Ozean || {{USA}} || 2640 || Siemens Gamesa SG 14.0-222 DD<br /><small>(15,0&nbsp;MW, 222,0 m)</small> || 176 || {{Coordinate|simple=y|NS=36.908|EW=-75.338|type=building|region=US|name=Coastal Virginia|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || <ref>[https://www.offshorewind.biz/2020/05/26/15-mw-siemens-gamesa-turbines-for-us-offshore-wind-farm/ ''15 MW Siemens Gamesa Turbines for US Offshore Wind Farm'']. In: ''offshoreWIND.biz'', 26. Mai 2020, abgerufen am 26. Mai 2020</ref>
+|-
+| [[Offshore-Windpark Skipjack|Skipjack]] || Atlantischer Ozean || {{USA}} || 130 || GE Haliade-X 13 MW<br /><small>(13,0&nbsp;MW, 218,0 m)</small> || 10 || {{Coordinate|simple=y|NS=38.547|EW=-74.667|type=building|region=US|name=Skipjack|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) ||<ref>[https://www.offshorewind.biz/2019/09/19/orsted-to-use-ge-haliade-x-12-mw-on-us-offshore-wind-farms/ ''Ørsted to Use GE Haliade-X 12 MW on US Offshore Wind Farms'']. In: ''offshoreWIND.biz'', 19. September 2019, abgerufen am 19. September 2019</ref>
+|-
+| [[Offshore-Windpark Empire Wind|Empire Wind]]<br /><small>(Phase 2)</small> || Atlantischer Ozean || {{USA}} || 1260 || Vestas V236-15.0 MW<br /><small>(15,0&nbsp;MW, 236,0 m)</small> || 84 || {{Coordinate|simple=y|NS=40.269|EW=-73.125|type=building|region=US|name=Empire Wind 2|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) || 13. Januar 2021: Equinor erhält Zuschlag bei Ausschreibung<ref>[https://renews.biz/65734/equinor-bp-win-25gw-ny-offshore-wind-auction/ ''Equinor, BP win 2.5GW in NY offshore wind auction'']. In: ''reNEWS.biz'', 13. Januar 2021, abgerufen am 13. Januar 2021</ref>
+|-
+| [[Offshore-Windpark Beacon Wind|Beacon Wind]]<br /><small>(Phase 1)</small> || Atlantischer Ozean || {{USA}} || 1230 |||||| {{Coordinate|simple=y|NS=40.824|EW=-70.475|type=building|region=US|name=Beacon Wind 1|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) || 13. Januar 2021: Equinor erhält Zuschlag bei Ausschreibung<ref>[https://renews.biz/65734/equinor-bp-win-25gw-ny-offshore-wind-auction/ ''Equinor, BP win 2.5GW in NY offshore wind auction'']. In: ''reNEWS.biz'', 13. Januar 2021, abgerufen am 13. Januar 2021</ref>
+|-
+| [[Offshore-Windpark Atlanctic Shores|Atlantic Shores]] || Atlantischer Ozean || {{USA}} || 1510 || Vestas V236-13.6 MW<br /><small>(13,6&nbsp;MW, 236,0 m)</small>  || 111 || {{Coordinate|simple=y|NS=39.361|EW=-73.906|type=building|region=US|name=Atlantic Shores|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) || 30. Juni 2021: EDF Renewables und Shell erhalten Zuschlag bei Ausschreibung<ref>[https://renews.biz/70684/orsted-atlantic-shores-win-nj-offshore-round/ ''Orsted, Atlantic Shores win NJ offshore round'']. In: ''reNEWS.biz'', 30. Juni 2021, abgerufen am 2. Juli 2021</ref>
+|-
+| [[Offshore-Windpark Ocean Wind|Ocean Wind]]<br /><small>(Phase 2)</small> || Atlantischer Ozean || {{USA}} || 1148 || GE Haliade-X 14 MW<br /><small>(14,0&nbsp;MW, 218,0 m)</small> || 82 || {{Coordinate|simple=y|NS=39.073|EW=-74.335|type=building|region=US|name=Ocean Wind 2|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2028) || 30. Juni 2021: Ørsted erhält Zuschlag bei Ausschreibung<ref>[https://renews.biz/70684/orsted-atlantic-shores-win-nj-offshore-round/ ''Orsted, Atlantic Shores win NJ offshore round'']. In: ''reNEWS.biz'', 30. Juni 2021, abgerufen am 2. Juli 2021</ref>
+|-
+<!--
+| [[Offshore-Windpark Banco de Trafalgar|Banco de Trafalgar]] || Atlantischer Ozean || {{SPA}} || 498 |||| 83 || {{Coordinate|simple=y|NS=36.097|EW=-6.138|type=building|region=ES|name=Banco de Trafalgar|text=DMS}}||class="hintergrundfarbe6"| in Planung ||||
+|-
+|[[Offshore-Windpark Cabo de Trafalgar|Cabo de Trafalgar]] || Atlantischer Ozean || {{SPA}} || 250 |||| 70 ||{{Coordinate|simple=y|NS=36.152|EW=-6.031|type=building|region=ES|name=Cabo de Trafalgar|text=DMS}}||class="hintergrundfarbe6"| in Planung ||||
+|-
+| [[Offshore-Windpark Galicia|Galicia]] || Atlantischer Ozean || {{SPA}} || 120 |||| || {{Coordinate|simple=y|NS=42.163|EW=-9.759|type=building|region=ES|name=Galicia|text=DMS}} ||class="hintergrundfarbe6" | in Planung ||||||
+-->
+|- class="sortbottom hintergrundfarbe8"
+| colspan="10"|

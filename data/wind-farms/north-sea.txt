@@ -1,0 +1,304 @@
+|-
+| Blyth * || [[Nordsee]] || {{GBR}} || 4 || Vestas V66-2.0<br /><small>(2,0&nbsp;MW, 66,0 m)</small> || 2 || {{Coordinate|simple=y|NS=55.136|EW=-1.490|type=building|region=GB|name=Blyth|text=DMS}}
+|class="hintergrundfarbe7"| außer Betrieb || 2000 || Im April 2019 zurückgebaut<ref>[https://www.offshorewind.biz/2019/04/24/first-uk-offshore-wind-farm-disappears-from-horizon/ ''First UK Offshore Wind Farm Disappears from Horizon'']. In: ''offshoreWIND.biz'', 24. April 2019, abgerufen am 25. April 2019</ref>
+|-
+| Rønland * || Nordsee || {{DNK}} || 17 || 4 × Vestas V80-2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small><br />4 × Bonus B82/2300<br /><small>(2,3&nbsp;MW, 82,0 m)</small> || 8 || {{Coordinate|simple=y|NS=56.662|EW=8.220|type=building|region=DK|name=Rønland|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2003 ||
+|-
+| Scroby Sands * || Nordsee || {{GBR}} || 60 || Vestas V80-2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small> || 30 || {{Coordinate|simple=y|NS=52.645|EW=1.787|type=building|region=GB|name=Scroby Sands|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2004 ||
+|-
+| [[Offshore-Windpark Egmond aan Zee|Egmond aan Zee]] || Nordsee || {{NLD}} || 108 || Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small> || 36 || {{Coordinate|simple=y|NS=52.606|EW=4.419|type=building|region=NL|name=Egmond aan Zee|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2006 ||
+|-
+| [[Offshore-Windpark Beatrice|Beatrice]]<br /><small>(Demonstrator)</small> || Nordsee || {{GBR}} || 10,16 || REpower 5M<br /><small>(5,08&nbsp;MW, 126,5 m)</small> || 2 || {{Coordinate|simple=y|NS=58.098|EW=-3.078|type=building|region=GB|name=Beatrice Demonstrator|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2007 ||
+|-
+| [[Offshore-Windpark Lynn and Inner Dowsing|Lynn and Inner Dowsing]] * || Nordsee || {{GBR}} || 194 || Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small> || 54 || {{Coordinate|simple=y|NS=53.136|EW=0.458|type=building|region=GB|name=Lynn and Inner Dowsing|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2008 ||
+|-
+| [[Offshore-Windpark Prinses Amalia|Prinses Amalia]] || Nordsee || {{NLD}} || 120 || Vestas V80-2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small> || 60 || {{Coordinate|simple=y|NS=52.588|EW=4.223|type=building|region=NL|name=Princess Amalia|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2008 ||
+|-
+| [[Offshore-Windpark alpha ventus|alpha ventus]] || Nordsee || {{DEU}} || 60,48 ||6 × REpower 5M<br /><small>(5,08&nbsp;MW, 126,5 m)</small><br />6 × [[Areva|AREVA]] Multibrid M5000-116<br /><small>(5,0&nbsp;MW, 116,0 m)</small> || 12 || {{Coordinate|simple=y|NS=54.008333|EW=6.598333|type=building|region=DE|name=alpha ventus|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2010 ||
+|-
+| [[Offshore-Windpark Belwind|Belwind]]<br /><small>(Bligh Bank Phase 1)</small> || Nordsee || {{BEL}} || 171 || 55 × Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small><br />1 × [[Alstom]] Haliade 150<br /><small>(6,0&nbsp;MW, 150,0 m)</small>|| 56 || {{Coordinate|simple=y|NS=51.670|EW=2.802|type=building|region=BE|name=Belwind|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2010||<ref>[http://www.windpoweroffshore.com/article/1221620/alstoms-6mw-turbine-installed-off-belgium ''Alstom’s 6MW turbine installed off Belgium'']. In: ''[[Windpower Monthly]]'', 20. November 2013, abgerufen am 20.&nbsp;November 2013</ref>
+|-
+| [[Offshore-Windpark Thanet|Thanet]] || Nordsee || {{GBR}} || 300 || Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small> || 100 || {{Coordinate|simple=y|NS=51.425|EW=1.6175|type=building|region=GB-ENG|name=Windpark Thanet|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2010 ||
+|-
+| [[Offshore-Windpark Sheringham Shoal|Sheringham Shoal]] || Nordsee || {{GBR}} || 317 ||Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small>|| 88 || {{Coordinate|simple=y|NS=53.135|EW=1.147|type=building|region=GB|name=Sheringham Shoal|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2011 ||
+|-
+| [[Offshore-Windpark Greater Gabbard|Greater Gabbard]] || Nordsee || {{GBR}} || 504 || Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small>|| 140 || {{Coordinate|simple=y|NS=51.88|EW=1.94|type=building|region=GB|name=Offshore-Windpark Greater Gabbard|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2012 ||<ref>[http://www.eadt.co.uk/news/greater_gabbard_commission_completes_milestone_month_1_1537116 eadt.co.uk]</ref>
+|-
+| [[Offshore-Windpark London Array|London Array]]<br /><small>(Phase 1)</small> || Nordsee || {{GBR}} || 630 || Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 175 || {{Coordinate|simple=y|NS=51.633333|EW=1.55|type=building|region=GB|name=London Array|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2012 ||
+|-
+| [[BARD Offshore&nbsp;I]] || Nordsee || {{DEU}} || 400 || [[Bard Engineering|BARD]] 5.0<br /><small>(5,0&nbsp;MW, 122,0 m)</small> || 80 || {{Coordinate|simple=y|NS=54.358333|EW=5.975|type=building|region=DE|name=BARD Offshore&nbsp;I|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||
+|-
+| [[Offshore-Windpark Lincs|Lincs]] || Nordsee || {{GBR}} || 270 || Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 75 || {{Coordinate|simple=y|NS=53.183333|EW=0.483333|type=building|region=GB|name=Lincs|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||<ref>[http://www.4coffshore.com/windfarms/lincs-united-kingdom-uk13.html ''Lincs offshore wind farm'']. In: ''4C Offshore'', abgerufen am 27. August 2013</ref>
+|-
+| Teesside * || Nordsee || {{GBR}} || 62 || Siemens SWT-2.3-93<br /><small>(2,3&nbsp;MW, 93,0 m)</small> || 27 || {{Coordinate|simple=y|NS=54.65|EW=-1.1|type=building|region=GB|name=Teesside|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||
+|-
+| [[Offshore-Windpark Gunfleet Sands|Gunfleet Sands]]<br /><small>(Phasen 1-3)</small> || Nordsee || {{GBR}} || 184 || 48 × Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small><br />2 × Siemens SWT-6.0-120<br /><small>(6,0&nbsp;MW, 120,0 m)</small>||50 || {{Coordinate|simple=y|NS=51.730|EW=1.229|type=building|region=GB|name=Gunfleet Sands|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013||
+|-
+| [[Offshore-Windpark Thorntonbank|Thorntonbank]]<br /><small>(Phasen 1-3)</small> || Nordsee || {{BEL}} || 325,68 || 6 × REpower 5M<br /><small>(5,08&nbsp;MW, 126,5 m)</small><br />48 × REpower 6.2M126<br /><small>(6,15&nbsp;MW, 126,5 m)</small> || 54 || {{Coordinate|simple=y|NS=51.539972|EW=2.939972|type=building|region=BE|name=Thornton Bank|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||<ref>[http://www.4coffshore.com/windfarms/thornton-bank-phase-i-belgium-be01.html ''Thornton Bank Phase I offshore wind farm'']. In: ''4C Offshore'', abgerufen am 27. August 2013</ref><ref>[http://www.4coffshore.com/windfarms/thornton-bank-phase-ii-belgium-be09.html ''Thornton Bank Phase II offshore wind farm'']. In: ''4C Offshore'', abgerufen am 27. August 2013</ref><ref>[http://www.4coffshore.com/windfarms/thornton-bank-phase-iii-belgium-be10.html ''Thornton Bank Phase III offshore wind farm'']. In: ''4C Offshore'', abgerufen am 27. August 2013</ref>
+|-
+| [[Offshore-Windpark Riffgat|Riffgat]] || Nordsee || {{DEU}} || 113,4 || Siemens SWT-3.6-120<br /><small>(3,78&nbsp;MW, 120,0 m)</small> || 30 || {{Coordinate|simple=y|NS=53.69|EW=6.48|type=building|region=DE|name=Riffgat|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2014 ||<ref>{{Webarchiv |url=http://www.tennet.eu/de/ueber-tennet/news-presse/news-press/tennet-schliesst-windpark-riffgat-an/article/tennet-schliesst-windpark-riffgat-an.html |text=''Tennet schließt Windpark Riffgat an'' |wayback=20140222131539}}. In: ''Tennet'', abgerufen am 12. Februar 2014</ref>
+|-
+| [[Offshore-Windpark Northwind|Northwind]] || Nordsee || {{BEL}} || 216 || Vestas V112-3.0<br /><small>(3,0&nbsp;MW, 112,0 m)</small> || 72 || {{Coordinate|simple=y|NS=51.616667|EW=2.9|type=building|region=BE|name=Northwind|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2014 ||<ref>[http://www.4coffshore.com/windfarms/project-dates-for-northwind-be02.html ''Key project dates for Northwind'']. Abgerufen am 21. Oktober 2013</ref>
+|-
+| [[Offshore-Windpark Amrumbank West|Amrumbank West]] || Nordsee || {{DEU}} || 302,4 || Siemens SWT-3.6-120<br /><small>(3,78&nbsp;MW, 120,0 m)</small> || 80 || {{Coordinate|simple=y|NS=54.5|EW=7.8|type=building|region=DE|name=Amrumbank West|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 || <ref>[http://w3.windmesse.de/windenergie/news/19892-offshore-windpark-amrumbank-west-von-e-on-vollstandig-am-netz ''Offshore-Windpark Amrumbank West von E.ON vollständig am Netz'']. In: ''windmesse.de'', 22. Oktober 2015, abgerufen am 22. Oktober 2015</ref><ref>[http://renews.biz/101372/eon-boosts-amrumbank-west/ ''Eon boosts Amrumbank West'']. In: ''renews.biz'', 2. Februar 2016, abgerufen am 23. Februar 2016</ref>
+|-
+| [[Offshore-Windpark Butendiek|Butendiek]] || Nordsee || {{DEU}} || 288 || Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 80 || {{Coordinate|simple=y|NS=54.9|EW=7.75|type=building|region=DE|name=Butendiek|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref>[http://www.focus.de/regional/schleswig-holstein/energie-offshore-windpark-butendiek-komplett-in-betrieb_id_4859367.html ''Offshore-Windpark Butendiek komplett in Betrieb.''] In: ''[[Focus]]'', 4. August 2015, abgerufen am 4. August 2015</ref>
+|-
+| [[Offshore-Windpark DanTysk|DanTysk]] || Nordsee || {{DEU}} || 302,4 || Siemens SWT-3.6-120<br /><small>(3,78&nbsp;MW, 120,0 m)</small> || 80 || {{Coordinate|simple=y|NS=55.15|EW=7.175|type=building|region=DE|name=DanTysk|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref>[https://www.heise.de/newsticker/meldung/Nordsee-Windpark-DanTysk-geht-offiziell-ans-Netz-2627780.html ''Nordsee-Windpark DanTysk geht offiziell ans Netz.''] In: ''heise.de'', 29. April 2015, abgerufen am 30. April 2015</ref>
+|-
+| [[Offshore-Windpark Global Tech I|Global Tech I]] || Nordsee || {{DEU}} || 400 || AREVA Multibrid M5000-116<br /><small>(5,0&nbsp;MW, 116,0 m)</small> || 80 || {{Coordinate|simple=y|NS=54.5|EW=6.358333|type=building|region=DE|name=Global Tech I|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref>[https://www.ndr.de/nachrichten/hamburg/Nordsee-Windpark-wird-in-Betrieb-genommen,windpark422.html ''Nordsee-Windpark wird in Betrieb genommen.''] In: ndr.de 2. September 2015, abgerufen am 2. September 2015.</ref>
+|-
+| [[Offshore-Windpark Humber Gateway|Humber Gateway]] || Nordsee || {{GBR}} || 219 || Vestas V112-3.0<br /><small>(3,0&nbsp;MW, 112,0 m)</small> || 73 || {{Coordinate|simple=y|NS=53.643889|EW=0.293056|type=building|region=GB|name=Humber Gateway|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref>[http://www.offshorewind.biz/2015/09/30/humber-gateway-offshore-wind-farm-officially-opened/ ''Humber Gateway Offshore Wind Farm Officially Opened'']. Abgerufen am 3. Oktober 2015</ref><ref>[http://www.4coffshore.com/windfarms/humber-gateway-united-kingdom-uk10.html Humber Gateway Offshore Wind Farm]</ref>
+|-
+| [[Offshore-Windpark Luchterduinen|Luchterduinen]] || Nordsee || {{NLD}} || 129 || Vestas V112-3.0<br /><small>(3,0&nbsp;MW, 112,0 m)</small> || 43 || {{Coordinate|simple=y|NS=52.405|EW=4.162|type=building|region=NL|name=Luchterduinen|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref>[http://www.offshorewind.biz/2015/09/22/eneco-luchterduinen-completed-ahead-of-schedule-officially-open/ ''Eneco Luchterduinen Completed ahead of Schedule & Officially Open'']</ref>
+|-
+| [[Offshore-Windpark Meerwind|Meerwind]] Süd/Ost || Nordsee || {{DEU}} || 288 || Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 80 || {{Coordinate|simple=y|NS=54.383333|EW=7.683333|type=building|region=DE|name=Meerwind Süd/Ost|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref name="FAZ">Holger Paul: [http://www.faz.net/aktuell/wirtschaft/unternehmen/offshore-park-meerwind-soll-360-000-haushalte-mit-strom-versorgen-13258509.html ''Meerwind soll 360.000 Haushalte mit Strom versorgen''], [[Frankfurter Allgemeine Zeitung]], 10. November 2014, abgerufen am 10. November 2014</ref>
+|-
+| [[Offshore-Windpark Nordsee Ost|Nordsee Ost]] || Nordsee || {{DEU}} || 295,2 || [[Senvion]] 6.2M126<br /><small>(6,15&nbsp;MW, 126,0 m)</small> || 48 || {{Coordinate|simple=y|NS=54.433333|EW=7.683333|type=building|region=DE|name=Nordsee Ost|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||
+|-
+| [[Offshore-Windpark Westermost Rough|Westermost Rough]] || Nordsee || {{GBR}} || 210 || [[Siemens D7-Plattform|Siemens SWT-6.0-154]]<br /><small>(6,0&nbsp;MW, 154,0 m)</small> || 35 || {{Coordinate|simple=y|NS=53.805|EW=0.148889|type=building|region=GB|name=Westermost Rough|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||<ref>[http://www.offshorewind.biz/2015/07/01/ribbon-cut-at-westermost-rough-owf/ ''Ribbon Cut at Westermost Rough OWF'']. In: ''offshoreWIND.biz'', 1. Juli 2015, abgerufen am 2. Juli 2015</ref>
+|-
+| [[Offshore-Windpark Kentish Flats|Kentish Flats]]<br /><small>(Phasen 1 und 2)</small> || Nordsee || {{GBR}} || 139,5 || 30 × Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small><br />15 × Vestas V112-3.3<br /><small>(3,3&nbsp;MW, 112,0 m)</small>
+| 45 || {{Coordinate|simple=y|NS=51.46|EW=1.09|type=building|region=GB-KEN|name=Kentish Flats|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2016 || Phase 1 mit 30 Turbinen seit 2005, Phase 2 mit 15 Turbinen seit 2016 in Betrieb<ref>[http://www.offshorewind.biz/2016/06/06/kentish-flats-extension-becomes-fully-fledged-offshore-wind-farm/ ''Kentish Flats Extension Becomes Fully Fledged Offshore Wind Farm'']. In: ''offshoreWIND.biz'', 6. Juni 2016, abgerufen am 7. Juni 2016</ref>
+|-
+| [[Offshore-Windpark Dudgeon|Dudgeon]] || Nordsee || {{GBR}} || 402 || Siemens SWT-6.0-154<br /><small>(6,0&nbsp;MW, 154,0 m)</small> || 67 || {{Coordinate|simple=y|NS=53.266667|EW=1.383333|type=building|region=GB|name=Dudgeon|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 ||<ref>[http://www.offshorewind.biz/2017/10/12/dudgeon-offshore-wind-farm-fully-commissioned-starts-receiving-cfd-payments/ ''Dudgeon Offshore Wind Farm Fully Commissioned, Starts Receiving CfD Payments'']. In: ''offshoreWIND.biz'', 12.&nbsp;Oktober 2017, abgerufen am 12.&nbsp;Oktober 2017.</ref>
+|-
+| [[Offshore-Windpark Gemini|Gemini]] || Nordsee || {{NLD}} || 600 || Siemens SWT-4.0-130<br /><small>(4,0&nbsp;MW, 130,0 m)</small> || 150 || {{Coordinate|simple=y|NS=54.033333|EW=5.933333|type=building|region=NL|name=Gemini|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[http://www.offshorewind.biz/2017/04/28/gemini-delivers-early/ ''Gemini Delivers Early'']. In: ''offshoreWIND.biz'', 28.&nbsp;April 2017, abgerufen am 28.&nbsp;April 2017.</ref>
+|-
+| [[Offshore-Windpark Gode Wind I|Gode Wind]]<br /><small>(Phasen [[Offshore-Windpark Gode Wind I|1]] und [[Offshore-Windpark Gode Wind II|2]])</small> || Nordsee || {{DEU}} || 611,1 ||Siemens SWT-6.0-154<br /><small>(6,3&nbsp;MW, 154,0 m)</small> || 97 || {{Coordinate|simple=y|NS=54.066667|EW=7.033333|type=building|region=DE|name=Gode Wind (Phasen 1 und 2)|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017||
+|-
+| [[Offshore-Windpark Nobelwind|Nobelwind]]<br /><small>(Bligh Bank Phase 2)</small> || Nordsee || {{BEL}} || 165 || Vestas V112-3.3<br /><small>(3,3&nbsp;MW, 112,0 m)</small> || 50 || {{Coordinate|simple=y|NS=51.659972|EW=2.819972|type=building|region=BE|name=Offshore-Windpark Nobelwind|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[http://www.offshorewind.biz/2017/05/24/nobelwind-offshore-wind-farm-officially-opens/ ''Nobelwind Offshore Wind Farm Officially Opens'']. In: ''offshoreWIND.biz'', 24. Mai 2017. Abgerufen am 26. Mai 2017</ref>
+|-
+| [[Offshore-Windpark Nordergründe|Nordergründe]] || Nordsee || {{DEU}} || 110,7 || Senvion 6.2M126<br /><small>(6,15&nbsp;MW, 126,0 m)</small> || 18 || {{Coordinate|simple=y|NS=53.833333|EW=8.166667|type=building|region=DE|name=Nordergruende|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[http://www.offshorewind.biz/2017/11/02/nordergrunde-owf-finally-running/ ''Nordergründe OWF Finally Running'']. In: ''offshoreWIND.biz'', 2. November 2017, abgerufen am 2. November 2017</ref>
+|-
+| [[Offshore-Windpark Nordsee One|Nordsee One]] || Nordsee || {{DEU}} || 332,1 || Senvion 6.2M126<br /><small>(6,15&nbsp;MW, 126,0 m)</small> || 54 || {{Coordinate|simple=y|NS=53.966667|EW=6.8|type=building|region=DE|name=Nordsee One|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[https://www.offshorewind.biz/2017/12/21/nordsee-one-gets-into-commercial-operation-mode/ ''Nordsee One Gets Into Commercial Operation Mode'']. In: ''offshoreWIND.biz'', 21. Dezember 2017, abgerufen am 22. Dezember 2017</ref>
+|-
+| [[Offshore-Windpark Sandbank|Sandbank]]<br /><small>(Phase 1)</small> || Nordsee || {{DEU}} || 288 || Siemens SWT-4.0-130<br /><small>(4,0&nbsp;MW, 130,0 m)</small> || 72 || {{Coordinate|simple=y|NS=55.183333|EW=6.85|type=building|region=DE|name=Sandbank 24|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[http://www.offshorewind.biz/2017/01/27/sandbank-fully-up-and-running/ ''Sandbank Fully Up and Running'']. In: ''offshoreWIND.biz'', 27. Januar 2017. Abgerufen am 27. Januar 2017.</ref>
+|-
+| [[Offshore-Windpark Veja Mate|Veja Mate]] || Nordsee || {{DEU}} || 402 || Siemens SWT-6.0-154<br /><small>(6,0&nbsp;MW, 154,0 m)</small> || 67 || {{Coordinate|simple=y|NS=54.316944|EW=5.870833|type=building|region=DE|name=Offshore-Windpark Veja Mate|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[http://www.offshorewind.biz/2017/05/31/veja-mate-all-done-four-months-early/ ''Veja Mate All Done Four Months Early'']. In: ''offshoreWIND.biz'', 31.&nbsp;Mai 2017, abgerufen am 31.&nbsp;Mai 2017</ref>
+|-
+| [[Offshore-Windpark Aberdeen Bay|Aberdeen Bay]] || Nordsee || {{GBR}} || 93,2 ||
+9 × MHI Vestas V164-8.0 MW<br /><small>(8,4&nbsp;MW, 164,0 m)</small><br /> 2 × MHI Vestas V164-8.0 MW<br /><small>(8,8&nbsp;MW, 164,0 m)</small>
+| 11 ||{{Coordinate|simple=y|NS=57.225|EW=-1.993|type=building|region=GB-ABE|name=Windpark Aberdeen|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 ||<br />''European Offshore Wind Deployment Centre (EOWDC)''<ref>[http://renews.biz/112367/aberdeen-turbocharges-offshore/ ''Aberdeen ‘turbocharges’ offshore'']. In: ''reNEWS.biz'', 7. September 2018, abgerufen am 7.&nbsp;September 2018</ref><ref>{{Internetquelle |url=https://corporate.vattenfall.com/press-and-media/press-releases/2016/vattenfall-to-build-a-wind-farm-off-aberdeen/ |titel=Vattenfall to build a wind farm off Aberdeen |hrsg=vattenfall.com |sprache=en |abruf=2016-07-21}}</ref>
+|-
+| Blyth<br /><small>(Demonstrator)</small> || Nordsee || {{GBR}} || 41,5 || MHI Vestas V164-8.0 MW<br /><small>(8,3&nbsp;MW, 164,0 m)</small> || 5 ||{{Coordinate|simple=y|NS=55.166|EW=-1.369|type=building|region=GB-NBL|name=Windpark Blyth|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 || <ref>[https://www.4coffshore.com/windfarms/project-dates-for-blyth-offshore-demonstrator-project---array-2-uk70.html ''Key project dates for Blyth Offshore Demonstrator'']. In: ''4COffshore.com'', 9. Januar 2018, abgerufen am 2. Juni 2018</ref>
+|-
+| [[Offshore-Windpark Greater Gabbard|Galloper]] || Nordsee || {{GBR}} || 352,8 || Siemens SWT-6.0-154<br /><small>(6,3&nbsp;MW, 154,0 m)</small>|| 56 || {{Coordinate|simple=y|NS=51.892|EW=2.034|type=building|region=GB|name=Windpark Galloper|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 || <ref>[http://www.offshorewind.biz/2017/11/07/galloper-owf-generates-first-power-turbines-tweaked-to-add-17mw-more/ ''Galloper OWF Generates First Power. Turbines Tweaked to Add 17MW More'']. In: ''offshoreWIND.biz'', 7. November 2017, abgerufen am 7. November 2017</ref><ref>[https://www.offshorewind.biz/2018/03/30/innogy-switches-galloper-on/ ''Innogy Switches Galloper On'']. In: ''offshoreWIND.biz'', 30. März 2018, abgerufen am 30. März 2018</ref>
+|-
+| Nissum Bredning * || Nordsee || {{DNK}} || 28 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 4 || {{Coordinate|simple=y|NS=56.669|EW=8.245|type=building|region=DK|name=Windpark Nissum Bredning|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 || <ref>[https://www.4coffshore.com/windfarms/project-dates-for-nissum-bredning-vind-dk44.html ''Key project dates for Nissum Bredning Offshore Wind Farm'']. In: ''4COffshore.com'', 26. März 2018, abgerufen am 2. Juni 2018</ref>
+|-
+| [[Offshore-Windpark Race Bank|Race Bank]] || Nordsee || {{GBR}} || 573,3 || Siemens SWT-6.0-154<br /><small>(6,3&nbsp;MW, 154,0 m)</small> || 91 || {{Coordinate|simple=y|NS=53.275833|EW=0.840833|type=building|region=GB|name=Race Bank|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 || <ref>{{Internetquelle |url=https://www.offshorewind.biz/2018/02/01/race-bank-offshore-wind-farm-goes-full-throttle/ |titel=Race Bank Offshore Wind Farm Goes Full Throttle |werk=offshorewind.biz |datum=2018-02-01 |sprache=en |abruf=2018-02-02}}</ref>
+|-
+| [[Offshore-Windpark Beatrice|Beatrice]] || Nordsee || {{GBR}} || 588 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 84 || {{Coordinate|simple=y|NS=58.254|EW=-2.844|type=building|region=GB|name=Beatrice|text=DMS}} ||class="hintergrundfarbe9"| in Betrieb || 2019 || <ref>[https://www.offshorewind.biz/2019/05/15/beatrice-reaches-full-power/ ''Beatrice Reaches Full Power'']. In: ''offshoreWIND.biz'', 15. Mai 2019, abgerufen am 18. Juni 2019</ref>
+|-
+| [[Offshore-Windpark Borkum Riffgrund|Borkum Riffgrund]]<br /><small>(Phasen 1 und 2)</small> || Nordsee || {{DEU}} || 776,8 || 78 × Siemens SWT-4.0-120<br /><small>(4,0&nbsp;MW, 120,0 m)</small><br /> 56 × MHI Vestas V164-8.0 MW<br /><small>(8,3&nbsp;MW, 164,0 m)</small> || 134 || {{Coordinate|simple=y|NS=53.966667|EW=6.55|type=building|region=DE|name=Borkum Riffgrund (Phasen 1 und 2)|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2019 || Phase 1 mit 78 Turbinen seit 2015<ref>[http://www.noz.de/deutschland-welt/wirtschaft/artikel/625148/mit-den-windradern-kommen-arbeitsplatze ''Windpark „Riffgrund I“ wird eingeweiht – Mit den Windrädern kommen Arbeitsplätze'']. In: ''noz.de'', 8. Oktober 2015, abgerufen am 8. Oktober 2015</ref> und Phase 2 mit 56 Turbinen seit 2019<ref>[https://www.offshorewind.biz/2019/06/05/mhi-vestas-turns-borkum-riffgrund-2-reins-over-to-orsted/ ''MHI Vestas Turns Borkum Riffgrund 2 Reins Over to Ørsted'']. In: ''www.offshoreWIND.biz'', 5.&nbsp;Juni 2019, abgerufen am 18.&nbsp;Juni 2019</ref> in Betrieb
+|-
+| [[Offshore-Windpark Deutsche Bucht|Deutsche Bucht]] || Nordsee || {{DEU}} || 260,4 || MHI Vestas V164-8.0 MW<br /><small>(8,4&nbsp;MW, 164,0 m)</small> || 31 || {{Coordinate|simple=y|NS=54.305|EW=5.799|type=building|region=DE|name=Deutsche Bucht|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2019 || <ref>[https://www.offshorewind.biz/2020/03/17/northland-cancels-deutsche-bucht-mono-bucket-project/ ''Northland Cancels Deutsche Bucht Mono Bucket Project'']. In: ''offshoreWIND.biz'', 17. März 2020, abgerufen am 17. März 2020</ref>
+|-
+| [[Offshore-Windpark Hohe See|Hohe See]] || Nordsee || {{DEU}} || 497 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 71 || {{Coordinate|simple=y|NS=54.433333|EW=6.316667|type=building|region=DE|name=Hohe See (Windpark)|text=DMS}}
+| class="hintergrundfarbe9"| in Betrieb || 2019 || <ref>[https://www.enbw.com/unternehmen/presse/pressemitteilungen/presse-detailseite_223048.html ''EnBW bringt größtes Windkraftwerk Deutschlands ans Netz'']. In: ''EnBW.com'', 10. Januar 2020, abgerufen am 11. Januar 2020</ref>
+|-
+| [[Windpark Horns Rev|Horns Rev]]<br /><small>(Phasen 1 – 3)</small> || Nordsee || {{DNK}} || 775,7 || 80 × Vestas V80-2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small><br />91 × Siemens SWT-2.3-93<br /><small>(2,3&nbsp;MW, 93,0 m)</small><br />49 × MHI Vestas V164-8.0 MW<br /><small>(8,3&nbsp;MW, 164,0 m)</small>
+| 230 || {{Coordinate|simple=y|NS=55.529722|EW=7.906111|type=building|region=DK|name=Windpark Horns Rev 1|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2019 || Phase 1 mit 80 Turbinen seit 2002, Phase 2 mit 91 Turbinen seit 2009 und Phase 3 mit 49 Turbinen seit 2019 in Betrieb<ref>[http://www.dongenergy.com/hornsrev2/en/about_horns_rev_2/about_the_project/pages/turbines.aspx ''Horns Rev II Turbinen'']. Website des Betreibers DONG Energy, abgerufen am 12. Januar 2010</ref><ref>[https://www.offshorewind.biz/2019/08/22/royal-inauguration-for-horns-rev-3/ ''Royal Inauguration for Horns Rev 3'']. In: ''offshoreWIND.biz'', 22. August 2019, abgerufen am 22. August 2019.</ref>
+|-
+| [[Offshore-Windpark Merkur|Merkur Offshore]] || Nordsee || {{DEU}} || 396 || GE Haliade 150-6MW<br /><small>(6,0&nbsp;MW, 151,0 m)</small> || 66 || {{Coordinate|simple=y|NS=54.033333|EW=6.55|type=building|region=DE|name=MEG Offshore I|text=DMS}}
+| class="hintergrundfarbe9"| in Betrieb || 2019 || <ref>[https://www.offshorewind.biz/2019/06/25/merkur-switches-on/ ''Merkur Switches On'']. In: ''offshoreWIND.biz'', 25.&nbsp;Juni 2019, abgerufen am 18.&nbsp;November 2019</ref>
+|-
+| [[Offshore-Windpark Rentel|Rentel]] || Nordsee || {{BEL}} || 308,7 || Siemens SWT-7.0-154<br /><small>(7,35&nbsp;MW, 154,0 m)</small> || 42 ||
+{{Coordinate|simple=y|NS=51.591|EW=2.944|type=building|region=BE|name=Offshore-Windpark Rentel|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2019 || <ref>[https://www.offshorewind.biz/2019/01/11/belgium-blows-past-1gw-offshore-wind-mark-rentel-goes-full-throttle/ ''Belgium Blows Past 1GW Offshore Wind Mark as Rentel Goes Full Throttle'']. In: ''offshoreWIND.biz'', 11. Januar 2019, abgerufen am 7. Februar 2019</ref>
+|-
+| [[Offshore-Windpark Albatros|Albatros]]<br /><small>(Hohe See Extension)</small> || Nordsee || {{DEU}} || 117,6 || Siemens SWT-7.0-154<br /><small>(7,35&nbsp;MW, 154,0 m)</small> || 16 || {{Coordinate|simple=y|NS=54.5|EW=6.4|type=building|region=DE|name=Offshore-Windpark Albatros|text=DMS}}
+| class="hintergrundfarbe9"| in Betrieb || 2020 || <ref>[https://www.enbw.com/unternehmen/presse/groesstes-windkraftwerk-deutschland-am-netz.html ''EnBW bringt größtes Windkraftwerk Deutschlands ans Netz'']. In: ''EnBW.com'', 10. Januar 2020, abgerufen am 16. Januar 2020</ref>
+|-
+| [[Offshore-Windpark Borssele|Borssele]]<br /><small>(Phasen 1 und 2)</small> || Nordsee || {{NLD}} || 752 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,0&nbsp;MW, 167,0 m)</small> || 94 || {{Coordinate|simple=y|NS=51.745|EW=3.061|type=building|region=NL|name=Borssele&nbsp;1-2|text=DMS}}
+| class="hintergrundfarbe9"| in Betrieb || 2020 || <ref>[https://www.offshorewind.biz/2020/11/27/borssele-1-2-fully-commissioned/ ''Borssele 1 & 2 Fully Commissioned'']. In: ''offshoreWIND.biz'', 27. November 2020, abgerufen am 27. November 2020</ref>
+|-
+|[[Offshore-Windpark East Anglia|East Anglia ONE]]|| Nordsee ||{{GBR}}|| 714 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small>|| 102 ||{{Coordinate|simple=y|NS=52.233889|EW=2.477778|type=building|region=GB|name=East Anglia ONE|text=DMS}}
+|class="hintergrundfarbe9" | in Betrieb || 2020 || <ref>{{Internetquelle |url=https://www.offshorewind.biz/2020/07/03/east-anglia-one-now-officially-fully-operational/ |titel=East Anglia One Now Officially Fully Operational |werk=Offshore Wind |datum=2020-07-03 |abruf=2020-07-07 |sprache=en-US}}</ref>
+|-
+| [[Offshore-Windpark Hornsea|Hornsea]]<br /><small>(Project One)</small> || Nordsee || {{GBR}} || 1218 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 174 || {{Coordinate|simple=y|NS=53.885|EW=1.791|type=building|region=GB|name=Windpark Hornsea Project One|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2020 || <ref>[https://www.offshorewind.biz/2020/01/30/worlds-largest-offshore-wind-farm-fully-up-and-running/ ''World’s Largest Offshore Wind Farm Fully Up and Running'']. In: ''offshoreWIND.biz'', 30. Januar 2020, abgerufen am 31. Januar 2020</ref>
+|-
+| [[Offshore-Windpark Norther|Norther]] || Nordsee || {{BEL}} || 370 || MHI Vestas V164-8.0 MW<br /><small>(8,4&nbsp;MW, 164,0 m)</small> || 44 || {{Coordinate|simple=y|NS=51.527|EW=3.014|type=building|region=BE|name=Norther|text=DMS}} ||class="hintergrundfarbe9"| in Betrieb || 2020 ||
+|-
+| [[Offshore-Windpark Northwester 2|Northwester 2]] || Nordsee || {{BEL}} || 218,5 || MHI Vestas V164-9.5 MW<br /><small>(9,5&nbsp;MW, 164,0 m)</small> || 23 || {{Coordinate|simple=y|NS=51.686|EW=2.757|type=building|region=BE|name=Northwester 2|text=DMS}}|| class="hintergrundfarbe9"| in Betrieb  || 2020 || <ref>[https://www.offshorewind.biz/2020/05/29/norther-hits-full-stride/ ''Norther Hits Full Stride'']. In: ''offshoreWIND.biz'', 29. Mai 2020, abgerufen am 29. Mai 2020</ref>
+|-
+| [[Offshore-Windpark Seamade|Seamade]]<br /><small>(Zonen Mermaid und Seastar)</small> || Nordsee || {{BEL}} || 487,2 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,4&nbsp;MW, 167,0 m)</small> || 58|| {{Coordinate|simple=y|NS=51.719|EW=2.739|type=building|region=BE|name=Seamade|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2020 || <ref>[https://www.belgianoffshoreplatform.be/nl/projects/seamade/ ''Seamade'']. In: ''belgianoffshoreplatform.be'', abgerufen am 19. Februar 2021</ref>
+|-
+| [[Trianel Windpark Borkum]]<br /><small>(Phasen 1 und 2)</small> || Nordsee || {{DEU}} || 403,2 || 40 × AREVA Multibrid M5000-116<br /><small>(5,00&nbsp;MW, 116,0 m)</small><br /> 32 × Senvion 6.3M152<br /><small>(6,33&nbsp;MW, 152,0 m)</small> || 72 || {{Coordinate|simple=y|NS=54.046|EW=6.457|type=building|region=DE|name=Trianel Borkum|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2020 || Phase 1 mit 40 Turbinen seit 2015<ref>[http://www.iwr.de/news.php?id=29269 ''Adwen nimmt Trianel Offshore-Windpark Borkum in Betrieb'']. In: ''[[Internationales Wirtschaftsforum Regenerative Energien|IWR]]'', 21. Juli 2015, abgerufen am 21. Juli 2015</ref> und Phase 2 mit 32 Turbinen seit 2020<ref>[https://www.offshorewind.biz/2020/06/04/resilient-german-offshore-wind-project-reaches-finish-line/ ''Resilient German Offshore Wind Project Reaches Finish Line'']. In: ''offshoreWIND.biz'', 4. Juni 2020, abgerufen am 4. Juni 2020.</ref> in Betrieb
+|-
+| [[Offshore-Windpark Borssele|Borssele]]<br /><small>(Phasen 3 und 4)</small> || Nordsee || {{NLD}} || 731,5 || MHI Vestas V164-9.5 MW<br /><small>(9,5&nbsp;MW, 164,0 m)</small> || 77 || {{Coordinate|simple=y|NS=51.667|EW=2.971|type=building|region=NL|name=Borssele&nbsp;3-4|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb|| 2021 || <ref>[https://www.offshorewind.biz/2021/02/16/borssele-iii-iv-ready-to-officially-enter-operation/ ''Borssele III & IV Ready to Officially Enter Operation'']. In: ''offshoreWIND.biz'', 16. Februar 2021, abgerufen am 16. Februar 2021</ref>
+|-
+| [[Offshore-Windpark Borssele|Borssele]]<br /><small>(Phase 5)</small> || Nordsee || {{NLD}} || 19 || MHI Vestas V164-9.5 MW<br /><small>(9,5&nbsp;MW, 164,0 m)</small> || 2 || {{Coordinate|simple=y|NS=51.709|EW=3.003|type=building|region=NL|name=Borssele&nbsp;5|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2021 || <ref>[https://www.offshorewind.biz/2021/02/25/dutch-offshore-wind-innovation-site-fully-commissioned/ ''Dutch Offshore Wind Innovation Site Fully Commissioned'']. In: ''offshoreWIND.biz'', 25. Februar 2021, abgerufen am 25. Februar 2021</ref>
+|-
+| [[Offshore-Windpark Triton Knoll|Triton Knoll]] || Nordsee || {{GBR}} || 857,25 || MHI Vestas V164-9.5 MW<br /><small>(9,525&nbsp;MW, 164,0 m)</small> || 90 || {{Coordinate|simple=y|NS=53.479|EW=0.837|type=building|region=GB|name=Triton Knoll|text=DMS}}
+|style="background-color:#ECFFDB;"| in Teilbetrieb || (2021) || 17. September 2021: alle Turbinen errichtet<ref>[https://www.offshorewind.biz/2021/09/17/triton-knoll-wind-turbine-installation-completed/ ''Triton Knoll Wind Turbine Installation Completed'']. In: ''offshoreWIND.biz'', 17. September 2021, abgerufen am 17. September 2021</ref>
+|-
+| [[Offshore-Windpark Moray Firth|Moray Firth]]<br /><small>(East)</small> || Nordsee || {{GBR}} || 950 || MHI Vestas V164-9.5 MW<br /><small>(9,5&nbsp;MW, 164,0 m)</small> || 100 || {{Coordinate|simple=y|NS=58.188|EW=-2.720|type=building|region=GB|name=Moray Firth Eastern Area|text=DMS}}
+|style="background-color:#ECFFDB;"| in Teilbetrieb || (2022) || 15. September 2021: alle Turbinen errichtet<ref>[https://www.offshorewind.biz/2021/09/15/all-moray-east-wind-turbines-installed/ ''All Moray East Wind Turbines Installed'']. In: ''offshoreWIND.biz'', 15. September 2021, abgerufen am 15. September 2021</ref>
+|-
+| [[Offshore-Windpark Hornsea|Hornsea]]<br /><small>(Project Two)</small> || Nordsee || {{GBR}} || 1386 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,4&nbsp;MW, 167,0 m)</small> || 165 || {{Coordinate|simple=y|NS=53.940|EW=1.687|type=building|region=GB|name=Hornsea Project Two|text=DMS}}
+|style="background-color:#ECFFDB;"| in Teilbetrieb || (2022) || 16. Dezember 2021: 139 von 165 Turbinen errichtet<ref>{{Internetquelle |url=https://www.offshorewind.biz/2021/12/16/worlds-largest-offshore-wind-farm-to-start-producing-by-year-end/ |titel=World's Largest Offshore Wind Farm to Start Producing by Year-End |datum=2021-12-16 |sprache=en-US |abruf=2021-12-16}}</ref><ref>{{Internetquelle |url=https://www.offshorewind.biz/2021/12/20/first-power-flows-from-worlds-biggest-offshore-wind-farm/ |titel=First Power Flows from World's Biggest Offshore Wind Farm |datum=2021-12-20 |sprache=en-US |abruf=2021-12-20}}</ref>
+|-
+| [[Offshore-Windpark Hollandse Kust Zuid|Hollandse Kust Zuid]]<br /><small>(Phasen 1-4)</small> || Nordsee || {{NLD}} || 1540 || Siemens Gamesa SG 11.0-200 DD<br /><small>(11,0&nbsp;MW, 200,0&nbsp;m)</small> || 140 || {{Coordinate|simple=y|NS=52.334|EW=4.011|type=building|region=NL|name=Hollandse Kust Zuid&nbsp;1-4|text=DMS}}
+|class="hintergrundfarbe8"| in Bau || (2023) || 24. Dezember 2021: 34 von 140 Gründungen installiert<ref>{{Internetquelle |url=https://www.offshorewind.biz/2021/12/24/first-installation-campaign-at-largest-offshore-wind-farm-under-construction-falls-short/ |titel=First Installation Campaign at Largest Offshore Wind Farm Under Construction Falls Short |datum=2021-12-24 |sprache=en-US |abruf=2021-12-24}}</ref>
+|-
+| [[Offshore-Windpark Seagreen|Seagreen]]<br /><small>(Phase 1)</small> || Nordsee || {{GBR}} || 1140 || MHI Vestas V164-10.0 MW<br /><small>(10,0&nbsp;MW, 164,0 m)</small> || 114 || {{Coordinate|simple=y|NS=56.592|EW=-1.741|type=building|region=GB|name=Seagreen 1|text=DMS}}
+|class="hintergrundfarbe8"| in Bau || (2023) || 8. Dezember 2021: eine von 114 Turbinen errichtet<ref>{{Internetquelle |url=https://www.offshorewind.biz/2021/12/08/europes-first-10-mw-wind-turbine-stands-offshore-scotland/ |titel=Europe's First 10 MW Wind Turbine Stands Offshore Scotland |datum=2021-12-08 |sprache=en-US |abruf=2021-12-08}}</ref>
+|-
+| [[Offshore-Windpark Kaskasi|Kaskasi II]] || Nordsee || {{DEU}} || 342 || Siemens Gamesa SG 8.0-167 DD Flex<br /><small>(9,0&nbsp;MW, 167,0 m)</small> || 38 || {{Coordinate|simple=y|NS=54.489|EW=7.695|type=building|region=DE|name=Kaskasi|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2022) || 3. April 2020: endgültige Investitionsentscheidung getroffen; Baubeginn für Herbst 2021 vorgesehen<ref>[https://www.offshorewind.biz/2020/04/03/innogy-reaches-kaskasi-fid-reveals-tier-1-team/ ''Innogy Reaches Kaskasi FID, Reveals Tier 1 Team'']. In: ''offshoreWIND.biz'', 3. April 2020, abgerufen am 4. April 2020</ref> Erstmals Einsatz von recyclebaren Rotorblättern<ref>{{Internetquelle |url=https://www.siemensgamesa.com/en-int/newsroom/2021/09/launch-world-first-recyclable-wind-turbine-blade |titel=Siemens Gamesa pioneers wind circularity: launch of world’s first recyclable wind turbine blade for commercial use offshore |sprache=en |abruf=2021-10-10}}</ref>
+|-
+| [[Offshore-Windpark Hollandse Kust Noord|Hollandse Kust Noord]]<br /><small>(Phasen 1 und 2)</small> || Nordsee || {{NLD}} || 759 || Siemens Gamesa SG 11.0-200 DD<br /><small>(11,0&nbsp;MW, 200,0&nbsp;m)</small> || 69 || {{Coordinate|simple=y|NS=52.714|EW=4.271|type=building|region=NL|name=Hollandse Kust Noord&nbsp;1-2|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2023) || 29. Juli 2020: endgültige Investitionsentscheidung getroffen<ref>[https://www.offshorewind.biz/2020/07/29/breaking-shell-eneco-consortium-wins-hollandse-kust-noord-tender/ ''BREAKING: Shell-Eneco Consortium Wins Hollandse Kust (Noord) Tender'']. In: ''offshoreWIND.biz'', 29. Juli 2020, abgerufen am 29. Juli 2020</ref>
+|-
+| [[Offshore-Windpark Neart na Gaoithe|Neart na Gaoithe]] || Nordsee || {{GBR}} || 453,6 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,4&nbsp;MW, 167,0 m)</small> || 54 || {{Coordinate|simple=y|NS=56.268|EW=-2.250|type=building|region=GB|name=Neart na Gaoithe|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2023) || 28. November 2019: endgültige Investitionsentscheidung getroffen,<ref>[https://renews.biz/56700/edf-reaches-financial-close-on-neart/ ''EDF reaches financial close on 450MW Neart'']. In: ''reNEWS.biz'', 16. Oktober 2018, abgerufen am 16. Oktober 2018</ref> Baubeginn für 2021 vorgesehen<ref>[http://www.offshorewind.biz/2017/05/16/mainstream-puts-neart-na-gaoithe-on-fast-track/ ''Mainstream Puts Neart na Gaoithe on Fast Track'']. In: ''offshoreWIND.biz'', 16. Mai 2017, abgerufen am 16. Mai 2017</ref>
+|-
+| [[Offshore-Windpark Vesterhav|Vesterhav]] *<br /><small>(Nord und Süd)</small> || Nordsee || {{DNK}} || 344,4 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,4&nbsp;MW, 167,0 m)</small> || 41 || {{Coordinate|simple=y|NS=56.622|EW=8.054|type=building|region=DK|name=Windpark Vesterhav Nord und Süd|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2023) || 15. Dezember 2021: endgültige Investitionsentscheidung getroffen<ref>[https://www.offshorewind.biz/2021/12/15/vattenfall-greenlights-danish-offshore-wind-farms/ ''Vattenfall Greenlights Danish Offshore Wind Farms'']. In: ''offshoreWIND.biz'', 15. Dezember 2021, abgerufen am 22. Dezember 2021</ref>
+|-
+| [[Offshore-Windpark Dogger Bank|Dogger Bank]]<br /><small>(Phasen A und B)</small> || Nordsee || {{GBR}} || 2470 || GE Haliade-X 13 MW<br /><small>(13,0&nbsp;MW, 218,0 m)</small> || 190 || {{Coordinate|simple=y|NS=54.769|EW=1.908|type=building|region=GB|name=Dogger Bank A und B|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2024) || 26. November 2020: endgültige Investitionsentscheidung getroffen; Baubeginn für 2022 vorgesehen<ref>[https://www.offshorewind.biz/2020/11/26/dogger-bank-owners-close-largest-ever-offshore-wind-project-financing/ ''Dogger Bank Owners Close Largest Ever Offshore Wind Project Financing'']. In: ''offshoreWIND.biz'', 26. November 2020, abgerufen am 26. November 2020</ref>
+|-
+| [[Offshore-Windpark Gode Wind 3|Gode Wind 3]] || Nordsee || {{DEU}} || 253 || Siemens Gamesa SG 11.0-200 DD<br /><small>(11,0&nbsp;MW, 200,0 m)</small> || 23 || {{Coordinate|simple=y|NS=54.037|EW=7.110|type=building|region=DE|name=Gode Wind 3|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2024) || 1. Dezember 2021: endgültige Investitionsentscheidung getroffen<ref>[https://www.offshorewind.biz/2021/12/01/orsted-clears-german-offshore-wind-farms-for-takeoff/ ''Ørsted Clears German Offshore Wind Farms for Takeoff'']. In: ''offshoreWIND.biz'', 1. Dezember 2021, abgerufen am 22. Dezember 2021</ref>
+|-
+| [[Offshore-Windpark Borkum Riffgrund#Borkum Riffgrund 3|Borkum Riffgrund]]<br /><small>(Phase 3)</small> || Nordsee || {{DEU}} || 913 || Siemens Gamesa SG 11.0-200 DD<br /><small>(11,0&nbsp;MW, 200,0 m)</small> || 83 || {{Coordinate|simple=y|NS=54.046944|EW=6.233889|type=building|region=DE|name=Borkum Riffgrund 3|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2025) || 1. Dezember 2021: endgültige Investitionsentscheidung getroffen<ref>[https://www.offshorewind.biz/2021/12/01/orsted-clears-german-offshore-wind-farms-for-takeoff/ ''Ørsted Clears German Offshore Wind Farms for Takeoff'']. In: ''offshoreWIND.biz'', 1. Dezember 2021, abgerufen am 22. Dezember 2021</ref>
+|-
+| [[Offshore-Windpark Dogger Bank|Dogger Bank]]<br /><small>(Phase C)</small> || Nordsee || {{GBR}} || 1218 || GE Haliade-X 14 MW<br /><small>(14,0&nbsp;MW, 218,0 m)</small> || 87 || {{Coordinate|simple=y|NS=55.039|EW=2.822|type=building|region=GB|name=Dogger Bank C|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2026) || 2. Dezember 2021: endgültige Investitionsentscheidung getroffen; Baubeginn für 2024 vorgesehen<ref>[https://www.offshorewind.biz/2021/12/02/largest-ever-offshore-wind-project-financing-complete/ ''Largest Ever Offshore Wind Project Financing Complete'']. In: ''offshoreWIND.biz'', 2. Dezember 2021, abgerufen am 2. Dezember 2021</ref>
+|-
+| [[Offshore-Windpark Dogger Bank#Sofia|Sofia]] || Nordsee || {{GBR}} || 1400 || Siemens Gamesa SG 14.0-222 DD<br /><small>(14,0&nbsp;MW, 222,0 m)</small> || 100 || {{Coordinate|simple=y|NS=54.989|EW=2.228|type=building|region=GB|name=Sofia|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2026) || 24. März 2021: endgültige Investitionsentscheidung getroffen, Baubeginn für 2023 vorgesehen<ref>[https://www.offshorewind.biz/2021/03/24/rwe-greenlights-gbp-3-billion-sofia-offshore-wind-farm/ ''RWE Greenlights GBP 3 Billion Sofia Offshore Wind Farm'']. In: ''offshoreWIND.biz'', 24. März 2021, abgerufen am 26. März 2021</ref>
+|-
+| Forthwind *<br /><small>(Demonstrator)</small> || Nordsee || {{GBR}} || 12 || 2-B Energy 2B6<br /><small>(6,0&nbsp;MW, 140,6 m)</small> || 2 || {{Coordinate|simple=y|NS=56.168|EW=-3.014|type=building|region=GB|name=Forthwind Demonstrator|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2023) || 20. September 2019: CIERCO erhält Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2019/09/20/uk-offshore-wind-strike-prices-slide-down-to-gbp-39-65-mwh/ ''Breaking: UK Offshore Wind Strike Prices Slide Down to GBP 39.65/MWh'']. In: ''offshoreWIND.biz'', 20. September 2019, abgerufen am 8. Oktober 2019</ref>
+|-
+| [[Offshore-Windpark He dreiht|He dreiht]] || Nordsee || {{DEU}} || 900 || Vestas V236-15.0 MW<br /><small>(15,0&nbsp;MW, 236,0 m)</small> || 60 || {{Coordinate|simple=y|NS=54.365|EW=6.186|type=building|region=DE|name=He dreiht|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 13. April 2017: EnBW erhält Zuschlag bei Ausschreibung;<ref name="BNetzA_042017">{{Internetquelle |url=https://www.bundesnetzagentur.de/DE/Service-Funktionen/Beschlusskammern/1_GZ/BK6-GZ/2017/BK6-17-001/Ergebnisse_erste_Ausschreibung.pdf?__blob=publicationFile&v=3 |titel=Ergebnisse der 1. Ausschreibung vom 01.04.2017 |hrsg=[[Bundesnetzagentur]] |format=PDF |abruf=2020-01-12}}</ref><ref name="Versteigerung_de2">{{Internetquelle |url=http://www.offshorewind.biz/2017/04/13/germany-accepts-first-subsidy-free-offshore-wind-auction-bid/ |titel=Germany Accepts First Subsidy-Free Offshore Wind Auction Bid |hrsg=offshoreWIND.biz |datum=2017-04-13 |abruf=2017-04-13}}</ref>  27. April 2018: [[Ørsted (Unternehmen)|Ørsted]] erhält Zuschlag für 131,75 MW bei Ausschreibung<ref name="BNetzA_042018" /> Netzanbindung über BorWin5 (Fertigstellung nicht vor 2025) vorgesehen<ref>[https://www.offshorewind.biz/2021/07/09/enbw-first-to-select-vestas-15-mw-offshore-wind-turbine/ ''EnBW First to Select Vestas 15 MW Offshore Wind Turbine'']. In: ''offshoreWIND.biz'', 10. Juli 2021, abgerufen am 11. Juli 2021</ref>
+|-
+| [[Offshore-Windpark Hollandse Kust West|Hollandse Kust West]]<br /><small>(Phasen 1 und 2)</small> || Nordsee || {{NLD}} || 1400 |||| || {{Coordinate|simple=y|NS=52.629|EW=3.716|type=building|region=NL|name=Hollandse Kust West 1-2|text=DMS}} ||class="hintergrundfarbe6"| in Planung || (2025) || Ausschreibungsverfahren für 2021 vorgesehen<ref>[https://www.offshorewind.biz/2018/05/16/rvo-nl-hires-advisory-team-for-hollandse-kust-west-soil-investigations/ ''RVO.nl Hires Advisory Team for Hollandse Kust West Soil Investigations'']. In: ''offshoreWIND.biz'', 16. Mai 2018, abgerufen am 22. Oktober 2018</ref>
+|-
+| [[Offshore-Windpark Moray Firth|Moray Firth]]<br /><small>(West)</small> || Nordsee || {{GBR}} || 900 || Siemens Gamesa  ||  || {{Coordinate|simple=y|NS=58.045|EW=-3.007|type=building|region=GB|name=Moray Firth Western Area|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || <ref>[https://renews.biz/73050/siemens-gamesa-secures-moray-west-turbine-job/ ''Siemens Gamesa secures Moray West turbine job'']. In: ''reNEWS.biz'', 21. Oktober 2021, abgerufen am 21. Oktober 2021</ref>
+|-
+| [[Offshore-Windpark East Anglia|East Anglia Hub]] || Nordsee || {{GBR}} || 3080 || Siemens Gamesa SG 14.0-222 DD<br /><small>(14,0&nbsp;MW, 222,0 m)</small> || 220 || {{Coordinate|simple=y|NS=52.664|EW=2.846|type=building|region=GB|name=East Anglia Hub|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || Baubeginn für 2023 vorgesehen<ref>[https://www.offshorewind.biz/2019/11/26/scottishpower-renewables-bundles-east-anglia-offshore-wind-trio/ ''ScottishPower Renewables Bundles East Anglia Offshore Wind Trio'']. In: ''offshoreWIND.biz'', 26. November 2019, abgerufen am 26. November 2019</ref>
+|-
+| [[Offshore-Windpark Gode Wind 4|Gode Wind 4]]<br /><small>(Zone N-3.7)</small> || Nordsee || {{DEU}} || 225 ||||  || {{Coordinate|simple=y|NS=54.043|EW=7.081|type=building|region=DE|name=Gode Wind 4|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || 9. September 2021: RWE erhält Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/09/09/zero-subsidy-bids-rule-offshore-germany-rwe-and-edf-named-winners/ ''https://www.offshorewind.biz/2021/09/09/zero-subsidy-bids-rule-offshore-germany-rwe-and-edf-named-winners/'']. In: ''offshoreWIND.biz'', 9. September 2021, abgerufen am 13. September 2021</ref>
+|-
+| [[Offshore-Windpark Nordsee Two|Nordsee Two]]<br /><small>(Zone N-3.8)</small> || Nordsee || {{DEU}} || 433 ||||  || {{Coordinate|simple=y|NS=54.032|EW=6.842|type=building|region=DE|name=Nordsee Two|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || 9. September 2021: EDF erhält Zuschlag bei Ausschreibung;<ref>[https://www.offshorewind.biz/2021/09/09/zero-subsidy-bids-rule-offshore-germany-rwe-and-edf-named-winners/ ''https://www.offshorewind.biz/2021/09/09/zero-subsidy-bids-rule-offshore-germany-rwe-and-edf-named-winners/'']. In: ''offshoreWIND.biz'', 9. September 2021, abgerufen am 13. September 2021</ref>
+5. November 2021: RWE nimmt Eintrittsrecht wahr
+|-
+| [[Offshore-Windpark Norfolk Vanguard|Norfolk Vanguard]] || Nordsee || {{GBR}} || 1800 || Siemens Gamesa SG 14.0-236 DD<br /><small>(15,0&nbsp;MW, 236,0 m)</small>|| 120 || {{Coordinate|simple=y|NS=52.868|EW=2.688|type=building|region=GB|name=Norfolk Vanguard|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) ||
+|-
+| [[Offshore-Windpark Norfolk Boreas|Norfolk Boreas]] || Nordsee || {{GBR}} || 1800 || Siemens Gamesa SG 14.0-236 DD<br /><small>(15,0&nbsp;MW, 236,0 m)</small> || 120 || {{Coordinate|simple=y|NS=53.040|EW=2.934|type=building|region=GB|name=Norfolk Boreas|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) ||
+|-
+| [[Offshore-Windpark Thor|Thor]] || Nordsee || {{DNK}} || 1000 ||  ||  || {{Coordinate|simple=y|NS=56.358|EW=7.685|type=building|region=DK|name=Windpark Thor|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) || 1. Dezember 2021: RWE erhält Zuschlag bei Ausschreibung, Baubeginn für 2025 vorgesehen<ref>{{Internetquelle |url=https://www.offshorewind.biz/2021/12/01/rwe-wins-danish-luck-of-the-draw-offshore-wind-tender/ |titel=BREAKING: RWE Wins Danish ‘Luck of the Draw’ Offshore Wind Tender  |hrsg=offshoreWIND.biz |datum=2021-12-01 |abruf=2021-12-01}}</ref>
+
+<!--
+|-
+| [[Offshore-Windpark Delta Nordsee|Delta Nordsee]] || Nordsee || {{DEU}} || 402 |||| 67 || {{Coordinate|simple=y|NS=54.033333|EW=6.758333|type=building|region=DE|name=Delta Nordsee|text=DMS}}
+|class="hintergrundfarbe6"| in Planung |||| 11. Februar 2005: Baugenehmigung erteilt<ref name="Ausschreibung_de" />, Netzanbindung über DolWin6 (Fertigstellung nicht vor 2023) vorgesehen
+-->
+<!--
+|-
+| [[Offshore-Windpark Horizont|Horizont]] I || Nordsee || {{DEU}} || 306 |||| 51 || {{Coordinate|simple=y|NS=54.873|EW=6.227|type=building|region=DE|name=Horizont I|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||||<ref name="MRP">{{Internetquelle |url=http://www.mainstreamrp.com/our-projects |titel=Our Projects |hrsg=Mainstream Renewable Power |zugriff=2011-09-21}}</ref>
+|-
+| [[Offshore-Windpark Horizont|Horizont]] II || Nordsee || {{DEU}} || 450 |||| 75 || {{Coordinate|simple=y|NS=54.872|EW=6.333|type=building|region=DE|name=Horizont II|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||||<ref name="MRP" />
+|-
+| [[Offshore-Windpark Horizont|Horizont]] III || Nordsee || {{DEU}} || 444 |||| 74 || {{Coordinate|simple=y|NS=54.808|EW=6.368|type=building|region=DE|name=Horizont III|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||||<ref name="MRP" />
+-->
+|-
+| [[Offshore-Windpark Hornsea|Hornsea]]<br /><small>(Project Three)</small> || Nordsee || {{GBR}} || 2400 ||  |||| {{Coordinate|simple=y|NS=53.873|EW=2.537|type=building|region=GB|name=Hornsea Project Three|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||||
+|-
+| [[Offshore-Windpark Hornsea|Hornsea]]<br /><small>(Project Four)</small> || Nordsee || {{GBR}} || 1000 || |||| {{Coordinate|simple=y|NS=54.038|EW=1.271|type=building|region=GB|name=Hornsea Project Four|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||||
+<!--
+|-
+| [[Offshore-Windpark Kaikas|Kaikas]] || Nordsee || {{DEU}} || 581 || 7-MW-Klasse || 83 || {{Coordinate|simple=y|NS=54.604|EW=6.173|type=building|region=GB|name=Kaikas|text=DMS}}
+|class="hintergrundfarbe6"| in Planung |||| 12. Juni 2013: Baugenehmigung erteilt; Netzanbindung ungesichert<ref>{{Internetquelle |url=http://www.handelsblatt.com/my/unternehmen/energie/energiewende-offshore-windparks-ohne-chance/20390148.html |titel=Offshore-Windparks ohne Chance |werk=[[Handelsblatt]] |zugriff=2018-04-29 |datum=2017-09-28 |autor=Klaus Stratmann}}</ref>
+|-
+| [[Offshore-Windpark Nordsee Three|Nordsee Three]] || Nordsee || {{DEU}} || 400 |||| 60 || {{Coordinate|simple=y|NS=54.068|EW=6.894|type=building|region=DE|name=Nordsee Three|text=DMS}}
+|class="hintergrundfarbe6"| in Planung |||| 26. August 2013: Baugenehmigung erteilt;<ref name="Ausschreibung_de" /> Netzanbindung über DolWin6 (Fertigstellung nicht vor 2023) vorgesehen
+|-
+| [[Offshore-Windpark Nördlicher Grund|Nördlicher Grund]] || Nordsee || {{DEU}} || 384 |||| 64 || {{Coordinate|simple=y|NS=55.05|EW=6.916667|type=building|region=DE|name=Nördlicher Grund|text=DMS}}
+|class="hintergrundfarbe6"| in Planung |||| Dezember 2005: Baugenehmigung erteilt<ref name="Ausschreibung_de" />; Netzanbindung über SylWin2 (Fertigstellung nicht vor 2024) vorgesehen<ref>[http://www.erneuerbareenergien.de/wohin-geht-noerdlicher-grund/150/434/87239/ ''Wohin geht Nördlicher Grund?''] In: ''[[Erneuerbare Energien. Das Magazin]]'', 29. April 2015, abgerufen am 22. September 2015</ref>
+-->
+|-
+| [[Offshore-Windpark Seagreen|Berwick Bank Wind Farm]] || Nordsee || {{GBR}} || 4100 |||| || {{Coordinate|simple=y|NS=56.370|EW=-1.521|type=building|region=GB|name=Berwick Bank Wind Farm|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||||
+<!--
+|-
+| Delta Nordsee 2 || Nordsee || {{DEU}} || 160 |||| 32 ||
+|class="hintergrundfarbe6"| in Planung |||| 31. August 2009: Baugenehmigung erteilt<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/delta-nordsee-2-germany-de29.html ''Delta Nordsee 2'']. 4coffshore, abgerufen am 7. September 2017</ref>
+|-
+| Global Tech II || Nordsee || {{DEU}} || 395–486 |||| 79 ||
+|class="hintergrundfarbe6"| in Planung |||| Erörtert: 5. Juni 2014<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/global-tech-ii-germany-de64.html ''Global Tech II'']. 4coffshore, abgerufen am 7. September 2017</ref>
+|-
+| Atlantis I || Nordsee || {{DEU}} || 613 |||| 73 ||
+|class="hintergrundfarbe6"| in Planung |||| Erörtert: 6. November 2014<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/atlantis-i-germany-de66.html ''Atlantis I'']. 4coffshore, abgerufen am 7. September 2017</ref>
+-->
+|- class="sortbottom hintergrundfarbe8"
+| colspan="10"|
