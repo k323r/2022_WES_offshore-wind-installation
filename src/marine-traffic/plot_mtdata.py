@@ -8,14 +8,19 @@ import logging
 
 from config import parse_args
 
-def plot_track(vessel_track : pd.DataFrame, vessel_id : str, wind_farms : pd.DataFrame = pd.DataFrame, margin = 1, figsize=(9,9), save_fig = None):
+def plot_track(vessel_track : pd.DataFrame, wind_farms : pd.DataFrame = pd.DataFrame(), margin = 1, figsize=(9,9), save_fig = None, verbose = False, transparent = True):
     # create new figure, axes instances.
     fig = plt.figure(figsize=figsize)
+
+    if transparent:
+        fig.patch.set_alpha(0.7)
 
     min_lat = vessel_track.latitude.min() - margin
     max_lat = vessel_track.latitude.max() + margin
     min_lon = vessel_track.longitude.min() - margin
     max_lon = vessel_track.longitude.max() + margin
+    if verbose:
+        print(f'min_lat: {min_lat} min_lon: {min_lon} max_lat: {max_lat} max_lon: {max_lon}')
 
     m = Basemap(llcrnrlon=min_lon,
                 llcrnrlat=min_lat,
@@ -40,6 +45,8 @@ def plot_track(vessel_track : pd.DataFrame, vessel_id : str, wind_farms : pd.Dat
 
     lons, lats = m(vessel_track.longitude, vessel_track.latitude)
     m.scatter(lons, lats, marker = 'o', color='tab:red', zorder=5, s=2)
+
+    print(type(wind_farms))
 
     if not wind_farms.empty:
         lons_wf, lats_wf = m(wind_farms.longitude, wind_farms.latitude)
