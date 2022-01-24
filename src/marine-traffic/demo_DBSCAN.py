@@ -70,6 +70,7 @@ for k, col in zip(unique_labels, colors):
     )
 
     xy = X[class_member_mask & ~core_samples_mask]
+    print(len(xy))
     plt.plot(
         xy[:, 0],
         xy[:, 1],
