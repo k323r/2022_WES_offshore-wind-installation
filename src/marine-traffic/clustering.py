@@ -1,4 +1,5 @@
 import numpy as np
+import os
 import pandas as pd
 from sklearn import metrics
 from sklearn.cluster import DBSCAN
@@ -25,7 +26,7 @@ def find_clusters(lat_lon_norm : np.array, eps : float = 0.05, min_num_samples :
 #         print("Silhouette Coefficient: %0.3f" % metrics.silhouette_score(lat_lon_norm, db_fit.labels_))
     return db_fit
 
-def extract_clusters(db_fit, vesseltracks : pd.DataFrame, verbose=True, drop_noise=False) -> dict:
+def extract_clusters(db_fit, raw_data : pd.DataFrame, verbose=True, drop_noise=False) -> dict:
     clusters = dict()
     labels = db_fit.labels_
     unique_labels = set(labels)
@@ -38,10 +39,15 @@ def extract_clusters(db_fit, vesseltracks : pd.DataFrame, verbose=True, drop_noi
             if verbose:
                 print("extracting noise")
             if not drop_noise:
-                clusters[label] = vesseltracks[class_member_mask & ~core_samples_mask]
+                clusters[label] = raw_data[class_member_mask & ~core_samples_mask]
         else:
             if verbose:
                 print(f'extracting cluster {label+1}')
-            clusters[label] = vesseltracks[class_member_mask & core_samples_mask]
+            clusters[label] = raw_data[class_member_mask & core_samples_mask]
     return clusters
+
+def export_cluster(cluster : pd.DataFrame, fpath : str):
+    assert os.path.isdir(os.path.dirname(fpath)), 'please provide a valid output directory'
+    cluster.to_csv(fpath)
+
 

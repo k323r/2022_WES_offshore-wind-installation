@@ -1,6 +1,11 @@
 #!/bin/env python
 import argparse
-from clustering import normalize_lat_lon, find_clusters, extract_clusters
+from clustering import (
+    normalize_lat_lon,
+    find_clusters,
+    extract_clusters,
+    export_cluster,
+)
 from config import WINDFARMS_FPATH
 import matplotlib.pyplot as plt
 import os
@@ -108,15 +113,27 @@ def parse_cmdline_args() -> dict:
         help="flag to plot vesssel tracks",
     )
     arg_parser.add_argument(
-        "--verbose",
-        default=False,
-        help="verbose output, useful for debugging",
-        action="store_true",
-    )
-    arg_parser.add_argument(
         "--plot-cluster-windfarms",
         default=False,
         help="plot single clusters with matching windfarms",
+        action="store_true",
+    )
+    arg_parser.add_argument(
+        "--plot-cluster-turbines",
+        default=False,
+        help="plot single clusters with matching windfarms",
+        action="store_true",
+    )
+    arg_parser.add_argument(
+        "--export-windfarms-dir",
+        default="",
+        type=str,
+        help="directory to export wind successfully detected wind farms to",
+    )
+    arg_parser.add_argument(
+        "--verbose",
+        default=False,
+        help="verbose output, useful for debugging",
         action="store_true",
     )
     args = arg_parser.parse_args().__dict__
@@ -159,52 +176,106 @@ if __name__ == "__main__":
         lon_min=config["longitude_min"],
         lon_max=config["longitude_max"],
     )
+    if config["export_windfarms_dir"]:
+        if not os.path.isdir(config["export_windfarms_dir"]):
+            os.makedirs(config["export_windfarms_dir"], exist_ok=True)
+
     if config["plot_vesseltracks"]:
-        plot_vesseltracks(vesseltracks, show_fig=False)
-    db_fit_windfarms = find_clusters(
+        plot_vesseltracks(
+            vesseltracks,
+            show_fig=True,
+            save_fig=os.path.join(config["export_windfarms_dir"], "vesseltracks.png")
+            if config["export_windfarms_dir"]
+            else False,
+            verbose=True,
+        )
+    db_fit_windfarm_clusters = find_clusters(
         normalize_lat_lon(vesseltracks),
         eps=config["dbscan_epsilon"],
         min_num_samples=config["dbscan_num_samples"],
         n_cores=config["dbscan_num_processors"],
     )
-    windfarms = extract_clusters(
-        db_fit=db_fit_windfarms, vesseltracks=vesseltracks, drop_noise=config["dbscan_drop_noise"]
+    windfarm_clusters = extract_clusters(
+        db_fit=db_fit_windfarm_clusters,
+        raw_data=vesseltracks,
+        drop_noise=config["dbscan_drop_noise"],
     )
     if config["plot_clusters"]:
-        plot_clusters(windfarms, vesseltracks)
-    for _, windfarm in windfarms.items():
+        plot_clusters(
+            windfarm_clusters,
+            vesseltracks,
+            save_fig=os.path.join(config["export_windfarms_dir"], "windfarms.png")
+            if config["export_windfarms_dir"]
+            else False,
+        )
+    for windfarm_cluster_label, windfarm_cluster in windfarm_clusters.items():
+        export_windfarm_dir = None
+        if config["export_windfarms_dir"]:
+            export_windfarm_dir = os.path.join(
+                config["export_windfarms_dir"],
+                f"windfarm_cluster_{windfarm_cluster_label+1}",
+            )
+            os.makedirs(export_windfarm_dir, exist_ok=True)
+            export_cluster(
+                windfarm_cluster,
+                os.path.join(
+                    export_windfarm_dir, f"windfarm_cluster_{windfarm_cluster_label+1}.csv"
+                ),
+            )
         matching_windfarms = match_windfarms_cluster(
             windfarms_meta,
-            windfarm,
+            windfarm_cluster,
             bounding_box_edgelength=config["windfarm_cluster_match_tolerance"],
         )
         if matching_windfarms and config["plot_cluster_windfarms"]:
             plot_cluster_windfarms(
-                windfarm,
+                windfarm_cluster,
                 windfarms_meta[windfarms_meta.index.isin(matching_windfarms)],
                 show_fig=True,
+                save_fig=os.path.join(
+                    export_windfarm_dir,
+                    f"windfarm_cluster_{windfarm_cluster_label+1}.png",
+                )
+                if export_windfarm_dir
+                else False,
             )
-        db_fit_turbines = find_clusters(
-            normalize_lat_lon(windfarm),
+        db_fit_turbine_clusters = find_clusters(
+            normalize_lat_lon(windfarm_cluster),
             eps=config["dbscan_epsilon_turbines"],
             min_num_samples=config["dbscan_num_samples_turbines"],
             n_cores=config["dbscan_num_processors"],
         )
-        turbines = extract_clusters(
-            db_fit=db_fit_turbines,
-            vesseltracks=windfarm,
+        turbine_clusters = extract_clusters(
+            db_fit=db_fit_turbine_clusters,
+            raw_data=windfarm_cluster,
             drop_noise=config["dbscan_drop_noise"],
         )
-        if num_turbines := len(turbines) < config['min_num_turbines']:
-            if config['verbose']:
-                print(f'skipping turbines cluster as too few turbines were found ({num_turbines})')
+        if num_turbines := len(turbine_clusters) < config["min_num_turbines"]:
+            if config["verbose"]:
+                print(
+                    f"skipping turbines cluster as too few turbines were found ({num_turbines})"
+                )
             continue
-        plot_clusters(
-            clusters=turbines,
-            vesseltracks=windfarm,
-            legend=False,
-            title=" ".join(
-                [windfarms_meta.loc[i].windfarm_name for i in matching_windfarms]
-            ),
-        )
+        if config["plot_cluster_turbines"]:
+            plot_clusters(
+                clusters=turbine_clusters,
+                raw_data=windfarm_cluster,
+                margin=0.01,
+                legend=False,
+                title=" ".join(
+                    [windfarms_meta.loc[i].windfarm_name for i in matching_windfarms]
+                ),
+                save_fig=os.path.join(export_windfarm_dir, "turbine_clusters.png")
+                if export_windfarm_dir
+                else None,
+            )
+        if export_windfarm_dir:
+            for turbine_cluster_label, turbine_cluster in turbine_clusters.items():
+                export_cluster(
+                    turbine_cluster,
+                    os.path.join(
+                        export_windfarm_dir,
+                        f"turbine_cluster_{turbine_cluster_label+1}.csv",
+                    ),
+                )
     plt.show()

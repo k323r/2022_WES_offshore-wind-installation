@@ -1,7 +1,7 @@
 import argparse
 from os import path
 
-WINDFARMS_FPATH = "../../data/wind-farms/wind-farms-2.txt"
+WINDFARMS_FPATH = "../../data/wind-farms/meta/wind-farms-2.txt"
 
 COLUMN_NAMES = [
     'mmsi',

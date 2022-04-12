@@ -97,40 +97,16 @@ m = Basemap(
     lat_0=(max_lat - min_lat) / 2,
     lon_0=(max_lon - min_lon) / 2,
 )
-=======
-print(f'min_lat: {min_lat} min_lon: {min_lon} max_lat: {max_lat} max_lon: {max_lon}')
-
-m = Basemap(llcrnrlon=min_lon,
-            llcrnrlat=min_lat,
-            urcrnrlon=max_lon,
-            urcrnrlat=max_lat,
-            resolution='h',
-            projection='merc',
-            lat_0=(max_lat - min_lat)/2,
-            lon_0=(max_lon - min_lon)/2,
-            )
->>>>>>> 80de633613b81bebec25d26c38829b28588349b1
-
 m.drawcoastlines()
 m.fillcontinents()
 # m.drawcountries()
 m.drawstates()
-<<<<<<< HEAD
 m.drawmapboundary(fill_color="#46bcec")
 m.fillcontinents(color="white", lake_color="#46bcec")
 # draw parallels
 m.drawparallels(np.arange(-90, 90, 2), labels=[1, 1, 1, 1])
 # draw meridians
 m.drawmeridians(np.arange(-180, 180, 2), labels=[1, 1, 1, 1])
-=======
-m.drawmapboundary(fill_color='#46bcec')
-m.fillcontinents(color = 'white',lake_color='#46bcec')
-# draw parallels
-m.drawparallels(np.arange(-90,90,2),labels=[1,1,1,1])
-# draw meridians
-m.drawmeridians(np.arange(-180,180,2),labels=[1,1,1,1])
->>>>>>> 80de633613b81bebec25d26c38829b28588349b1
-
 # lons, lats = m(vessel_track.longitude, vessel_track.latitude)
 # m.scatter(lons, lats, marker = 'o', color='tab:red', zorder=5, s=2)
 
@@ -141,23 +117,6 @@ for label, color in zip(unique_labels, colors):
     # create a mask for the current label
     class_member_mask = labels == label
 
-<<<<<<< HEAD
-    if label == -1:  # noise data
-        print("plotting noise")
-        color = [0, 0, 0, 1]  # black
-        xy = scaler.inverse_transform(X[class_member_mask & ~core_samples_mask])
-    else:
-        xy = scaler.inverse_transform(X[class_member_mask & core_samples_mask])
-
-    print(f"found {len(xy)} data points for cluster {label}")
-
-    # xy = X[class_member_mask & core_samples_mask]
-
-    clusters[f"cluster_{label}"] = xy
-
-    lons, lats = m(xy[:, 0], xy[:, 1])
-    m.scatter(lons, lats, marker="o", color=tuple(color), zorder=5, s=5)
-=======
     if label == -1:
         print('plotting noise')
         color = [0, 0, 0, 1]
@@ -173,7 +132,6 @@ for label, color in zip(unique_labels, colors):
 
     lons, lats = m(xy[:, 0], xy[:,1])
     m.scatter(lons, lats, marker = 'o', color=tuple(color), zorder=5, s=5)
->>>>>>> 80de633613b81bebec25d26c38829b28588349b1
 
 plt.tight_layout()
 plt.show()
