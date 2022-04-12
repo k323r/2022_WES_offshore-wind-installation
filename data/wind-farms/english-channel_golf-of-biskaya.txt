@@ -1,0 +1,28 @@
+|-
+| El Abra * || [[Biskaya|Golf von Biskaya]] || {{ESP}} || 10 || [[Gamesa]] G80<br /><small>(2,0&nbsp;MW, 80,0 m)</small> || 5 || {{Coordinate|simple=y|NS=43.465|EW=-2.880|type=building|region=ES|name=Punta Lucero|text=DMS}} ||class="hintergrundfarbe9"| in Betrieb || 2007 || <ref>[https://www.appropedia.org/port-of-bilbao-spain-wind-park/''Port Of Bilbao, Spain Wind Park'']{{Toter Link|url=https://www.appropedia.org/port-of-bilbao-spain-wind-park/ |date=2019-04 |archivebot=2019-04-26 21:50:55 InternetArchiveBot }}. In: ''appropedia.org'', abgerufen am 12. August 2018</ref>
+|-
+| [[Offshore-Windpark Rampion|Rampion]] || [[Ärmelkanal]] || {{GBR}} || 400 || Vestas V112-3.45<br /><small>(3,45&nbsp;MW, 112,0 m)</small>|| 116 || {{Coordinate|simple=y|NS=50.670|EW=-0.277|type=building|region=GB|name=Rampion|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 || <ref>[https://www.offshorewind.biz/2018/04/17/rampion-offshore-wind-farm-hits-full-stride/ ''Rampion Offshore Wind Farm Hits Full Stride'']. In: ''offshoreWIND.biz'', 17. April 2018, abgerufen am 17.&nbsp;April 2017</ref>
+|-
+| [[Offshore-Windpark Banc de Guérande|Banc de Guérande]]<br /><small>(Saint-Nazaire)</small> || Golf von Biskaya || {{FRA}} || 480 || GE Haliade 150-6MW<br /><small>(6,0&nbsp;MW, 150,0 m)</small> || 80 || {{Coordinate|simple=y|NS=47.159|EW=-2.606|type=building|region=FR|name=Parc du Banc de Guerande|text=DMS}}
+| class="hintergrundfarbe8"| in Bau || (2022) || 19. November 2021: 40 von 80 Gründungen installiert<ref>[https://www.offshorewind.biz/2021/11/19/40-foundations-in-at-saint-nazaire-offshore-wind-farm/ ''40 Foundations In at Saint-Nazaire Offshore Wind Farm'']. In: ''offshoreWIND.biz'', 19. November 2021, abgerufen am 19. November 2021</ref>
+|-
+| [[Offshore-Windpark Baie de Saint-Brieuc|Baie de Saint-Brieuc]] || Ärmelkanal || {{FRA}} || 496 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,0&nbsp;MW, 167,0 m)</small> || 62 || {{Coordinate|simple=y|NS=48.853|EW=-2.536|type=building|region=FR|name=Baie de Saint-Brieuc|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung  || (2023) || 9. März 2020: endgültige Investitionsentscheidung getroffen; Baubeginn für 2021 vorgesehen<ref>[https://www.rechargenews.com/wind/iberdrola-to-build-2-7bn-saint-brieuc-offshore-wind-farm-in-france-after-taking-full-control/2-1-769287 ''Iberdrola to build $2.7bn Saint-Brieuc offshore wind farm in France after taking full control'']. In: ''RECHARGEnews.com'', 9. März 2020, abgerufen am 10. März 2020</ref>
+|-
+| [[Offshore-Windpark Hautes falaises|Hautes falaises]]<br /><small>(Fécamp)</small> || Ärmelkanal || {{FRA}} || 497 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 71 || {{Coordinate|simple=y|NS=49.892|EW=0.227|type=building|region=FR|name=Hautes falaises|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung  || (2023) || 2. Juni 2020: endgültige Investitionsentscheidung getroffen;<ref>[https://www.offshorewind.biz/2020/06/02/fecamp-offshore-wind-farm-enters-construction-stage/ ''Fécamp Offshore Wind Farm Enters Construction Stage'']. In: ''offshoreWIND.biz'', 2. Juni 2020, abgerufen am 2. Juni 2020</ref> Baubeginn für 2022 vorgesehen<ref>[https://www.offshorewind.biz/2021/02/23/rosetti-marino-cuts-first-steel-for-fecamp-owfs-oss-jacket/ ''Rosetti Marino Cuts First Steel for Fécamp OWF’s OSS Jacket'']. In: ''offshoreWIND.biz'', 23. Februar 2021, abgerufen am 23. Februar 2021</ref>
+|-
+| [[Offshore-Windpark Calvados|Calvados]]<br /><small>(Courseulles-Sur-Mer)</small> || Ärmelkanal || {{FRA}} || 448 || Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 64 || {{Coordinate|simple=y|NS=49.469|EW=-0.522|type=building|region=FR|name=Calvados|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2024) || 22. Februar 2021: endgültige Investitionsentscheidung getroffen<ref>[https://renews.biz/66617/siemens-gamesa-confirms-deal-for-448mw-courseulles/ ''Siemens Gamesa confirms deal for 448MW Courseulles'']. In: ''reNEWS.biz'', 22. Februar 2021, abgerufen am 22. Februar 2021</ref>
+|-
+| [[Offshore-Windpark Iles d’Yeu et de Noirmoutier|Iles d’Yeu et de Noirmoutier]] || Golf von Biskaya || {{FRA}} || 496 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,0&nbsp;MW, 167,0 m)</small> || 62 || {{Coordinate|simple=y|NS=46.875|EW=-2.514|type=building|region=FR|name=Iles d’Yeu et de Noirmoutier|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2023) || 31. Oktober 2018: Baugenehmigung erteilt<ref>[https://renews.biz/48811/all-clear-for-noirmoutier/ ''All clear for Noirmoutier'']. In: ''reNEWS.biz'', 31. Oktober 2018, abgerufen am 31. Oktober 2018</ref>
+|-
+| [[Offshore-Windpark Dieppe et Le Tréport|Dieppe et Le Tréport]] || Ärmelkanal || {{FRA}} || 496 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,0&nbsp;MW, 167,0 m)</small> || 62 || {{Coordinate|simple=y|NS=50.149|EW=1.121|type=building|region=FR|name=Dieppe et Le Tréport|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2024) || 10. Mai 2017: Baugenehmigung beantragt
+|-
+| [[Offshore-Windpark Dunkerque|Dunkerque]] || Ärmelkanal || {{FRA}} || 600 ||  || 46 || {{Coordinate|simple=y|NS=51.153|EW=2.397|type=building|region=FR|name=Dunkerque|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 14. Juni 2019: EDF, innogy und Enbridge erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2019/06/14/breaking-france-reveals-dunkirk-tender-winner/ ''BREAKING: France Reveals Dunkirk Tender Winner'']. In: ''offshoreWIND.biz'', 14. Juni 2019, abgerufen am 21. Juni 2019</ref>
+|- class="sortbottom hintergrundfarbe8"
+| colspan="10"|

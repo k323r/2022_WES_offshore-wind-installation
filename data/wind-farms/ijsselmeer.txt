@@ -1,0 +1,14 @@
+|-
+| Lely * || [[IJsselmeer]] || {{NLD}} || 2 || [[Nedwind]] NW 40/500<br /><small>(500&nbsp;kW, 40,8 m)</small> || 4 || {{Coordinate|simple=y|NS=52.797|EW=5.119|type=building|region=NL|name=Lely|text=DMS}}
+| class="hintergrundfarbe7"| außer Betrieb || 1994 || im September 2016 zurückgebaut<ref>[http://www.offshorewind.biz/2016/09/28/lely-offshore-wind-farm-is-no-more/ ''Lely Offshore Wind Farm Is No More'']. In: ''offshoreWIND.biz'', abgerufen am 28. September 2016</ref>
+|-
+| Dronten * || IJsselmeer || {{NLD}} || 16,8 || [[Nordtank]] NTK 600<br /><small>(600&nbsp;kW, 43,0 m)</small> || 28 || {{Coordinate|simple=y|NS=52.598|EW=5.589|type=building|region=NL|name=Dronten|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 1996 || Kombinierter Onshore-/Nearshore-Windpark
+|-
+|[[Windpark Noordoostpolder|Westermeerwind]] * || IJsselmeer || {{NLD}} || 144 || Siemens SWT-3.0-108<br /><small>(3,0&nbsp;MW, 108,0 m)</small> || 48 || {{Coordinate|simple=y|NS=52.739|EW=5.586|type=building|region=NL|name=Westermeerwind|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2016 || Kombinierter Onshore-/Nearshore-Windpark, 48 Nearshore- und 38 Onshore-Anlagen (Stand: Juli 2019)<ref>[http://www.offshorewind.biz/2016/06/22/westermeerwind-officially-open/ ''Westermeerwind Officially Open'']. In: ''offshoreWIND.biz'', abgerufen am 24. Juni 2016</ref>
+|-
+|Fryslân * || IJsselmeer || {{NLD}} || 382,7 || [[Siemens Gamesa]] SWT-DD-130<br /><small>(4,3&nbsp;MW, 130,0 m)</small> || 89 || {{Coordinate|simple=y|NS=53.003|EW=5.262|type=building|region=NL|name=Fryslan|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2021 || <ref>{{Internetquelle |url=https://www.offshorewind.biz/2021/12/08/largest-freshwater-offshore-wind-farm-at-full-tilt/ |titel=Largest Freshwater Offshore Wind Farm At Full Tilt |datum=2021-12-08 |sprache=en-US |abruf=2021-12-08}}</ref>
+|- class="sortbottom hintergrundfarbe8"
+| colspan="10"|
