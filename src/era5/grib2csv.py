@@ -55,6 +55,8 @@ def grib2csv(config: dict):
                     joined_data = data_by_column.copy(deep=True)
                 else:
                     joined_data = joined_data.join(data_by_column)
+            # joined_data.drop_duplicates('timestamp', keep='first', inplace=True)
+            joined_data = joined_data[~joined_data.index.duplicated(keep='first')]
             joined_data.to_csv(target_filepath)
         
 if __name__ == "__main__":
