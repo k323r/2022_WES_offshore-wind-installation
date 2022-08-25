@@ -1,14 +1,18 @@
-# 2021_WES_offshore-wind-installation
+# I spy with my little eye, or: using satellite data to investigate performance of offshore wind farm installation campaigns
 
-## Architecture
+## How to use this repository
 
-![architecture](architecture.png)
+# Material & Methods
 
-## ERA5 Data
+## [Data](data.md)
 
-ERA5 Data are data sets provided by ECWMF, containing hourly estimates of a vast number of atmospheric and oceaning parameters. A short description can be found [here](https://confluence.ecmwf.int/display/CKB/The+family+of+ERA5+datasets) (ECMWF -> European Center for Medium-range Weather Forecasts). 
+# Results
 
-The Data mostly stems from ESA's Copernicus program and access is possible through a web interface or the Climate Data Store (CDS) API.
-CDS provides a [python package](https://cds.climate.copernicus.eu/api-how-to) that can be used to request data. More information on how to access ERA5 data can be found [here](https://confluence.ecmwf.int/display/CKB/How+to+download+ERA5)
+# Discussion
+
+# License
+
+# Acknowledgements
+
 
 
