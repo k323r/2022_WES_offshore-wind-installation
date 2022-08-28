@@ -13,6 +13,16 @@ except ImportError as e:
     logging.fatal(f'failed to import from config.py: {e}')
 
 def convert_to_timestamp(dt, encoding='utf-8') -> int:
+    """
+    convert_to_timestamp(dt, encoding='utf-8') -> int
+
+    takes a datetime string in isoformat and returns the corresponding epoch (second accuracy).
+
+    dt : datetime string in iso format
+    encoding : defaults to utf-8
+
+    returns: an integer corresponding to the unix epoch
+    """
     try:
         return int(datetime.fromisoformat(dt).timestamp())
     except Exception as e:
