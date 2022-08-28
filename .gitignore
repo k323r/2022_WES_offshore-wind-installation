@@ -4,4 +4,10 @@ data/ais/raw/*
 !data/ais/raw/.gitkeep
 .vscode
 
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+
 __pycache__
