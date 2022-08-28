@@ -14,6 +14,18 @@ COLUMN_NAMES = [
     'timestamp',
 ]
 
+OUTPUT_COLUMN_NAMES = [
+    'mmsi',
+    'epoch',
+    'latitude',
+    'longitude',
+    'speed',
+    'heading',
+    'course',
+    'status',
+]
+
+
 VESSEL_NAMES = {
     253366000 : "Vole au Vent",
     218657000 : "Vole au Vent",

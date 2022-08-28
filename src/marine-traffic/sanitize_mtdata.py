@@ -8,7 +8,7 @@ from os import path
 from datetime import datetime
 
 try:
-    from config import (COLUMN_NAMES, VESSEL_NAMES, parse_args)
+    from config import (OUTPUT_COLUMN_NAMES, COLUMN_NAMES, VESSEL_NAMES, parse_args)
 except ImportError as e:
     logging.fatal(f'failed to import from config.py: {e}')
 
@@ -37,9 +37,10 @@ def read_file(file_path : str, column_names : list, delimiter=';', skip_lines=1)
         },
         skiprows=skip_lines,
     )
-
+    data.rename(columns={'timestamp' : 'epoch'}, inplace=True)
+    # reorder columns in table
+    data = data.loc[:, OUTPUT_COLUMN_NAMES]
     logging.debug(data.info())
-
     return data
 
 def parse_ship_data(data : pd.DataFrame) -> dict:
@@ -65,17 +66,15 @@ def parse_ship_data(data : pd.DataFrame) -> dict:
 
         # leverage the awesome power of pandas and selecet only data where
         # the mmsi equals the current mmsi
-        vessels[mmsi] = data[data['mmsi'] == mmsi]
-
+        vessels[mmsi] = data[data['mmsi'] == mmsi].copy()
         # convert timestamps to pd.DateTime objects
         vessels[mmsi].insert(
-            loc=len(vessels[mmsi].columns),
-            value=pd.to_datetime(vessels[mmsi]['timestamp'], unit='s', utc=True),
-            column='epoch',
+            loc=0,
+            value=pd.to_datetime(vessels[mmsi]['epoch'], unit='s', utc=True),
+            column='timestamp',
         )
-
         # make the newly create epoch the index of the DataFrame
-        vessels[mmsi].set_index('epoch', inplace=True)
+        vessels[mmsi].set_index('timestamp', inplace=True)
 
         # drop the mmsi data column as it is constant for the whole dataframe
         vessels[mmsi].drop('mmsi', axis=1, inplace=True)
@@ -84,18 +83,14 @@ def parse_ship_data(data : pd.DataFrame) -> dict:
     
 
 def main():
-
     config = parse_args()
-
     logging.basicConfig(
         filename=config['logfile'],
         level=logging.DEBUG if config['verbose'] else logging.WARNING,
         format='%(levelname)s: %(asctime)s %(message)s',
         datefmt='%Y%m%dT%H%M%S%z',
     )
-
     logging.debug('done parsing commmand line arguments')
-
     # build a list of available files using the provided input directory, the glob matching pattern
     # and the glob function
     input_files = sorted(
@@ -103,29 +98,22 @@ def main():
             path.join(config['input_dir'], config['input_pattern'])
         )
     )
-
     if not len(input_files) > 0:
         logging.fatal(f'did not find any input files. exit.')
         sys.exit()
-
     logging.debug(f'found {len(input_files)} input files: {input_files}')
-
     frames = list()
-
     for data_file in input_files:
         # read in all available data files
         frames.append(read_file(data_file, column_names=COLUMN_NAMES))
-
     # merge data frames into one large data frame
     try:
         frames = pd.concat(frames)
     except Exception as e:
         logging.fatal(f'failed to concatenate DataFrames: {e}')
         sys.exit()
-
     # sanitize data and extract data frames for individual ships 
     vessels = parse_ship_data(frames)
-
     for mmsi, data in vessels.items():
         export_path = path.join(config['output_dir'], f'{mmsi}_{VESSEL_NAMES[mmsi].lower().replace(" ", "-")}.csv')
         logging.debug(f'exporting vessel data to {export_path}')
