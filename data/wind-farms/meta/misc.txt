@@ -1,0 +1,39 @@
+|-
+| Setana / Hokkaido * || [[Japanisches Meer]] || {{JPN}} || 1,32 || Vestas V47-660<br /><small>(660&nbsp;kW, 47,0 m)</small> || 2 || {{Coordinate|simple=y|NS=42.443|EW=139.839|type=building|region=JP|name=Setana|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2004 ||
+|-
+|Sakata Offshore Wind Farm * || Japanisches Meer || {{JPN}} || 10 || Vestas V80-2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small> || 5 || {{Coordinate|simple=y|NS=38.967|EW=139.822|type=building|region=JP|name=Sakata|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2004 || zusätzlich 3 × 2 MW onshore
+|-
+| Kamisu *<br /><small>(Phasen 1 und 2)</small> || [[Pazifik|Pazifischer Ozean]] || {{JPN}} || 30 || 7 × Fuji/Subaru 80/2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small><br /> 8 × Hitachi HWT2.0-80<br /><small>(2,0&nbsp;MW, 80,0 m)</small> || 15 || {{Coordinate|simple=y|NS=35.882|EW=140.736|type=building|region=JP|name=Kamisu|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||
+|-
+| Eurus Akita Port * || Japanisches Meer || {{JPN}} || 18 || Siemens SWT-3.0-101<br /><small>(3,0&nbsp;MW, 101,0 m)</small> || 6 || {{Coordinate|simple=y|NS=39.745|EW=140.051|type=building|region=JP|name=Eurus Akita|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 ||
+|-
+| [[Offshore-Windpark Akita|Akita]] *<br /><small>(Noshiro)</small> || Japanisches Meer || {{JPN}} || 138,6 || MHI Vestas V117-4.2 MW<br /><small>(4,2&nbsp;MW, 117,0 m)</small> || 33 || {{Coordinate|simple=y|NS=40.130|EW=139.941|type=building|region=JP|name=Offshore-Windpark Akita Noshiro|text=DMS}}
+|class="hintergrundfarbe8"| in Bau  ||(2022) || 21. September 2021: alle Gründungen installiert<ref>[https://www.offshorewind.biz/2021/09/21/foundations-in-at-japans-first-commercial-scale-offshore-wind-farm/ ''Foundations In at Japan’s First Commercial-Scale Offshore Wind Farm'']. In: ''offshoreWIND.biz'', 21. September 2021, abgerufen am 21. September 2021</ref>
+|-
+| [[Offshore-Windpark Beleolico|Beleolico]] * || [[Mittelmeer]] || {{ITA}} || 30 || MingYang MySE3.0-135<br /><small>(3,0&nbsp;MW, 135,0 m)</small> || 10 || {{Coordinate|simple=y|NS=40.486|EW=17.138|type=building|region=IT|name=Offshore-Windpark Taranto|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2022) || 26. Februar 2019: endgültige Investitionsentscheidung getroffen<ref>[https://www.offshorewind.biz/2019/02/26/italys-first-offshore-wind-project-reaches-financial-close/ ''Italy’s First Offshore Wind Project Reaches Financial Close'']. offshoreWIND.biz, abgerufen am 26. Februar 2019</ref><ref>[https://www.offshorewind.biz/2021/01/25/first-mediterranean-sea-offshore-wind-project-switches-turbine-supplier/ ''First Mediterranean Sea Offshore Wind Project Switches Turbine Supplier'']. offshoreWIND.biz, abgerufen am 25. Januar 2021</ref>
+|-
+| [[Offshore-Windpark Kashima Port|Kashima Port]] *<br /><small>(Phasen 1 und 2)</small> || Pazifischer Ozean || {{JPN}} || 119,6 || [[Hitachi (Unternehmen)|Hitachi]] HTW5.2-127<br /><small>(5,2&nbsp;MW, 127,0 m)</small>|| 23 || {{Coordinate|simple=y|NS=35.916|EW=140.727|type=building|region=JP|name=Offshore-Windpark Kashima Port|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||(2022) || <ref>[http://www.offshorewind.biz/2017/07/07/kajima-consortium-lands-kashima-port-offshore-wind-project/ ''Kajima Consortium Lands Kashima Port Offshore Wind Project'']. In: ''offshoreWIND.biz'', 7. Juli 2017, abgerufen am 8. Juli 2017</ref>
+|-
+| [[Offshore-Windpark Kitakyushu Port|Kitakyushu Port - Hibikinada]] * || Japanisches Meer || {{JPN}} || 218,5 || MHI Vestas V174-9.5 MW<br /><small>(9,5&nbsp;MW, 174,0 m)</small> || 23 || {{Coordinate|simple=y|NS=33.976|EW=130.760|type=building|region=JP|name=Offshore-Windpark Kitakyushu Port - Hibikinada|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||(2022) || <ref>[https://renews.biz/56262/mhi-vestas-giants-in-line-for-japan-offshore/ ''MHI Vestas giant in line for Japan offshore'']. In: ''reNEWS.biz'', 7. November 2019, abgerufen am 11. November 2019</ref>
+|-
+| [[Offshore-Windpark Akita|Akita]] *<br /><small>(Nord)</small> || Japanisches Meer || {{JPN}} || 448 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,0&nbsp;MW, 167,0 m)</small> || 56 || {{Coordinate|simple=y|NS=40.130|EW=139.941|type=building|region=JP|name=Offshore-Windpark Akita Nord|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||(2024) || <ref>[https://www.offshorewind.biz/2019/06/20/siemens-gamesa-notches-first-offshore-wind-win-in-japan/ ''Siemens Gamesa Notches First Offshore Wind Win in Japan'']. In: ''offshoreWIND.biz'', 20. Juni 2019, abgerufen am 11. November 2019</ref>
+|-
+| [[Offshore-Windpark Akita|Akita]] *<br /><small>(Yurihonjo)</small> || Japanisches Meer || {{JPN}} || 703 || MHI Vestas V174-9.5 MW<br /><small>(9,5&nbsp;MW, 174,0 m)</small> || 74 || {{Coordinate|simple=y|NS=39.403|EW=139.999|type=building|region=JP|name=Offshore-Windpark Akita Yurihonjo|text=DMS}}
+|class="hintergrundfarbe6"| in Planung ||(2024) || <ref>[https://renewablesnow.com/news/mhi-vestas-turbines-wanted-for-700-mw-wind-offshore-farm-in-japan-694480/ ''MHI Vestas turbines wanted for 700-MW wind offshore farm in Japan'']. In: ''RenewablesNow.com'', 9. April 2020, abgerufen am 10. April 2020</ref>
+|-
+<!--
+| [[Offshore-Windpark Nai Kun|Nai Kun]] || Pazifischer Ozean ([[Hecate Strait|Straße von Hecate]]) || {{CAN}} || 400 || [[Siemens Gamesa]] SWT-DD-130 || 100 || {{Coordinate|simple=y|NS=53.929|EW=-131.478|type=building|region=CA|name=Offshore-Windpark Nai Kun|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2019) ||
+|-
+|[[Offshore-Windpark Trillium|Trillium Power Wind 1]] || Ontario-See || {{CAN}} || 414 |||| 138 ||
+|class="hintergrundfarbe6"| in Planung ||||
+-->
+|}
