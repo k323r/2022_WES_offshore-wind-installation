@@ -2,27 +2,25 @@
 
 # Data acquisition
 
-## Sources
-
-- [AIS (wikipedia)](https://en.wikipedia.org/wiki/Automatic_identification_system)
-    - GPS from vessel tracking
-    - Multiple commercial data brokers $\implies$ spend some money
-- [ERA5](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)
-    - Hindcast of meteorological data, i.a. wind, waves, inferred from radar et al.
-    - API with volume restriction $\implies$ **Request incrementally per turbine (location and installation interval)**
-
 ## Tasks
+### Wind farms
+- implement a script that downloads the wind farm tables available [here](https://de.wikipedia.org/wiki/Liste_der_Offshore-Windparks)
+  and converts the tables into a sqlite data base.
 
-- Set up data processing pipeline
-    - Get AIS data for Trianel farm
-    - Share ERA5 data for Trianel farm
-    - Write code
+### Marine traffic
 - Scale up
-    - [Choose additional wind farms from wikipedia list](https://en.wikipedia.org/wiki/List_of_offshore_wind_farms)
     - Get AIS data per farm
     - Extract turbine locations and installation intervals
     - Get ERA5 data per turbine and installation interval
     - Apply code
+
+#### Clustering
+- Set up data processing pipeline by using Trianel Windpark Borkum II as an example (verified installation 
+  durations are available here from a previous project).
+
+### Metocean data (ERA5)
+- implement `fetch_era5.py` to retrieve metocean data for a given wind farm and time window. 
+
 
 
 # Data processing
