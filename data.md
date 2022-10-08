@@ -1,5 +1,4 @@
 # Project Data
-
 This document describes the types of data this project is concerned with, the structure of the data and the
 relationships between the different data types. After a short overview, each data set is described in depth. 
 
@@ -9,7 +8,7 @@ wind farm consists of a different type of turbine, has a different location, a d
 a different layout. Finally, for each offshore wind farm installation campaign, metocean data, such as wind speed
 and direction, wave height, wave direction and wave period, are compiled.
 
-# Vessel Tracks
+# Marine Traffic
 Automatic Identification System (AIS) tracks of nine offshore wind farm installation vessels have been procured
 from a data broker ([marinetraffic.com](https://marinetraffic.com)). 
 A track refers to a collection of unique AIS records. Each record contains a unique time stamp and the vessels 
@@ -58,17 +57,46 @@ csv files. These files span all available years for a given vessel and are organ
 example the first three lines from `data/marine-traffic/sanitized/215644000_blue-tern.csv` are shown:
 
 ```
-datetime,latitude,longitude,speed,heading,course,status,epoch
-2020-06-15 13:52:10+00:00,53.45238,6.81926,0.0,287.0,132.0,5,1592229130
-2020-06-15 14:13:11+00:00,53.45235,6.819262,0.0,287.0,132.0,5,1592230391
+timestamp,epoch,latitude,longitude,speed,heading,course,status
+2020-06-15 06:52:10+00:00,1592203930,53.45238,6.81926,0.0,287.0,132.0,5
+2020-06-15 07:13:11+00:00,1592205191,53.45235,6.819262,0.0,287.0,132.0,5
 ```
 
+# AIS
 
-## ERA5 Data
+vessel track data description here
 
-ERA5 Data are data sets provided by ECWMF, containing hourly estimates of a vast number of atmospheric and oceaning parameters. A short description can be found [here](https://confluence.ecmwf.int/display/CKB/The+family+of+ERA5+datasets) (ECMWF -> European Center for Medium-range Weather Forecasts). 
 
-The Data mostly stems from ESA's Copernicus program and access is possible through a web interface or the Climate Data Store (CDS) API.
-CDS provides a [python package](https://cds.climate.copernicus.eu/api-how-to) that can be used to request data. More information on how to access ERA5 data can be found [here](https://confluence.ecmwf.int/display/CKB/How+to+download+ERA5)
+# Wind Farms
+
+Central to extracting offshore wind farm installations from vessel tracks is knowledge about the wind farms undergoing
+installation. This meta-data includes the wind farm name, location (latitude and longitude of wind farm's centroid),
+number and type of turbine, turbine manufacturer, installation beginning and end, type of foundation and installing 
+companies. [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Offshore-Windparks) provides a non-exhaustive list of 
+offshore wind farms per region. The data from wikipedia has been downloaded and split into lists of wind farms
+per location. The lists are available in wikipedia's markdown format at [data/wind-farms](data/wind-farms).
+
+# Metocean data (ERA5)
+
+Wind and waves have a significant impact on offshore wind farm installations. Wind and waves cause forces, commonly
+referred to as loads, acting on the installation vessel, the crane and, of course, the wind turbine components 
+undergoing installation. These loads in turn lead to motions, causing undesirable dynamic loads as well as causing
+collisions between components when assembling turbines. Offshore wind farm installations are thus subject to 
+wind and wave limits during installation operations. Different steps in the installation procedure can have
+different limits. It is vital to understand though, that wind and wave limits are only a proxy to estimate the real 
+limits, imposed by the structural response of the components being installed. 
+
+Only a limited number of measurement stations are available world wide, hence, the usage of so called hind-cast models
+has seen a increase in usage over the last years. These models incorporate real-world, sparsely-scattered measurements
+into a numerical model of the sea and the atmosphere. Running these models then yields metocean data for any place 
+on the earths surface with varying accuracy. 
+
+A commonly used model is the model developed and provided by the EU's European Centre of Medium-Range Weather Forecasts
+(ECMWF). The data produced by ECMWF's numerical model is commonly referred to as
+[ERA5](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) data. The ECMWF provides a volume-limited
+API to download ERA5 data. A more thorough description of ERA5 data can be found 
+[here](https://confluence.ecmwf.int/display/CKB/The+family+of+ERA5+datasets). ECMWF also provides a 
+[python package](https://cds.climate.copernicus.eu/api-how-to) that can be used to request data. 
+More information on how to access ERA5 data can be found [here](https://confluence.ecmwf.int/display/CKB/How+to+download+ERA5)
 
 

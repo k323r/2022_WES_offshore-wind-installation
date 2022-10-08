@@ -1,0 +1,38 @@
+|-
+| [[Offshore-Windpark Arklow Bank|Arklow Bank]]<br /><small>(Phase 1)</small> || [[Irische See]] || {{IRL}} || 25,2 || [[GE Wind Energy|GE]] 3.6sl Offshore<br /><small>(3,6&nbsp;MW, 111,0 m)</small> || 7 || {{Coordinate|simple=y|NS=52.789|EW=-5.949|type=building|region=IE|name=Arklow Bank|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2003 ||
+|-
+| [[Offshore-Windpark North Hoyle|North Hoyle]] || Irische See || {{GBR}} || 60 || [[Vestas]] V80-2.0<br /><small>(2,0&nbsp;MW, 80,0 m)</small>|| 30 || {{Coordinate|simple=y|NS=53.3907|EW=-3.452454|type=building|region=GB-DEN|name=Windpark North Hoyle|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2003 ||
+|-
+| [[Offshore-Windpark Barrow|Barrow]] || Irische See || {{GBR}} || 90 || Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small> || 30 || {{Coordinate|simple=y|NS=53.983333|EW=-3.283333|type=building|region=GB-CMA|name=Barrow Offshore Wind Farm|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2006 ||
+|-
+| [[Offshore-Windpark Burbo Bank|Burbo Bank]] *<br /><small>(Phase 1)</small> || Irische See || {{GBR}} || 90 || [[Siemens Windenergie|Siemens]] SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small> || 25 || {{Coordinate|simple=y|NS=53.488|EW=-3.187|type=building|region=GB-WRL|name=Windpark ''Burbo Bank''|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2007 ||
+|-
+| [[Windpark Rhyl Flats|Rhyl Flats]] || Irische See || {{GBR}} || 90 || Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small> || 25 || {{Coordinate|simple=y|NS=53.387833|EW=-3.670807|type=building|region=GB-WLS|name=Rhyl Flats|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2009 ||
+|-
+| [[Robin Rigg]] || Irische See || {{GBR}} || 174 || Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small> || 58 || {{Coordinate|simple=y|NS=54.75|EW=-3.716667|type=building|region=GB-CMA/GB-DGY|name=Robin Rigg|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2010 ||
+|-
+| [[Offshore-Windpark Ormonde|Ormonde]] || Irische See || {{GBR}} || 152,4 || [[REpower]] 5M<br /><small>(5,08&nbsp;MW, 126,5 m)</small> || 30 || {{Coordinate|simple=y|NS=54.1|EW=-3.4|type=building|region=GB-CMA|name=Offshore-Windpark Ormonde|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2011 ||
+|-
+| [[Offshore-Windpark Walney|Walney]]<br /><small>(Phasen 1 und 2)</small> || Irische See || {{GBR}} || 367 || 51 × Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small><br /> 51 × Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> ||102 || {{Coordinate|simple=y|NS=54.044|EW=-3.522|type=building|region=GB-ENG|name=Offshore-Windpark Walney|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2011 ||
+|-
+| [[Offshore-Windpark West of Duddon Sands|West of Duddon Sands]] || Irische See || {{GBR}} || 389 || Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 108 || {{Coordinate|simple=y|NS=53.983889|EW=-3.463889|type=building|region=GB-ENG|name=West of Duddon Sands|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2014 ||
+|-
+| [[Gwynt y Môr]] || Irische See || {{GBR}} || 576 || Siemens SWT-3.6-107<br /><small>(3,6&nbsp;MW, 107,0 m)</small> || 160 || {{Coordinate|simple=y|NS=53.45|EW=-3.583333|type=building|region=GB-WLS|name=Gwynt y Môr|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 || offizielle Inbetriebnahme im Juni 2015, erste Turbinen seit August 2013
+|-
+| [[Windpark Burbo Bank|Burbo Bank]]<br /><small>(Phase 2)</small> || Irische See || {{GBR}} || 256 || MHI [[Vestas V164-8.0]] MW<br /><small>(8,0&nbsp;MW, 164,0 m)</small> || 32 || {{Coordinate|simple=y|NS=53.483|EW=-3.273|type=building|region=GB-WRL|name=Windpark ''Burbo Bank Extension''|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || | <ref>[http://www.offshorewind.biz/2017/04/27/burbo-bank-extension-fully-commissioned/ ''Burbo Bank Extension Fully Commissioned'']. In: ''offshoreWIND.biz'', 27. April 2017, abgerufen am 27. April 2017</ref>
+|-
+| [[Offshore-Windpark Walney|Walney]]<br /><small>(Phasen 3 und 4)</small> || Irische See || {{GBR}} || 659 || 40 × MHI Vestas V164-8.0 MW<br /><small>(8,25&nbsp;MW, 164,0 m)</small><br /> 47 × Siemens SWT-7.0-154<br /><small>(7,0&nbsp;MW, 154,0 m)</small> || 87 || {{Coordinate|simple=y|NS=54.087|EW=-3.737|type=building|region=GB-ENG|name=Windpark ''Walney Extension''|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2018 || <ref>[http://renews.biz/112352/walney-3-crowned-king/ ''Walney 3 crowned king'']. In: ''reNEWS.biz'', 6. September 2018, abgerufen am 6. September 2018</ref>
+|- class="sortbottom hintergrundfarbe8"
+| colspan="10"|

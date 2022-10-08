@@ -1,0 +1,130 @@
+|-
+| [[Offshore-Windpark Vindeby|Vindeby]]* || [[Großer Belt]] || {{DNK}} || 5 || Bonus B35/450<br /><small>(450&nbsp;kW, 35,0 m)</small> || 11 || {{Coordinate|simple=y|NS=54.970|EW=11.130|type=building|region=DK|name=Vindeby|text=DMS}}
+| class="hintergrundfarbe7"| außer Betrieb || 1991 ||nach 25 Jahren Betrieb 2017 zurückgebaut<ref>{{Internetquelle |autor=Max L. |url=http://www.trendsderzukunft.de/nach-25-jahren-die-weltweit-erste-offshore-windfarm-wird-vom-netz-genommen/2017/03/17/ |titel=Nach 25 Jahren: Die weltweit erste Offshore-Windfarm wird vom Netz genommen |werk=TrendsDerZukunft.de |hrsg=Heidorn GmbH |datum=2017-03-17 |abruf=2017-03-18}}</ref><ref>Claudia Behrend: ''Der Rückbau des weltweit ersten Offshore-Windparks „Vindeby“''. In: ''[[Schiff & Hafen]]'', Heft 7/2017, S. 40–42</ref>
+|-
+| Tunø Knob * || [[Kattegatt]] || {{DNK}} || 5 || [[Vestas]] V39-500<br /><small>(500&nbsp;kW, 39,0 m)</small> || 10 || {{Coordinate|simple=y|NS=55.968|EW=10.355|type=building|region=DK|name=Tunø Knob|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 1995 ||
+|-
+| Bockstigen * || [[Ostsee]] || {{SWE}} || 3,3 (zunächst 2,75) || Vestas V47-660<br /><small>(660&nbsp;kW, 47,0 m)</small><br /> (zunächst Wind World 37/550&nbsp;kW); || 5 || {{Coordinate|simple=y|NS=57.036|EW=18.150|type=building|region=SE|name=Bockstigen|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 1997/2018 || 2018 Teilrepowering: Ersatz der ursprünglichen Turbinen durch generalüberholte Vestas V47-660 bei Weiternutzung der bestehenden Gründungen, Türme, Verkabelung und Netzanschluss<ref>[https://www.windpoweroffshore.com/article/1520172/gallery-first-offshore-repowering-completed ''GALLERY: 'First' offshore repowering completed'']. In: ''[[Windpower Monthly|Windpower Offshore]]'', 3. Dezember 2018. Abgerufen am 19. Dezember 2018.</ref><ref>[https://www.greentechmedia.com/articles/read/worlds-first-offshore-wind-repowering-completed-in-sweden ''World’s First Offshore Wind Repowering Completed in Sweden'']. In: ''[[Greentechmedia]]'', 19. Dezember 2018. Abgerufen am 19. Dezember 2018.</ref>
+|-
+| Utgrunden *<br /><small>(Phase 1)</small> || Ostsee || {{SWE}} || 10,5 || Enron Wind 1.5 s<br /><small>(1,5&nbsp;MW, 70,0 m)</small>|| 7 || {{Coordinate|simple=y|NS=56.344|EW=16.280|type=building|region=SE|name=Utgrunden|text=DMS}}
+|class="hintergrundfarbe7"| außer Betrieb || 2000 || 31. August 2018: Alle Turbinen zurückgebaut<ref>[https://www.4coffshore.com/windfarms/project-dates-for-utgrunden-i-se03.html ''Events On Utgrunden 1'']. In:''4coffshore.com'', 31. August 2018, abgerufen am 9. September 2018</ref>
+|-
+| [[Middelgrunden]] * || [[Öresund]] || {{DNK}} || 40 || Bonus B76/2000<br /><small>(2,0&nbsp;MW, 76,0 m)</small> || 20 || {{Coordinate|simple=y|NS=55.691|EW=12.669|type=building|region=DK|name=Middelgrunden|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2001 ||
+|-
+| Yttre Stengrund * || Ostsee || {{SWE}} || 10 || NEG Micon NM 72/2000<br /><small>(2,0&nbsp;MW, 72,0 m)</small> || 5 || {{Coordinate|simple=y|NS=56.167|EW=16.021|type=building|region=SE|name=Yttre Stengrund|text=DMS}}
+| class="hintergrundfarbe7"| außer Betrieb || 2001 ||im Januar 2016 zurückgebaut<ref>{{Internetquelle |autor=Ralf Köpke |url=https://www.energie-und-management.de/fileadmin/sonderdruck/108360.Den.Schrott.nicht.auf.dem.Meer.lassen.pdf |titel=Den Schrott nicht auf dem Meer lassen |werk=[[Energie & Management]] |hrsg= |datum=2015-03-15 |format=PDF |abruf=2017-03-18}}</ref>
+|-
+| Frederikshavn * || Kattegatt || {{DNK}} || 7,6 || 1 × Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small><br />1 × Bonus B82/2300<br /><small>(2,3&nbsp;MW, 82,4 m)</small><br />1 × [[Nordex SE|Nordex]] N90/2300<br /><small>(2,3&nbsp;MW, 90,0 m)</small> || 3 || {{Coordinate|simple=y|NS=57.443|EW=10.562|type=building|region=DK|name=Frederikshavn|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2002 ||
+|-
+| [[Samsø]] * || Kattegatt || {{DNK}} || 23 || Siemens SWT-2.3-82<br /><small>(2,3&nbsp;MW, 82,0 m)</small> || 10 || {{Coordinate|simple=y|NS=55.720|EW=10.583|type=building|region=DK|name=Samsø|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2003 ||
+|-
+| [[Offshore-Windpark Lillgrund|Lillgrund]] || Ostsee || {{SWE}} || 110 || Siemens SWT-2.3-93<br /><small>(2,3&nbsp;MW, 93,0 m)</small> || 48 || {{Coordinate|simple=y|NS=55.511|EW=12.779|type=building|region=SE|name=Lillgrund|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2007 ||
+|-
+| Kemin Ajos * || Ostsee || {{FIN}} || 42,4 || 8 × Siemens SWT-3.3-130<br /><small>(3,3&nbsp;MW, 130,0 m)</small><br />5 × Siemens SWT-3.2-113<br /><small>(3,2&nbsp;MW, 113,0 m)</small> || 13 || {{Coordinate|simple=y|NS=65.653|EW=24.543|type=building|region=FI|name=Kemi Ajos|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2008 || 5 Turbinen onshore, 8 auf künstlichen Inseln<ref>[http://www.lorc.dk/Knowledge/Offshore-renewables-map LORC Knowledge – Offshore Renewables Map] (englisch), abgerufen am 29. August 2011</ref><br />Windpark wurde 2017 erneuert<ref>[http://www.mynewsdesk.com/empower/news/empower-selected-as-main-contractor-for-the-ajos-wind-farm-in-kemi-147370 Empower selected as the main contractor for the Ajos wind farm in Kemi] (englisch), abgerufen am 15. Oktober 2017</ref>
+|-
+| Avedøre Holme * || Ostsee || {{DNK}} || 10,8 || Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 3 || {{Coordinate|simple=y|NS=55.602|EW=12.461|type=building|region=DK|name=Avedøre Holme|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2009 ||
+|-
+| Sprogø || Großer Belt || {{DNK}} || 21 || Vestas V90-3.0<br /><small>(3,0&nbsp;MW, 90,0 m)</small> || 7 || {{Coordinate|simple=y|NS=55.343|EW=10.958|type=building|region=DK|name=Sprogø|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2009 ||
+|-
+| [[Nysted Havmøllepark|Nysted]] (Rødsand)<br /><small>(Phasen 1 und 2)</small> || Ostsee || {{DNK}} || 373 || 72 × Siemens SWT-2.3-82<br /><small>(2,3&nbsp;MW, 82,0 m)</small><br />90 × Siemens SWT-2.3-93<br /><small>(2,3&nbsp;MW, 93,0 m)</small> || 162 || {{Coordinate|simple=y|NS=54.549|EW=11.714|type=building|region=DK|name=Nysted I|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2010 || Phase 1 mit 72 Turbinen seit 2003, Phase 2 mit 90 Turbinen seit 2010 in Betrieb
+|-
+| Vänern * || [[Vänern]] (Binnensee) || {{SWE}} || 30 || WinWinD WWD-3 D100<br /><small>(3,0&nbsp;MW, 100,0 m)</small> || 10 || {{Coordinate|simple=y|NS=59.262|EW=13.387|type=building|region=SE|name=Vänern|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2010 ||
+|-
+| [[Offshore-Windpark Anholt|Anholt]] || Kattegat/Grenaa || {{DNK}} || 400 ||Siemens SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small> || 111 || {{Coordinate|simple=y|NS=56.603|EW=11.209|type=building|region=DK|name=Anholt|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||<ref>[http://www.dongenergy.com/anholt/EN/Projektet1/Pages/default.aspx ''Anholt'']. Internetseite von Dong Energy, abgerufen am 30. März 2012</ref><ref>[http://www.4coffshore.com/windfarms/anholt-denmark-dk13.html ''Anholt offshore wind farm'']. 4C Offshore, abgerufen am 27. August 2013</ref>
+|-
+| [[Offshore-Windpark Kårehamn|Kårehamn]] * || Ostsee || {{SWE}} || 48 || Vestas V112-3.0<br /><small>(3,0&nbsp;MW, 112,0 m)</small> || 16 || {{Coordinate|simple=y|NS=56.984|EW=17.022|type=building|region=SE|name=Kårehamn|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2013 ||<ref>[http://www.offshorewind.biz/2013/10/01/sweden-e-on-opens-karehamn-owf/ ''Sweden: E.ON Opens Kårehamn OWF'']. Abgerufen am 9. Oktober 2013</ref><ref>[http://www.4coffshore.com/windfarms/windfarms.aspx?windfarmid=SE08 ''Kårehamn offshore wind farm'']. Abgerufen am 21. September 2013</ref>
+|-
+| [[Baltic 1|EnBW Baltic]]<br /><small>(Phasen [[Baltic 1|1]] und [[Baltic 2|2]])</small> || Ostsee || {{DEU}} || 336,3 || 21 × Siemens SWT-2.3-93<br /><small>(2,3&nbsp;MW, 93,0 m)</small><br />
+80 × SWT-3.6-120<br /><small>(3,6&nbsp;MW, 120,0 m)</small>
+| 101 || {{Coordinate|simple=y|NS=54.609|EW=12.651|type=building|region=DE|name=Baltic 1|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2015 || Phase 1 mit 21 Turbinen seit 2011, Phase 2 mit 80 Turbinen seit 2015 in Betrieb<ref>[http://de.reuters.com/article/domesticNews/idDEBEE7410EL20110502 Reuters: ''Erster Windpark in Ostsee läuft'']</ref><ref>[https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Laeuft-Windpark-Baltic-2-ist-am-Netz,balticzwei124.html ''Läuft: Windpark „Baltic 2“ ist am Netz''.] In: ''[[NDR]]'', 21. September 2015, abgerufen am 21. September 2015</ref>
+|-
+| [[Offshore-Windpark Tahkoluoto|Tahkoluoto]] * || Ostsee || {{FIN}} || 40 || Siemens SWT-4.0-130<br /><small>(4,0&nbsp;MW, 130,0 m)</small> || 10 || {{Coordinate|simple=y|NS=61.628|EW=21.353|type=building|region=FI|name=Tahkoluoto|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>[http://www.offshorewind.biz/2017/09/04/finlands-first-offshore-wind-farm-starts-operating/ ''Finland’s First Offshore Wind Farm Starts Operating''.] In: ''www.offshoreWIND.biz'', 4. September 2017, abgerufen am 5. September 2017</ref>
+|-
+| [[Offshore-Windpark Wikinger|Wikinger]] || Ostsee || {{DEU}} || 353,5 || [[Adwen]] AD 5-135<br /><small>(5,05&nbsp;MW, 135,0 m)</small> || 70 || {{Coordinate|simple=y|NS=54.834|EW=14.068|type=building|region=DE|name=Wikinger|text=DMS}}
+|class="hintergrundfarbe9"| in Betrieb || 2017 || <ref>{{Internetquelle |url=http://www.iwr.de/news.php?id=34910 |titel=Offshore Windpark Wikinger liefert ersten Strom |werk=iwr.de |datum=2017-12-28 |abruf=2018-01-01}}</ref>
+|-
+|[[Offshore-Windpark Arkona|Arkona-Becken Südost]] || Ostsee || {{DEU}} || 384 || Siemens SWT-6.0-154<br /><small>(6,4&nbsp;MW, 154,0 m)</small> || 60 || {{Coordinate|simple=y|NS=54.782|EW=14.121|type=building|region=DE|name=Offshore-Windpark Arkona|text=DMS}}
+| style="background-color:#B9FFC5 ;"| in Betrieb || 2019 ||<ref>{{Internetquelle |autor=tagesschau.de |url=https://www.tagesschau.de/inland/windpark-offshore-ostsee-101.html |titel=Ostsee-Windpark Arkona in Betrieb genommen |abruf=2019-04-16}}</ref>
+|-
+| [[Offshore-Windpark Kriegers Flak|Kriegers Flak]] || Ostsee || {{DNK}} || 604,8 || Siemens Gamesa SG 8.0-167 DD<br /><small>(8,4&nbsp;MW, 167,0 m)</small>|| 72 || {{Coordinate|simple=y|NS=55.026|EW=12.939|type=building|region=DE|name=Offshore-Windpark Kriegers Flak|text=DMS}}
+|style="background-color:#B9FFC5;"| in Betrieb || 2021 || <ref>[https://www.offshorewind.biz/2021/09/06/vattenfall-officially-opens-kriegers-flak-offshore-wind-farm// ''Vattenfall Officially Opens Kriegers Flak Offshore Wind Farm'']. In: ''offshoreWIND.biz'', 6. September 2021, abgerufen am 6. September 2021</ref>
+|-
+| [[Arcadis Ost&nbsp;1]] || Ostsee || {{DEU}} || 257,2 || MHI Vestas V174-9.5 MW<br /><small>(9,525&nbsp;MW, 174,0 m)</small> || 27 || {{Coordinate|simple=y|NS=54.823|EW=13.643|type=building|region=DE|name=Arcadis Ost 1|text=DMS}}
+|style="background:#E7D9FF"| in Bauvor&shy;bereitung || (2023) || 16. Juni 2021: endgültige Investitionsentscheidung getroffen; Baubeginn für 2022 vorgesehen<ref>[https://www.offshorewind.biz/2021/06/16/arcadis-ost-1-offshore-wind-farm-enters-construction-phase/ ''Arcadis Ost 1 Offshore Wind Farm Enters Construction Phase'']. In: ''offshoreWIND.biz'', 16. Juni 2021, abgerufen am 16. Juni 2021</ref>
+|-
+| [[Offshore-Windpark Wikinger#Wikinger Süd|Wikinger Süd]] || Ostsee || {{DEU}} || 10 |||||| {{Coordinate|simple=y|NS=54.823|EW=14.127|type=building|region=DE|name=Offshore-Windpark Wikinger Sued|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2023) ||27. April 2018: Iberdrola erhält Zuschlag bei Ausschreibung<ref name="BNetzA_042018" /><ref>[http://www.4coffshore.com/windfarms/wikinger-a02-germany-de44.html ''Wikinger Süd'']. 4coffshore, abgerufen am 7. September 2017</ref>
+|-
+| [[Offshore-Windpark Baltic Eagle|Baltic Eagle]] || Ostsee || {{DEU}} || 476,25 || MHI Vestas V174-9.5 MW<br /><small>(9,525&nbsp;MW, 174,0 m)</small> || 50 || {{Coordinate|simple=y|NS=54.830|EW=13.855|type=building|region=DE|name=Offshore-Windpark Baltic Eagle|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2024) || 27. April 2018: Iberdrola erhält Zuschlag bei Ausschreibung;<ref name="BNetzA_042018">{{Internetquelle |url=https://www.bundesnetzagentur.de/DE/Service-Funktionen/Beschlusskammern/1_GZ/BK6-GZ/2018/BK6-18-001/Ergebnisse_zweite_ausschreibung.pdf?__blob=publicationFile&v=3 |titel=Ergebnisse der 2. Ausschreibung vom 01.04.2018 |hrsg=[[Bundesnetzagentur]] |format=PDF |abruf=2020-01-12}}</ref><ref>[https://renews.biz/51417/mhi-vestas-v174-to-spread-wings-at-baltic-eagle/ ''Baltic Eagle Swoops on MHI Vestas Giants'']. In: ''reNEWS.biz'', 11. Februar 2019, abgerufen am 11. Februar 2019</ref> Baubeginn für 2022 vorgesehen.
+|-
+| [[Bałtyk Środkowy II]]|| Ostsee || {{POL}} || 720 ||||   || {{Coordinate|simple=y|NS=55.093|EW=16.690|type=building|region=PL|name=Offshore-Windpark Bałtyk Środkowy II|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 5. Mai 2021: Equinor und Polenergia erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/05/05/equinor-and-polenergia-secure-cfds-for-polish-offshore-wind-farms/ ''Equinor and Polenergia Secure CfDs for Polish Offshore Wind Farms'']. In: ''offshoreWIND.biz'', 5. Mai 2021, abgerufen am 12. Mai 2021</ref>
+|-
+| [[FEW Baltic II]]|| Ostsee || {{POL}} || 350 ||||   || {{Coordinate|simple=y|NS=55.083|EW=17.378|type=building|region=PL|name=Offshore-Windpark FEW Baltic II|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2025) || 8. April 2021: RWE erhält Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/04/08/rwe-successful-in-polish-contracts-for-difference-round/ ''RWE Successful in Polish Contracts for Difference Round'']. In: ''offshoreWIND.biz'', 8. April 2021, abgerufen am 13. April 2021</ref>
+|-
+| [[B&C-Wind]]|| Ostsee || {{POL}} || 369,5 ||||   || {{Coordinate|simple=y|NS=55.083|EW=18.023|type=building|region=PL|name=Offshore-Windpark B&C-Wind|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || 30. Juni 2021: EDP Renewables und Engie erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/06/30/ocean-winds-awarded-cfd-for-370-mw-offshore-wind-farm-in-poland/ ''Ocean Winds Awarded CfD for 370 MW Offshore Wind Farm in Poland'']. In: ''offshoreWIND.biz'', 30. Juni 2021, abgerufen am 2. Juli 2021</ref>
+|-
+| [[Baltic Power]]|| Ostsee || {{POL}} || 1200 |||| 100  || {{Coordinate|simple=y|NS=55.050|EW=17.644|type=building|region=PL|name=Offshore-Windpark Baltic Power|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || 16. Juni 2021: PKN Orlen und Northland Power erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/06/16/1-2-gw-baltic-power-offshore-wind-farm-secures-contract-for-difference/ ''1.2 GW Baltic Power Offshore Wind Farm Secures Contract for Difference'']. In: ''offshoreWIND.biz'', 16. Juni 2021, abgerufen am 2. Juli 2021</ref>
+|-
+| [[Baltica 3]]|| Ostsee || {{POL}} || 1000 ||||   || {{Coordinate|simple=y|NS=55.056|EW=17.460|type=building|region=PL|name=Offshore-Windpark Baltica 3|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || 8. April 2021: Ørsted und PGE erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/04/08/poland-awards-2-5-gw-baltica-23-with-contract-for-difference/ ''Poland Awards 2.5 GW Baltica 2&3 with Contract for Difference'']. In: ''offshoreWIND.biz'', 8. April 2021, abgerufen am 13. April 2021</ref>
+|-
+| [[Offshore-Windpark Windanker|Windanker]]<br /><small>(Zone O-1.3)</small> || Ostsee || {{DEU}} || 300 ||||  || {{Coordinate|simple=y|NS=54.906|EW=14.005|type=building|region=DE|name=Offshore-Windpark Windanker|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2026) || 9. September 2021: RWE erhält Zuschlag bei Ausschreibung;<ref>[https://www.offshorewind.biz/2021/09/09/zero-subsidy-bids-rule-offshore-germany-rwe-and-edf-named-winners/ ''https://www.offshorewind.biz/2021/09/09/zero-subsidy-bids-rule-offshore-germany-rwe-and-edf-named-winners/'']. In: ''offshoreWIND.biz'', 9. September 2021, abgerufen am 13. September 2021</ref>
+5. November 2021: Iberdrola nimmt Eintrittsrecht wahr<ref>[https://www.offshorewind.biz/2021/11/05/iberdrola-exercises-step-in-right-offshore-germany/ ''Iberdrola Exercises Step-In Right Offshore Germany'']. In: ''offshoreWIND.biz'', 5. November 2021, abgerufen am 5. November 2021</ref>
+|-
+| [[Bałtyk Środkowy III]]|| Ostsee || {{POL}} || 720 ||||   || {{Coordinate|simple=y|NS=54.994|EW=16.690|type=building|region=PL|name=Offshore-Windpark Bałtyk Środkowy III|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) || 5. Mai 2021: Equinor und Polenergia erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/05/05/equinor-and-polenergia-secure-cfds-for-polish-offshore-wind-farms/ ''Equinor and Polenergia Secure CfDs for Polish Offshore Wind Farms'']. In: ''offshoreWIND.biz'', 5. Mai 2021, abgerufen am 12. Mai 2021</ref>
+|-
+| [[Baltica 2]]|| Ostsee || {{POL}} || 1500 ||||   || {{Coordinate|simple=y|NS=55.068|EW=17.046|type=building|region=PL|name=Offshore-Windpark Baltica 2|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2027) || 8. April 2021: Ørsted und PGE erhalten Zuschlag bei Ausschreibung<ref>[https://www.offshorewind.biz/2021/04/08/poland-awards-2-5-gw-baltica-23-with-contract-for-difference/ ''Poland Awards 2.5 GW Baltica 2&3 with Contract for Difference'']. In: ''offshoreWIND.biz'', 8. April 2021, abgerufen am 13. April 2021</ref>
+<!--
+|-
+| [[Offshore-Windpark Loode-Eesti|Loode-Eesti]] || Ostsee || {{EST}} || 700-1100 || 4-7 MW |||| {{Coordinate|simple=y|NS=59.148|EW=22.524|type=building|region=EE|name=Offshore-Windpark Loode-Eesti|text=DMS}}
+|class="hintergrundfarbe6"| in Planung || (2022) || <ref>[https://www.erneuerbareenergien.de/erstes-offshore-projekt-fuer-estland/150/434/103752/ ''Erstes Offshore-Projekt für Estland'']. In: ''[[Erneuerbare Energien. Das Magazin]]'', 3. August 2017. Abgerufen am 4. August 2017.</ref>
+|-
+| [[Offshore-Windpark Gennaker|Gennaker]]|| Ostsee || {{DEU}} || 865 || [[Siemens Gamesa|Siemens Gamesa SG 8.0-167]]<br /><small>(8,4 MW, 167,0m)</small> || 103 ||{{Coordinate|simple=y|NS=54.616|EW=12.608|type=building|region=DE|name=Offshore-Windpark Gennaker|text=DMS}}
+|class="hintergrundfarbe6"| in Planung |||| 3. Juni 2019: Baugenehmigung erteilt<ref>{{Internetquelle |url=https://www.svz.de/regionales/newsticker-nord/zweiter-windpark-vor-dem-darss-mit-103-anlagen-genehmigt-id24115387.html |titel=Zweiter Windpark vor dem Darß mit 103 Anlagen genehmigt |werk=[[Schweriner Volkszeitung]] |datum=2019-06-03 |abruf=2019-06-17}}</ref>
+|-
+| [[Offshore-Windpark Storgrundet|Storgrundet]] || Ostsee || {{SWE}} || 230–265 |||| 46–53 ||
+|class="hintergrundfarbe6"| in Planung ||||<ref>{{Webarchiv|url=http://www.wpd.de/de/geschaeftsfelder/wind-offshore/projektentwicklung/schweden.html |wayback=20120930065238 |text=wpd.de |archiv-bot=2019-04-26 21:50:55 InternetArchiveBot }} Zugriff: 20. September 2011</ref>
+|-
+| [[Offshore-Windpark Suurhiekka|Suurhiekka]] || Ostsee || {{FIN}} || 400 |||| 80 ||
+|class="hintergrundfarbe6"| in Planung ||||<ref>{{Webarchiv|url=http://www.wpd.de/de/geschaeftsfelder/wind-offshore/projektentwicklung/finnland.html |wayback=20120930065747 |text=wpd.de |archiv-bot=2019-04-26 21:50:55 InternetArchiveBot }} Zugriff: 20. September 2011</ref>
+|-
+| [[Offshore-Windpark Beta Baltic|Beta Baltic]] || Ostsee || {{DEU}} || 150 |||| ||
+|class="hintergrundfarbe6"| in Planung ||||<ref>[http://www.4coffshore.com/windfarms/beta-baltic-germany-de79.html ''Beta Baltic'']. 4coffshore, abgerufen am 22. September 2015</ref>
+|-
+| Ostseeschatz || Ostsee || {{DEU}} || 252 |||| 42 ||
+|class="hintergrundfarbe6"| in Planung |||| Erörtert: 15. Mai 2013<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/ostseeschatz-germany-de1d.html ''Ostseeschatz'']. 4coffshore, abgerufen am 7. September 2017</ref>
+|-
+| Adlergrund 500 || Ostsee || {{DEU}} || 72 |||| 20 ||
+|class="hintergrundfarbe6"| in Planung |||| Erörtert: 05. November 2012<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/adlergrund-500-germany-de45.html ''Adlergrund 500'']. 4coffshore, abgerufen am 7. September 2017</ref>
+|-
+| Adlergrund GAP || Ostsee || {{DEU}} || 155 |||| 31 ||
+|class="hintergrundfarbe6"| in Planung |||| Erörtert: 05. November 2012<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/adlergrund-gap-germany-de43.html ''Adlergrund GAP'']. 4coffshore, abgerufen am 7. September 2017</ref>
+|-
+| Wikinger Nord || Ostsee || {{DEU}} || 40 |||| 8 ||
+|class="hintergrundfarbe6"| in Planung |||| Erörtert: 14. Dezember 2012<ref name="Ausschreibung_de" /><ref>[http://www.4coffshore.com/windfarms/wikinger-nord-germany-de0s.html ''Wikinger Nord'']. 4coffshore, abgerufen am 20. September 2017</ref>
+-->
+|- class="sortbottom hintergrundfarbe8"
+| colspan="10"|
