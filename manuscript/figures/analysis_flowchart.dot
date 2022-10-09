@@ -1,0 +1,10 @@
+digraph Analysis {
+    "start" -> "sanitize AIS vessel tracks"
+    "sanitize AIS vessel tracks" -> "cluster vessel tracks"
+    "cluster vessel tracks" -> "find matching wind farms"
+    "find matching wind farms" -> "cluster windfarms into\nindividual turbines"
+    "cluster windfarms into\nindividual turbines" -> "download ERA5 data for\nindividual turbines"
+    "cluster windfarms into\nindividual turbines" -> "calculate installation\ntimes"
+    "download ERA5 data for\nindividual turbines" -> "correlations"
+    "calculate installation\ntimes" -> "correlations"
+}
