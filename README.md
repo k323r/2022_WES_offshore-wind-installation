@@ -95,6 +95,8 @@ beginning and end, type of foundation and installing companies.
 offshore wind farms per world region. The python script `get_windfarms_wikipedia.py` downloads the latest version
 of the wikipedia tables, converts them into a machine readable format and saves the table as a csv in the [data directory](data/windfarms/windfarms.csv). 
 
+![wind farms](data/windfarms/)
+
 ## Metocean data (ERA5)
 
 Wind and waves have a significant impact on offshore wind farm installations. Wind and waves cause forces, commonly
