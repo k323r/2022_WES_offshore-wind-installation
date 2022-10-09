@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 import sys
 
-from mappings import (labels_map, seas_map, countries_map, status_map)
+from mappings import (labels_df, seas_map, countries_map, status_map)
 
 def get_table(url, verbose=False):
     response=requests.get(url)
@@ -76,6 +76,8 @@ def clean_table(df, verbose=False):
     df.drop(find_headers(df), inplace=True)
     if verbose:
         print("renaming headers")
+    labels_de = list(df.columns)
+    labels_map = {de : df for de, df in zip(labels_de, labels_df)}
     df.rename(columns=labels_map, inplace=True, errors="raise")
     if verbose:
         print("converting columns to numeric values")

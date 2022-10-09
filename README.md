@@ -95,7 +95,7 @@ beginning and end, type of foundation and installing companies.
 offshore wind farms per world region. The python script `get_windfarms_wikipedia.py` downloads the latest version
 of the wikipedia tables, converts them into a machine readable format and saves the table as a csv in the [data directory](data/windfarms/windfarms.csv). 
 
-![wind farms](data/windfarms/)
+![wind farms](manuscript/figures/windfarms.png)
 
 ## Metocean data (ERA5)
 

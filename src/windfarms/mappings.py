@@ -1,15 +1,3 @@
-labels_de = [
-    "Name",
-    "Meer",
-    "Staat",
-    "Leistung(MW)",
-    "Windkraftanlagentyp(Leistung. Rotordurchmesser)", #"Windkraftanlagentyp(Leistung, Rotordurchmesser)",
-    "AnzahlWKAs",
-    "Koordinaten",
-    "Status",
-    "Inbetrieb­nahme(Jahr)",
-    "Quellen. Anmerkungen", #"Quellen, Anmerkungen",
-]
 labels_df = [
     "name",
     "sea",
@@ -22,8 +10,6 @@ labels_df = [
     "commissioning",
     "sources_remarks",
 ]
-
-labels_map = {de: df for de, df in zip(labels_de, labels_df)}
 
 seas_de = [
     "Golf von Biskaya",
