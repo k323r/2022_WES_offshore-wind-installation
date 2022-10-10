@@ -82,12 +82,14 @@ def plot_vesseltracks():
 
     for v_file in config["input"]:
         print(f"processing {v_file}")
-        vessel = os.path.basename(v_file).split(".")[0]
+        vessel = ".".join(os.path.basename(v_file).split(".")[:-1])
         vessels[vessel] = pd.read_csv(v_file)
         vessels[vessel].epoch = pd.to_datetime(vessels[vessel].epoch, unit="s", utc=True)
         vessels[vessel].set_index("epoch", inplace=True)
 
     for vessel_name, vessel_tracks in vessels.items():
+        if config['verbose']:
+            print(f'plotting {vessel_name}')
         if config["output_dir"]:
             plot_path = os.path.join(config["output_dir"], f"{vessel_name}.png")
             if config['verbose']:
