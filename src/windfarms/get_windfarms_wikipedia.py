@@ -31,6 +31,7 @@ def get_windfarms_wikipedia(URL):
 if __name__ == "__main__":
     config = parse_args()
     data = clean_table(get_table(URL_de, verbose=config["verbose"]), verbose=config["verbose"])
+    data.index.name = 'index'
     if config['plot']:
         output_fpath_png = os.path.join(config["output_dir"], "windfarms.png")
         plot_windfarms_cartopy(data, save_fig=output_fpath_png, verbose=config["verbose"])

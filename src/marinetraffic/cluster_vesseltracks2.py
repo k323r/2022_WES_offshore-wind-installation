@@ -87,6 +87,12 @@ def parse_cmdline_args() -> dict:
         type=str,
         help="string prefixed to exported csv files",
     )
+    arg_parser.add_argument(
+        "--cluster-name",
+        default="cluster",
+        type=str,
+        help="Pattern to name clusters. Defaults to 'cluster'"
+    )
     arg_parser.add_argument("--verbose", action="store_true", help="debugging info")
     args = arg_parser.parse_args().__dict__
     assert os.path.isfile(args["vesseltracks"]), f'not a file: {args["vesseltracks"]}'
@@ -157,7 +163,7 @@ if __name__ == "__main__":
         else:
             output_fpath = os.path.join(
                 config["output_dir"],
-                f"{config['output_prefix']}_cluster_{cluster_label}.csv",
+                f"{config['output_prefix']}_{config['cluster_name']}_{cluster_label}.csv",
             )
         printv(f"exporting cluster_{cluster_label} to {output_fpath}")
         export_cluster(cluster, output_fpath)
