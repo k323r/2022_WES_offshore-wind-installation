@@ -24,6 +24,9 @@ def extract_stationary_vesseltracks(
     lon_max : float =12,
     speed_threshold : float =0,
 ) -> pd.DataFrame:
+    if vesseltracks.empty:
+        print(f"empty data frame, skipping!")
+        return pd.DataFrame()
     vesseltracks = vesseltracks.loc[vesseltracks.speed == speed_threshold]
     vesseltracks = vesseltracks.loc[
         (vesseltracks.latitude > lat_min)

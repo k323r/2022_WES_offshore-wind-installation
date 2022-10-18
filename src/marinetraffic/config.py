@@ -55,48 +55,4 @@ VESSEL_NAMES = {
     370267000 : "Seajacks Kraken",
 }
 
-def parse_args() -> dict:
-    """
-    parse_args -> dict
 
-    instantiate an argument parser object
-    to parse the command line argument supplied by the user
-
-    returns a dictionary containing all parsed command line options
-    
-    """
-    argp = argparse.ArgumentParser()
-
-    argp.add_argument(
-        '-i',
-        '--input-dir',
-        help='input directory containing data files', 
-        default=path.curdir
-    )
-    argp.add_argument(
-        '-p',
-        '--input-pattern',
-        help='input pattern used to glob data files',
-        default='*.csv'
-    )
-    argp.add_argument(
-        '-o',
-        '--output-dir',
-        help='output directory, defaults to the current working directory',
-        default=path.curdir
-    )
-    argp.add_argument(
-        '-l',
-        '--logfile',
-        help='logfile to log activities by. default is stdout.',
-        default=''
-    )
-    argp.add_argument(
-        '-v',
-        '--verbose',
-        help='if provided, the logging level will be set to DEBUG',
-        action='store_true',
-        default=False
-    )
-
-    return argp.parse_args().__dict__

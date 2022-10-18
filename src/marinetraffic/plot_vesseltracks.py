@@ -39,10 +39,15 @@ def define_cmdline_args() -> argparse.ArgumentParser:
 
     arg_parser.add_argument("-v", "--verbose", action="store_true", help="debug flag")
 
-    return arg_parser
+    try:
+        args = arg_parser.parse_args().__dict__
+    except Exception as e:
+        print(f"failed to parse command line arguments: {e}")
+        sys.exit()
+    return args
 
 
-def parse_cmdline_args(arg_parser: argparse.ArgumentParser) -> dict:
+def parse_cmdline_args(args : dict) -> dict:
     """
     parse_cmdline_args(arg_parser  : argparse.ArgumentParser) -> dict:
 
@@ -54,16 +59,13 @@ def parse_cmdline_args(arg_parser: argparse.ArgumentParser) -> dict:
         Returns:
             dictionary containing all valid command line arguments
     """
-    try:
-        args = arg_parser.parse_args().__dict__
-    except Exception as e:
-        print(f"failed to parse command line arguments: {e}")
-        sys.exit()
     assert len(args["input"]) > 0, f"please provide at least one vessel track file"
     assert type(args["input"]) in [
         type(list()),
         type(sys.stdin),
     ], f'Not a valid input type: {type(args["input"])}'
+    for infile in args['input']:
+        assert os.path.isfile(infile), f"no such file: {infile}"
     if args["output_dir"]:
         assert os.path.isdir(
             args["output_dir"]

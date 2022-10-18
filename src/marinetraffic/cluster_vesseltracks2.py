@@ -1,5 +1,6 @@
 #!/bin/env python
 import argparse
+import json
 import os
 import sys
 
@@ -114,8 +115,8 @@ def parse_cmdline_args() -> dict:
 if __name__ == "__main__":
     config = parse_cmdline_args()
     printv("command line configuration")
-    printv(f"{config}")
-    printv("reading in vessel tracks file {config['vesseltracks']}")
+    printv(f"{json.dumps(config, indent=4)}")
+    printv(f"reading in vessel tracks file {config['vesseltracks']}")
     vesseltracks = extract_stationary_vesseltracks(
         read_vesseltracks_file(config["vesseltracks"]),
         lat_min=config["latitude_min"],
@@ -123,6 +124,9 @@ if __name__ == "__main__":
         lon_min=config["longitude_min"],
         lon_max=config["longitude_max"],
     )
+    if vesseltracks.empty:
+        print(f"no suitable ais vessel tracks for clustering available, quiting")
+        sys.exit()
     if not os.path.isdir(config["output_dir"]):
         printv(f"output directory {config['output_dir']} does not exist, creating")
         try:
