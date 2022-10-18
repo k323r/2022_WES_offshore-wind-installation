@@ -79,7 +79,8 @@ EOF
     echo "found ${n_clusters} for record ${vesselname}" >> report.md
     for clusterplot in data/marinetraffic/clustered/"${vesselname}"/clusters/*.png
     do
-      echo "![${clusterplot}](${cluspterplot})" >> report.md
+      clustername=$(basename $clusterplot .png)
+      echo "![${clustername}](${clusterplot})" >> report.md
     done
     echo "" >> report.md
     echo "" >> report.md
