@@ -2,8 +2,8 @@
 
 set -e
 
-WINDFARM_EPSILON=0.05
-WINDFARM_N_SAMPLES=300
+WINDFARM_EPSILON=0.03
+WINDFARM_N_SAMPLES=500
 TURBINE_EPSILON=0.05
 
 
@@ -76,13 +76,13 @@ EOF
       echo "no clusters available" >> report.md
       continue
     fi
-    echo "found ${n_clusters} for record ${vesselname}" >> report.md
+    echo "**found ${n_clusters} clusters for record ${vesselname}**" >> report.md
     for clusterplot in data/marinetraffic/clustered/"${vesselname}"/clusters/*.png
     do
       clustername=$(basename $clusterplot .png)
+      echo "#### ${clustername}" >> report.md
       echo "![${clustername}](${clusterplot})" >> report.md
     done
-    echo "" >> report.md
     echo "" >> report.md
   done
 
@@ -91,8 +91,8 @@ EOF
 function run_analysis(){
   #clean_marinetraffic
   #plot_vesseltracks
-  #cluster_vesseltracks
-  #plot_clusters
+  cluster_vesseltracks
+  plot_clusters
   build_report
 }
 
