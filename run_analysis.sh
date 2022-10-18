@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 WINDFARM_EPSILON=0.03
 WINDFARM_N_SAMPLES=500
@@ -49,20 +49,34 @@ function cluster_vesseltracks() {
   done
 }
 
+function cluster_clusters() {
+  for vesselfile in data/marinetraffic/clean/*.csv
+  do
+    echo "processing ${vesselfile}"
+    vesselname=$(basename "${vesselfile}" .csv)
+    outputdir="data/marinetraffic/clustered/${vesselname}/clusters"
+    mkdir -p "${outputdir}"
+    python src/marinetraffic/cluster_vesseltracks2.py --vesseltracks "${vesselfile}" --dbscan-epsilon "${WINDFARM_EPSILON}" --dbscan-num-samples "${WINDFARM_N_SAMPLES}" --output-dir "${outputdir}" --output-prefix "${vesselname}" --verbose
+  done
+}
+
 # 1.4 plot clusters
 function plot_clusters() {
   for vessel in data/marinetraffic/clustered/*
   do
+    if [[ -z $(ls "${vessel}/clusters") ]]
+    then
+      echo "no clusters available, skipping ${vessel}"
+      continue
+    fi
     python src/marinetraffic/plot_vesseltracks.py "${vessel}"/clusters/*.csv --output-dir "${vessel}/clusters"
   done
 }
 
-function build_report() {
- 
-  cat <<EOF > report.md
-# data processing report
-EOF
 
+
+function build_report() {
+  echo "# data processing report" >> report.md
   for vesseltrack in data/marinetraffic/clean/*.png
   do
     vesselname=$(basename "${vesseltrack}" .png)
@@ -70,7 +84,7 @@ EOF
     echo "![${vesselname}](${vesseltrack})" >> report.md
     echo "" >> report.md
     echo "### clusters" >> report.md
-    n_clusters=$(ls data/marinetraffic/clustered/"${vesselname}"/clusters/ | grep csv | wc -l)
+    n_clusters=$(ls data/marinetraffic/clustered/"${vesselname}"/clusters/ | grep png | wc -l)
     if [[ $n_clusters -eq 0 ]]
     then
       echo "no clusters available" >> report.md
@@ -85,7 +99,6 @@ EOF
     done
     echo "" >> report.md
   done
-
 }
 
 function run_analysis(){
