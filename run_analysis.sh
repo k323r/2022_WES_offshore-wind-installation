@@ -109,30 +109,30 @@ function plot_clusters() {
 }
 
 function build_report() {
-  echo "# data processing report" >> report.md
+  echo "# data processing report" >> clustering_report.md
   for vesseltrack in data/marinetraffic/clean/*.png
   do
     vesselname=$(basename "${vesseltrack}" .png)
-    echo "## ${vesselname}" >> report.md
-    echo "![${vesselname}](${vesseltrack})" >> report.md
-    echo "" >> report.md
-    echo "### clusters" >> report.md
+    echo "## ${vesselname}" >> clustering_report.md
+    echo "![${vesselname}](${vesseltrack})" >> clustering_report.md
+    echo "" >> clustering_report.md
+    echo "### clusters" >> clustering_report.md
     n_clusters=$(ls data/marinetraffic/clustered/"${vesselname}" | grep png | wc -l)
     if [[ $n_clusters -eq 0 ]]
     then
-      echo "no clusters available" >> report.md
+      echo "no clusters available" >> clustering_report.md
       continue
     fi
-    echo "**found ${n_clusters} clusters for record ${vesselname}**" >> report.md
+    echo "**found ${n_clusters} clusters for record ${vesselname}**" >> clustering_report.md
     for clusterdir in data/marinetraffic/clustered/"${vesselname}"/cluster_*
     do
       clusterN=$(basename $clusterdir)
       clusterplot="${clusterdir}/${vesselname}_${clusterN}.png"
       clusterplotname=$(basedir clusterplot .png)
-      echo "#### ${clusterplotname}" >> report.md
-      echo "![${clusterplotname}](${clusterplot})" >> report.md
+      echo "#### ${clusterplotname}" >> clustering_report.md
+      echo "![${clusterplotname}](${clusterplot})" >> clustering_report.md
     done
-    echo "" >> report.md
+    echo "" >> clustering_report.md
   done
 }
 
