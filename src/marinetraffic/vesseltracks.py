@@ -18,10 +18,10 @@ def read_vesseltracks_file(vesseltracks_fpath: str) -> pd.DataFrame:
 
 def extract_stationary_vesseltracks(
     vesseltracks: pd.DataFrame,
-    lat_min : float = 50,
-    lat_max : float =56,
-    lon_min : float =0,
-    lon_max : float =12,
+    lat_min : float = -70,
+    lat_max : float = 70,
+    lon_min : float = -179.9,
+    lon_max : float = 179.9,
     speed_threshold : float =0,
 ) -> pd.DataFrame:
     if vesseltracks.empty:
