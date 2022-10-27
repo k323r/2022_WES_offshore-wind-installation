@@ -4,6 +4,50 @@ import cartopy
 import numpy as np
 import pandas as pd
 
+def plot_cluster_locations(
+    locations: pd.DataFrame,
+    windfarm,
+    known_windfarms,
+    title : str = "",
+    label : str = "",
+    margin : float = 0.025,
+    figsize : tuple =(9, 9),
+    save_fig="",
+    verbose=False,
+    transparent=True,
+    show_fig=False,
+):
+    figure = plt.figure(figsize=figsize)
+    if transparent:
+        figure.patch.set_alpha(0)
+    min_lat = locations.latitude.min() - margin
+    max_lat = locations.latitude.max() + margin
+    min_lon = locations.longitude.min() - margin
+    max_lon = locations.longitude.max() + margin
+    if verbose:
+        print(
+            f"min_lat: {min_lat} min_lon: {min_lon} max_lat: {max_lat} max_lon: {max_lon}"
+        )
+    ax = figure.add_subplot(1,1,1, projection=cartopy.crs.Mercator())
+    ax.set_extent([min_lon, max_lon, min_lat, max_lat])
+    ax.add_feature(cartopy.feature.BORDERS)
+    ax.gridlines(draw_labels=True, dms=True, x_inline=False, y_inline=False)
+    ax.coastlines(resolution='10m')
+    for _, loc in locations.iterrows():
+        plt.scatter(loc.longitude, loc.latitude, transform=cartopy.crs.PlateCarree())
+        plt.text(loc.longitude + 0.002, loc.latitude, f"{loc.location_key.split('_')[-1]}", zorder=7, transform=cartopy.crs.PlateCarree())
+    plt.scatter(windfarm.longitude, windfarm.latitude, color='tab:red', transform=cartopy.crs.PlateCarree(), label="Cluster centroid", s=75)
+    plt.scatter(known_windfarms.loc[windfarm.known_windfarms_index].longitude, known_windfarms.loc[windfarm.known_windfarms_index].latitude, color='tab:green', transform=cartopy.crs.PlateCarree(), label=f"Official location {windfarm.windfarm_name}", s=75)
+    # plt.scatter(vessel_tracks.longitude.mean(), vessel_tracks.latitude.mean(), transform=cartopy.crs.PlateCarree(), label="vessel tracks centroid", color='tab:green')
+    plt.legend()
+    if title:
+        plt.title(title)
+    plt.tight_layout()
+    if save_fig:
+        plt.savefig(save_fig, dpi=300)
+    if show_fig:
+        plt.show()
+
 def plot_vesseltracks_cartopy(
     vessel_tracks: pd.DataFrame,
     vessel_name : str, 

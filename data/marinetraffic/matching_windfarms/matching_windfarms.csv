@@ -1,0 +1,25 @@
+index,known_windfarms_index,windfarm_name,vessel_name,cluster_name,latitude,longitude,cluster_fpath
+0,66,Sandbank,245924000_adventure,cluster_9,55.208180765521405,6.847074397830019,data/marinetraffic/clustered/245924000_adventure/cluster_9/245924000_adventure_cluster_9.csv
+1,68,Rampion,245924000_adventure,cluster_10,50.66610428571428,-0.26120053492063494,data/marinetraffic/clustered/245924000_adventure/cluster_10/245924000_adventure_cluster_10.csv
+2,99,Moray East,215644000_blue-tern,cluster_1,58.157839959616354,-2.699620394245331,data/marinetraffic/clustered/215644000_blue-tern/cluster_1/215644000_blue-tern_cluster_1.csv
+3,69,Veja Mate,229080000_bold-tern,cluster_7,54.326712431972794,5.873987153061225,data/marinetraffic/clustered/229080000_bold-tern/cluster_7/229080000_bold-tern_cluster_7.csv
+4,47,Global Tech I,229080000_bold-tern,cluster_3,54.51064332023575,6.369831538310413,data/marinetraffic/clustered/229080000_bold-tern/cluster_3/229080000_bold-tern_cluster_3.csv
+5,56,EnBW Baltic II (MP),218657000_vole-au-vent,cluster_1,54.971527708495714,13.154770810600157,data/marinetraffic/clustered/218657000_vole-au-vent/cluster_1/218657000_vole-au-vent_cluster_1.csv
+6,73,Nobelwind,218657000_vole-au-vent,cluster_3,51.66888570457635,2.811856316266425,data/marinetraffic/clustered/218657000_vole-au-vent/cluster_3/218657000_vole-au-vent_cluster_3.csv
+7,55,Humber Gateway,246777000_resolution,cluster_4,53.6436418005834,0.29638149697692917,data/marinetraffic/clustered/246777000_resolution/cluster_4/246777000_resolution_cluster_4.csv
+8,52,Northwind,246777000_resolution,cluster_3,51.62111845391476,2.9020094743970923,data/marinetraffic/clustered/246777000_resolution/cluster_3/246777000_resolution_cluster_3.csv
+9,36,Lincs,246777000_resolution,cluster_0,53.183213672496024,0.494521827027027,data/marinetraffic/clustered/246777000_resolution/cluster_0/246777000_resolution_cluster_0.csv
+10,17,Lynn & Inner Dowsing,246777000_resolution,cluster_0,53.183213672496024,0.494521827027027,data/marinetraffic/clustered/246777000_resolution/cluster_0/246777000_resolution_cluster_0.csv
+11,97,Kriegers Flak,253366000_vole-au-vent,cluster_8,55.0280316765755,12.929760398335315,data/marinetraffic/clustered/253366000_vole-au-vent/cluster_8/253366000_vole-au-vent_cluster_8.csv
+12,73,Nobelwind,253366000_vole-au-vent,cluster_3,51.68812633959512,2.806285881998906,data/marinetraffic/clustered/253366000_vole-au-vent/cluster_3/253366000_vole-au-vent_cluster_3.csv
+13,101,Northwester 2,253366000_vole-au-vent,cluster_3,51.68812633959512,2.806285881998906,data/marinetraffic/clustered/253366000_vole-au-vent/cluster_3/253366000_vole-au-vent_cluster_3.csv
+14,70,Dudgeon,219019002_sea-challenger,cluster_4,53.261560604651166,1.3804933311627907,data/marinetraffic/clustered/219019002_sea-challenger/cluster_4/219019002_sea-challenger_cluster_4.csv
+15,59,Westermost Rough,219019002_sea-challenger,cluster_1,53.80851086894587,0.1605445998148148,data/marinetraffic/clustered/219019002_sea-challenger/cluster_1/219019002_sea-challenger_cluster_1.csv
+16,96,Hornsea,219019002_sea-challenger,cluster_5,53.93210433091287,1.7735252380705395,data/marinetraffic/clustered/219019002_sea-challenger/cluster_5/219019002_sea-challenger_cluster_5.csv
+17,90,Borssele I/II,219019002_sea-challenger,cluster_6,51.70114293971411,3.063396044126787,data/marinetraffic/clustered/219019002_sea-challenger/cluster_6/219019002_sea-challenger_cluster_6.csv
+18,63,Gode Wind I & II,219019002_sea-challenger,cluster_2,54.051597441860466,6.98559871627907,data/marinetraffic/clustered/219019002_sea-challenger/cluster_2/219019002_sea-challenger_cluster_2.csv
+19,98,Merkur,235090598_blue-tern,cluster_5,54.0365741596824,6.546617381120423,data/marinetraffic/clustered/235090598_blue-tern/cluster_5/235090598_blue-tern_cluster_5.csv
+20,31,BARD Oﬀshore I,218389000_thor,cluster_2,54.33297706951386,5.985938741935485,data/marinetraffic/clustered/218389000_thor/cluster_2/218389000_thor_cluster_2.csv
+21,100,Norther,245179000_aeolus,cluster_7,51.52476676506764,3.0101637896678963,data/marinetraffic/clustered/245179000_aeolus/cluster_7/245179000_aeolus_cluster_7.csv
+22,65,Gemini,245179000_aeolus,cluster_5,54.035495403949724,5.9745692920406945,data/marinetraffic/clustered/245179000_aeolus/cluster_5/245179000_aeolus_cluster_5.csv
+23,61,Luchterduinen,245179000_aeolus,cluster_2,52.4050829890644,4.1644432989064395,data/marinetraffic/clustered/245179000_aeolus/cluster_2/245179000_aeolus_cluster_2.csv
