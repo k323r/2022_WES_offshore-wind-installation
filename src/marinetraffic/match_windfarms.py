@@ -12,7 +12,6 @@ import sys
 
 from vesseltracks import read_vesseltracks_file
 
-
 def printv(message: str):
     global config
     if config["verbose"]:
@@ -30,7 +29,7 @@ def parse_cmdline_args() -> dict:
     )
     arg_parser.add_argument(
         "--match-tolerance",
-        default=0.05,
+        default=0.075,
         type=float,
         help="tolerance in degrees for matching known wind farm locations with clustered vessel tracks",
     )
@@ -56,7 +55,7 @@ def parse_cmdline_args() -> dict:
     args = arg_parser.parse_args().__dict__
     assert os.path.isfile(
         args["known_windfarms"]
-    ), f'not a file: {args["vesseltracks"]}'
+    ), f'not a file: {args["known_windfarms"]}'
     assert args["match_tolerance"] > 0, f"match tolerance must be a positive float"
     assert os.path.isdir(args["cluster_dir"]), f"not a directory: {args['cluster_dir']}"
     assert os.path.isdir(args["output_dir"]), f"not a directory: {args['output_dir']}"
@@ -77,11 +76,11 @@ def get_known_windfarms(fpath: str) -> pd.DataFrame:
 def get_cluster_coord(basedir, min_locations=6, verbose=False):
     for vesseldir in glob.glob(os.path.join(basedir, "*")):
         vesselkey = os.path.basename(vesseldir)
-        for clusterdir in glob.glob(os.path.join(vesseldir, "cluster_*")):
+        for clusterdir in glob.glob(os.path.join(vesseldir, "cluster-*")):
             clustername = os.path.basename(clusterdir)
             if (
                 n_locations := len(
-                    glob.glob(os.path.join(clusterdir, "*location_*.csv"))
+                    glob.glob(os.path.join(clusterdir, "*location-*.csv"))
                 )
             ) < 6:
                 if verbose:
@@ -97,8 +96,9 @@ def get_cluster_coord(basedir, min_locations=6, verbose=False):
                 cluster = read_vesseltracks_file(cluster_fpath)
                 lat_mean = cluster.latitude.mean()
                 lon_mean = cluster.longitude.mean()
-                yield (vesselkey, clustername, lat_mean, lon_mean, cluster_fpath)
-
+                begin = cluster.index[0]
+                end = cluster.index[-1]
+                yield (vesselkey, clustername, lat_mean, lon_mean, begin, end, cluster_fpath)
 
 def match_cluster_windfarm(
     clustered_vesseltracks_dir,
@@ -112,9 +112,11 @@ def match_cluster_windfarm(
         clustername,
         cluster_lat,
         cluster_lon,
+        cluster_begin,
+        cluster_end,
         cluster_fpath,
     ) in get_cluster_coord(clustered_vesseltracks_dir, verbose=verbose):
-        vesselname = vesselkey.split("_")[-1]
+        vesselname = "-".join(vesselkey.split("-")[1:])
         for windfarm in windfarms.itertuples():
             lat_lower = windfarm.latitude - bound
             lat_upper = windfarm.latitude + bound
@@ -142,11 +144,12 @@ def match_cluster_windfarm(
                     clustername,
                     cluster_lat,
                     cluster_lon,
+                    cluster_begin,
+                    cluster_end,
                     cluster_fpath,
                 )
 
-
-def get_location_means(cluster_dir, location_pattern="*location_*.csv"):
+def get_location_means(cluster_dir, location_pattern="*location-*.csv"):
     for location_fpath in sorted(
         glob.glob(os.path.join(cluster_dir, location_pattern))
     ):
@@ -175,6 +178,8 @@ def get_matching_windfarms(
         "cluster_name",
         "latitude",
         "longitude",
+        "begin",
+        "end",
         "cluster_fpath",
     ],
 ):
@@ -196,21 +201,22 @@ def calc_distances_centroid(locations, centroid):
         )
     return distances
 
-
-def get_windfarms_turbines(matching_windfarms):
+def get_windfarms_turbines(
+    matching_windfarms, 
+    columns=[
+                "location_key",
+                "latitude",
+                "longitude",
+                "begin",
+                "end",
+                "duration",
+            ],):
     windfarms_turbines = dict()
     for i, matching_windfarm in matching_windfarms.iterrows():
         printv(f"{i}, {matching_windfarm.windfarm_name}, {matching_windfarm.cluster_fpath}")
         windfarms_turbines[i] = pd.DataFrame(
             data=get_location_means(os.path.dirname(matching_windfarm.cluster_fpath)),
-            columns=[
-                "location_key",
-                "latitude",
-                "longitude",
-                "start",
-                "end",
-                "duration",
-            ],
+            columns=columns,
         )
         windfarms_turbines[i].insert(
             value=calc_distances_centroid(
@@ -222,6 +228,8 @@ def get_windfarms_turbines(matching_windfarms):
         )
         windfarms_turbines[i].index.name = 'index'
     return windfarms_turbines
+
+#def remove_distance_outliers(
 
 if __name__ == "__main__":
     config = parse_cmdline_args()
@@ -237,9 +245,6 @@ if __name__ == "__main__":
         verbose=config["verbose"],
     )
     windfarms_turbines = get_windfarms_turbines(matching_windfarms)
-    matching_windfarms_fpath = os.path.join(config['output_dir'], "matching_windfarms.csv")
-    printv(f"exporting matching windfarms to f{matching_windfarms_fpath}")
-    matching_windfarms.to_csv(os.path.join(config['output_dir'], "matching_windfarms.csv"))
     for windfarm_key, location in windfarms_turbines.items():
         vessel_name = matching_windfarms.loc[windfarm_key].vessel_name
         cluster_name = matching_windfarms.loc[windfarm_key].cluster_name.replace("_", "-")
@@ -250,3 +255,6 @@ if __name__ == "__main__":
         printv(f"exporting identified wind farm to: {output_fpath}")
         location.to_csv(output_fpath)
 
+    matching_windfarms_fpath = os.path.join(config['output_dir'], "matching_windfarms.csv")
+    printv(f"exporting matching windfarms to f{matching_windfarms_fpath}")
+    matching_windfarms.to_csv(os.path.join(config['output_dir'], "matching_windfarms.csv"))

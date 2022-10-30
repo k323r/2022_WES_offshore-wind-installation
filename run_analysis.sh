@@ -2,61 +2,154 @@
 
 set -e
 
-WINDFARM_EPSILON=0.03
-WINDFARM_N_SAMPLES=500
+TRUE=1
+FALSE=0
+
+WINDFARM_EPSILON=0.015
+WINDFARM_N_SAMPLES=200
 TURBINE_EPSILON=0.1
 TURBINE_N_SAMPLES=3
 
+SHORT=s,c,l,m,pv,pc,pm,h,M,e,a
+LONG=sanitize,clusters,locations,match-windfarms,plot-vesseltracks,plot-clusters,plot-matching-windfarms,help,manuscript,era5,all
+OPTS=$(getopt -a -n run_analysis --options $SHORT --longoptions $LONG -- "$@")
 
-### run_analysis.sh
+VALID_ARGUMENTS=$# # Returns the count of arguments that are in short or long options
 
-# Executing this script will run the data processing pipeline, 
-# render plots and compile the paper "I spy with my little eye, or: 
-# utilizing satellite data to estimate offshore wind farm installation
-# performance" by Sander et al (2022). 
+if [ "$VALID_ARGUMENTS" -eq 0 ]; then
+  help
+fi
 
-# 0. Setup
-# 0.1 install python dependencies
+eval set -- "$OPTS"
 
-# 1. AIS vessel tracks
-# 1.1 Sanitize vessel tracks and split yearly mixed data into 
-#     csv files, where each csv file corresponds to the AIS tracks
-#     of a single vessel as definded by its mmsi ID. Sanitized vessel
-#     tracks will be stored in data/marine-traffic/clean/MMSI_vessel-name.csv
-function clean_marinetraffic() {
-  mkdir -p data/marinetraffic/clean    # create output data directory
-  python src/marinetraffic/sanitize_marinetraffic.py  --input-dir data/marinetraffic/raw --input-pattern '*.csv' --output-dir data/marinetraffic/clean --verbose
+while :
+do
+  case "$1" in
+    --sanitize )
+      sanitize=$TRUE
+      shift 1
+      ;;
+    --clusters )
+      clusters=$TRUE
+      shift 1
+      ;;
+    --locations )
+      locations=$TRUE
+      shift 1
+      ;;
+    --match-windfarms )
+      match=$TRUE
+      shift 1
+      ;;
+    --plot-vesseltracks )
+      plot_vesseltracks=$TRUE
+      shift 1
+      ;;
+    --plot-clusters )
+      plot_clusters=$TRUE
+      shift 1
+      ;;
+    --plot-matching-windfarms )
+      plot_matching_windfarms=$TRUE
+      shift 1
+      ;;
+    --era5 )
+      era5=$TRUE
+      shift 1
+      ;;
+    --manuscript )
+      manuscript=$TRUE
+      shift 1
+      ;;
+    --all )
+      sanitize=$TRUE
+      clusters=$TRUE
+      locations=$TRUE
+      match=$TRUE
+      plot_vesseltracks=$TRUE
+      plot_clusters=$TRUE
+      plot_matching_windfarms=$TRUE
+      era5=$TRUE
+      manuscript=$TRUE
+      shift 1
+      ;;
+    --help)
+      help
+      ;;
+    --)
+      shift;
+      break
+      ;;
+    *)
+      echo "Unexpected option: $1"
+      help
+      ;;
+  esac
+done
+
+function help() {
+    echo "Usage: run_analysis.sh [ -s | --sanitize ][ -c | --clusters ][ -l | --locations ][ -m | --match ][ -p | --plot ][ -M | --manuscript ][ -e | --era5 ]"
+    exit 2
 }
-# 1.2 Plot vessel tracks
+
+function error() {
+  echo "an unexpected error occured: $@"
+  return -1
+}
+
+function sanitize_marinetraffic() {
+  mkdir -p data/marinetraffic/clean    # create output data directory
+  python bin/sanitize_marinetraffic.py  \
+    --input-dir data/marinetraffic/raw \
+    --input-pattern '*.csv' \
+    --output-dir data/marinetraffic/clean \
+    --verbose
+}
+
 function plot_vesseltracks() {
   for vesselfile in data/marinetraffic/clean/*.csv
   do
     # plot sanitized vessel tracks
-    python src/marinetraffic/plot_vesseltracks.py "${vesselfile}" --output-dir data/marinetraffic/clean
+    python bin/plot_vesseltracks.py "${vesselfile}" \
+      --output-dir data/marinetraffic/clean
   done
 }
 
-# 1.3 Cluster vessel tracks using scipy's DBSCAN, a density based clustering algorithm
-#     to extract wind farms. 
 function cluster_vesseltracks() {
   mkdir -p data/marinetraffic/clustered
+  vesselfiles=$(find data/marinetraffic/clean -iname "*.csv")
+  if [[ -z $vesselfiles ]]
+  then
+    echo "no sanitized vessel data available, please add the --sanitize flag"
+    exit 2
+  fi
   for vesselfile in data/marinetraffic/clean/*.csv
   do
     echo "processing ${vesselfile}"
-    vesselname=$(basename "${vesselfile}" .csv)
-    outputdir="data/marinetraffic/clustered/${vesselname}"
+    local vesselkey=$(basename "${vesselfile}" .csv)
+    local outputdir="data/marinetraffic/clustered/${vesselkey}"
     mkdir -p "${outputdir}"
-    python src/marinetraffic/cluster_vesseltracks2.py --vesseltracks "${vesselfile}" --dbscan-epsilon "${WINDFARM_EPSILON}" --dbscan-num-samples "${WINDFARM_N_SAMPLES}" --output-dir "${outputdir}" --output-prefix "${vesselname}" --verbose
-    n_clusters=$(ls "${outputdir}"/ | grep csv | wc -l)
-    if [[ $n_clusters -eq 0 ]]
+    python src/marinetraffic/cluster_vesseltracks2.py \
+      --vesseltracks "${vesselfile}" \
+      --dbscan-epsilon "${WINDFARM_EPSILON}" \
+      --dbscan-num-samples "${WINDFARM_N_SAMPLES}" \
+      --output-dir "${outputdir}" \
+      --output-prefix "${vesselkey}" \
+      --verbose
+    # check if any clusters were found
+    local n_clusters=$(ls "${outputdir}"/ | grep csv | wc -l)
+    if [[ $n_clusters -eq 0 ]] # if no clusters are available, skip
     then
-      echo "no clusters available for ${vesselname}.. skipping"
+      echo "no clusters available for ${vesselkey}.. skipping"
+      rm -r "${outputdir}"
       continue
     fi
-    for clusterfile in "${outputdir}"/"${vesselname}"_cluster_*.csv
+    #move clusters into dedicated directories
+    for clusterfile in "${outputdir}"/"${vesselkey}"_cluster-*.csv
     do
-      clusterN=$(basename "${clusterfile}" .csv | cut -d "_" -f 3-4)
-      clusterdir="${outputdir}/${clusterN}"
+      # get the name of the cluster (eg cluster_13)
+      local clustername=$(basename "${clusterfile}" .csv | cut -d "_" -f 2)
+      local clusterdir="${outputdir}/${clustername}"
       echo "moving ${clusterfile} to ${clusterdir}"
       mkdir -p "${clusterdir}"
       mv "${clusterfile}" "${clusterdir}"
@@ -68,44 +161,70 @@ function cluster_locations() {
   for vesseldir in data/marinetraffic/clustered/*
   do
     echo "processing ${vesseldir}"
-    vesselname=$(basename "${vesseldir}")
-    if [[ -z $(ls "${vesseldir}") ]]
+    local vesselkey=$(basename "${vesseldir}")
+    local n_clusters=$(ls "${vesseldir}" | grep cluster | wc -l)
+    echo "number of clusters: ${n_clusters}"
+    if [[ "${n_clusters}" -eq 0 ]]
     then
       echo "${vesseldir}: no cluster available, skipping"
       continue
     fi
-    for clusterdir in "${vesseldir}"/cluster_*
+    for clusterdir in "${vesseldir}"/cluster-*
     do
       clustername=$(basename "${clusterdir}")
-      clusterfile="${clusterdir}/${vesselname}_${clustername}.csv"
-      echo "${clusterfile}"
-      if ! [[ -f "${clusterfile}" ]]
-      then
-        echo "no cluster available"
-        continue
-      fi
-      #outputdir="data/marinetraffic/clustered/${vesselname}/clusters"
-      #mkdir -p "${outputdir}"
-      python src/marinetraffic/cluster_vesseltracks2.py --vesseltracks "${clusterfile}" --dbscan-epsilon "${TURBINE_EPSILON}" --dbscan-num-samples "${TURBINE_N_SAMPLES}" --output-dir "${clusterdir}" --output-prefix "${vesselname}_${clustername}" --cluster-name location --verbose
+      clusterfile="${clusterdir}/${vesselkey}_${clustername}.csv"
+      python bin/cluster_vesseltracks2.py \
+        --vesseltracks "${clusterfile}" \
+        --dbscan-epsilon "${TURBINE_EPSILON}" \
+        --dbscan-num-samples "${TURBINE_N_SAMPLES}" \
+        --output-dir "${clusterdir}" \
+        --output-prefix "${vesselkey}_${clustername}" \
+        --cluster-name location \
+        --verbose
     done
   done
 }
 
 function match_windfarms() {
     mkdir -p data/marinetraffic/matching_windfarms
-    python src/marinetraffic/match_windfarms.py --known-windfarms data/windfarms/windfarms-complete_turbines.ods --cluster-dir data/marinetraffic/clustered --output-dir data/marinetraffic/matching_windfarms --verbose
+    python src/marinetraffic/match_windfarms.py \
+      --known-windfarms data/windfarms/windfarms-complete_turbines.ods \
+      --cluster-dir data/marinetraffic/clustered \
+      --output-dir data/marinetraffic/matching_windfarms \
+      --match-tolerance 0.15 \
+      --verbose
 }
 
-# 1.4 plot clusters
 function plot_clusters() {
   for vessel in data/marinetraffic/clustered/*
   do
-    python src/marinetraffic/plot_vesseltracks.py "${vessel}"/clusters/*.csv --output-dir "${vessel}/clusters"
+    python bin/plot_vesseltracks.py \
+      $(find "${vessel}" -iname "*cluster-*.csv" | grep -v location | grep -v noise) \
+      --output-dir "${vessel}"
   done
 }
 
-function plot_matched_windfarms() {
-  python src/marinetraffic/plot_matched_clusters.py  data/marinetraffic/matching_windfarms/*_cluster-*.csv  --output-dir data/marinetraffic/matching_windfarms --matching-windfarms data/marinetraffic/matching_windfarms/matching_windfarms.csv --known-windfarms data/windfarms/windfarms-complete_turbines.ods
+function plot_matching_windfarms() {
+  for vesselfile in data/marinetraffic/clean/*.csv
+  do
+    local vesselkey=$(basename "${vesselfile}" .csv)
+    local windfarm_locations=$(find data/marinetraffic/matching_windfarms -iname "*_${vesselkey}_cluster-*.csv" | tr '\n' ' ')
+    if [[ -z $windfarm_locations ]]
+    then
+      echo "no matching windfarms available for ${vesselkey}, skipping"
+      continue
+    else
+      echo "plotting ${windfarm_locations}"
+    fi
+    python bin/plot_vesseltracks_clusters_locations.py \
+      --vesseltracks "${vesselfile}" \
+      --windfarm-locations data/marinetraffic/matching_windfarms/*_"${vesselkey}"_cluster-*.csv \
+      --known-windfarms data/windfarms/windfarms-complete_turbines.ods \
+      --matching-windfarms data/marinetraffic/matching_windfarms/matching_windfarms.csv \
+      --output-dir data/marinetraffic/matching_windfarms \
+      --verbose \
+      --interactive
+  done
 }
 
 function build_report() {
@@ -140,16 +259,59 @@ EOF
 }
 
 function run_analysis(){
-  rm -r data/marinetraffic/clean/*
-  rm -r data/marinetraffic/clustered/*
-  rm -r data/marinetraffic/matching_windfarms/*
-  clean_marinetraffic
-  plot_vesseltracks
-  cluster_vesseltracks
-  cluster_locations
-  match_windfarms
-  plot_matched_windfarms
-  # build_report
+  if [[ $sanitize == $TRUE ]]
+  then
+    echo "sanitizing raw data"
+    (find data/marinetraffic/clean -name "*.csv" -delete && sanitize_marinetraffic) || error "failed to sanitize raw data"
+  fi
+
+  if [[ $clusters == $TRUE ]]
+  then 
+    echo "clustering vesseltracks"
+    (find data/marinetraffic/clustered -name "*cluster*.csv" -delete && cluster_vesseltracks) || error "failed to cluster vesseltracks"
+  fi
+
+  if [[ $locations == $TRUE ]]
+  then
+    echo "clustering locations"
+    (find data/marinetraffic/clustered -name "*location*.csv" -delete && cluster_locations) || error "failed to cluster locations"
+  fi
+
+  if [[ $match_windfarms == $TRUE ]]
+  then
+    echo "matching windfarms"
+    (find data/marinetraffic/matching_windfarms -type f -delete && match_windfarms) || error "failed to match windfarms"
+  fi
+
+  if [[ $era5 == $TRUE ]]
+  then
+    echo "downloading era5 data is not implemented yet"
+  fi
+
+  if [[ $manuscript == $TRUE ]]
+  then
+    echo "building manuscript"
+    # build_report
+  fi
+
+  if [[ $plot_vesseltracks == $TRUE ]]
+  then
+    echo "plotting vesseltracks"
+    plot_vesseltracks
+
+  fi
+
+  if [[ $plot_clusters == $TRUE ]]
+  then
+    echo "plotting clusters"
+    plot_clusters
+  fi
+ 
+  if [[ $plot_matching_windfarms == $TRUE ]]
+  then
+    plot_matching_windfarms
+  fi
+
 }
 
 run_analysis

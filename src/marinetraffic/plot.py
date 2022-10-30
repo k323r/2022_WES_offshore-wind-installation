@@ -4,6 +4,17 @@ import cartopy
 import numpy as np
 import pandas as pd
 
+def get_bounding_box_latlon(track: pd.DataFrame, margin: float = 1.0, verbose=False):
+    min_lat = track.latitude.min() - margin
+    max_lat = track.latitude.max() + margin
+    min_lon = track.longitude.min() - margin
+    max_lon = track.longitude.max() + margin
+    if verbose:
+        print(
+            f"min_lat: {min_lat} min_lon: {min_lon} max_lat: {max_lat} max_lon: {max_lon}"
+        )
+    return (min_lat, max_lat, min_lon, max_lon)
+
 def plot_cluster_locations(
     locations: pd.DataFrame,
     windfarm,

@@ -156,7 +156,7 @@ def sanitize_marinetraffic(cmdline_args : dict):
     for mmsi, vessel_data in parse_ship_data(frames):
         export_path = os.path.join(
             cmdline_args["output_dir"],
-            f'{mmsi}_{VESSEL_NAMES[mmsi].lower().replace(" ", "-")}.csv',
+            f'{mmsi}-{VESSEL_NAMES[mmsi].lower().replace(" ", "-")}.csv',
         )
         printv(f"exporting vessel data to {export_path}")
         try:

@@ -1,0 +1,3 @@
+[submodule "modules/feedinlib"]
+	path = modules/feedinlib
+	url = git@github.com:oemof/feedinlib.git

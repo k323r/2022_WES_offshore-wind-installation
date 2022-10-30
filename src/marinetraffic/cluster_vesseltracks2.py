@@ -147,7 +147,7 @@ if __name__ == "__main__":
         min_num_samples=config["dbscan_num_samples"],
         n_cores=config["dbscan_num_processors"],
     )
-    printv("extractinv clusters")
+    printv("extracting clusters")
     clusters = extract_clusters(
         db_fit=db_fit_windfarm_clusters,
         raw_data=vesseltracks,
@@ -163,7 +163,7 @@ if __name__ == "__main__":
         else:
             output_fpath = os.path.join(
                 config["output_dir"],
-                f"{config['output_prefix']}_{config['cluster_name']}_{cluster_label}.csv",
+                f"{config['output_prefix']}_{config['cluster_name']}-{cluster_label}.csv",
             )
         printv(f"exporting cluster_{cluster_label} to {output_fpath}")
         export_cluster(cluster, output_fpath)
