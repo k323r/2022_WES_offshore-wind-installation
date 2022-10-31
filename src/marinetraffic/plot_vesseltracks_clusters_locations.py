@@ -10,9 +10,13 @@ import pandas as pd
 import sys
 import webbrowser
 
-from match_windfarms import get_known_windfarms
-from vesseltracks import read_vesseltracks_file
-from plot import get_bounding_box_latlon
+sys.path.append("./src")
+if not os.path.isdir(sys.path[-1]):
+    print(f"cwd: {os.path.abspath(os.path.curdir)}")
+    print(f"not a directory: {sys.path[-1]}")
+
+from marinetraffic.vesseltracks import read_vesseltracks_file
+from marinetraffic.plot import get_bounding_box_latlon
 
 
 def printv(message: str):
@@ -103,6 +107,19 @@ def parse_cmdline_args(args: dict) -> dict:
     ), f"not a file {args['known_windfarms']}"
     assert os.path.isdir(args["output_dir"]), f"not a directory: {args['output_dir']}"
     return args
+
+def get_known_windfarms(fpath: str) -> pd.DataFrame:
+    known_windfarms = pd.read_excel(fpath, engine="odf")
+    known_windfarms.set_index("index", inplace=True)
+    known_windfarms.turbine_installation_vessel = (
+        known_windfarms.turbine_installation_vessel.apply(
+            lambda x: [i.lower().lstrip().replace(" ", "-") for i in str(x).split(",")]
+        )
+    )
+    return known_windfarms
+
+
+
 
 def plot_vesseltracks_clusters_locations(config):
     matching_windfarms = pd.read_csv(config["matching_windfarms"])

@@ -6,7 +6,7 @@ TRUE=1
 FALSE=0
 
 WINDFARM_EPSILON=0.015
-WINDFARM_N_SAMPLES=200
+WINDFARM_N_SAMPLES=100
 TURBINE_EPSILON=0.1
 TURBINE_N_SAMPLES=3
 
@@ -38,7 +38,7 @@ do
       shift 1
       ;;
     --match-windfarms )
-      match=$TRUE
+      match_windfarms=$TRUE
       shift 1
       ;;
     --plot-vesseltracks )
@@ -186,12 +186,15 @@ function cluster_locations() {
 }
 
 function match_windfarms() {
-    mkdir -p data/marinetraffic/matching_windfarms
-    python src/marinetraffic/match_windfarms.py \
+    mkdir -p data/windfarms/matching_windfarms
+    python bin/match_windfarms.py \
       --known-windfarms data/windfarms/windfarms-complete_turbines.ods \
       --cluster-dir data/marinetraffic/clustered \
-      --output-dir data/marinetraffic/matching_windfarms \
-      --match-tolerance 0.15 \
+      --output-dir data/windfarms/matching_windfarms \
+      --match-tolerance 0.09 \
+      --max-distance-centroid-sigma 3 \
+      --max-duration 30 \
+      --min-duration 0.5 \
       --verbose
 }
 
@@ -208,7 +211,7 @@ function plot_matching_windfarms() {
   for vesselfile in data/marinetraffic/clean/*.csv
   do
     local vesselkey=$(basename "${vesselfile}" .csv)
-    local windfarm_locations=$(find data/marinetraffic/matching_windfarms -iname "*_${vesselkey}_cluster-*.csv" | tr '\n' ' ')
+    local windfarm_locations=$(find data/windfarms/matching_windfarms -iname "*_${vesselkey}_cluster-*.csv" | tr '\n' ' ')
     if [[ -z $windfarm_locations ]]
     then
       echo "no matching windfarms available for ${vesselkey}, skipping"
@@ -218,10 +221,10 @@ function plot_matching_windfarms() {
     fi
     python bin/plot_vesseltracks_clusters_locations.py \
       --vesseltracks "${vesselfile}" \
-      --windfarm-locations data/marinetraffic/matching_windfarms/*_"${vesselkey}"_cluster-*.csv \
+      --windfarm-locations data/windfarms/matching_windfarms/*_"${vesselkey}"_cluster-*.csv \
       --known-windfarms data/windfarms/windfarms-complete_turbines.ods \
-      --matching-windfarms data/marinetraffic/matching_windfarms/matching_windfarms.csv \
-      --output-dir data/marinetraffic/matching_windfarms \
+      --matching-windfarms data/windfarms/matching_windfarms/matching_windfarms.csv \
+      --output-dir data/windfarms/matching_windfarms \
       --verbose \
       --interactive
   done
@@ -280,7 +283,7 @@ function run_analysis(){
   if [[ $match_windfarms == $TRUE ]]
   then
     echo "matching windfarms"
-    (find data/marinetraffic/matching_windfarms -type f -delete && match_windfarms) || error "failed to match windfarms"
+    (find data/windfarms/matching_windfarms -type f -delete && match_windfarms) || error "failed to match windfarms"
   fi
 
   if [[ $era5 == $TRUE ]]
