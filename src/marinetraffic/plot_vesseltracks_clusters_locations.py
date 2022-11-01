@@ -119,8 +119,6 @@ def get_known_windfarms(fpath: str) -> pd.DataFrame:
     return known_windfarms
 
 
-
-
 def plot_vesseltracks_clusters_locations(config):
     matching_windfarms = pd.read_csv(config["matching_windfarms"])
     known_windfarms = get_known_windfarms(config["known_windfarms"])

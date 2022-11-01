@@ -10,7 +10,7 @@ def plot_windfarms_cartopy(
     fig = None,
     axis = None,
     margin : float = 1.0,
-    figsize : tuple =(9, 9),
+    figsize : tuple =(16, 9),
     save_fig="",
     verbose=False,
     transparent=True,
@@ -20,16 +20,9 @@ def plot_windfarms_cartopy(
         l = label
     else:
         l = ""
-
-    if color:
-        c = color
-    else:
-        c = "tab:blue"
-
     if fig and not axis:
         print(f"please provide both figure and axis objects")
         sys.exit()
-
     if fig:
         figure = fig
     else:
@@ -52,7 +45,7 @@ def plot_windfarms_cartopy(
     ax.add_feature(cartopy.feature.BORDERS)
     ax.gridlines(draw_labels=True, dms=True, x_inline=False, y_inline=False)
     ax.coastlines(resolution='10m')
-    plt.scatter(data['longitude'], data['latitude'], transform=cartopy.crs.PlateCarree(), color=c, label=l)
+    plt.scatter(data['longitude'], data['latitude'], transform=cartopy.crs.PlateCarree(), label=l)
     if label:
         plt.legend()
     plt.tight_layout()

@@ -10,6 +10,9 @@ import sys
 
 from plot import plot_vesseltracks_cartopy
 
+if 'fivethirtyeight' in plt.style.available:
+    plt.style.use('fivethirtyeight')
+
 def define_cmdline_args() -> argparse.ArgumentParser:
     """
     define_cmdline_args -> argparse.ArgumentParser object

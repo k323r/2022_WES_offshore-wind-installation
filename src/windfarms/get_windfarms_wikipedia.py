@@ -11,6 +11,9 @@ import sys
 from plot import plot_windfarms_cartopy
 from wikitable import (get_table, clean_table)
 
+if 'fivethirtyeight' in plt.style.available:
+    plt.style.use('fivethirtyeight')
+
 URL_de = "https://de.wikipedia.org/wiki/Liste_der_Offshore-Windparks"
 URL_en = "https://en.wikipedia.org/wiki/List_of_offshore_wind_farms"
 

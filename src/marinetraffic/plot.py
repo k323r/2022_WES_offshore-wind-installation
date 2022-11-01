@@ -63,7 +63,7 @@ def plot_vesseltracks_cartopy(
     vessel_tracks: pd.DataFrame,
     vessel_name : str, 
     margin : float = 0.1,
-    figsize : tuple =(9, 9),
+    figsize : tuple =(16, 9),
     save_fig="",
     verbose=False,
     transparent=True,
