@@ -61,15 +61,19 @@ def plot_cluster_locations(
 
 def plot_vesseltracks_cartopy(
     vessel_tracks: pd.DataFrame,
-    vessel_name : str, 
+    vessel_name : str = "", 
+    ex_figure = None,
     margin : float = 0.1,
     figsize : tuple =(16, 9),
     save_fig="",
     verbose=False,
     transparent=True,
+    new_fig = True,
 ):
-    print(vessel_tracks)
-    figure = plt.figure(figsize=figsize)
+    if not ex_figure:
+        figure = plt.figure(figsize=figsize)
+    else:
+        figure = ex_figure
     if transparent:
         figure.patch.set_alpha(0)
     min_lat = vessel_tracks.latitude.min() - margin
@@ -86,6 +90,8 @@ def plot_vesseltracks_cartopy(
     ax.gridlines(draw_labels=True, dms=True, x_inline=False, y_inline=False)
     ax.coastlines(resolution='10m')
     plt.scatter(vessel_tracks['longitude'], vessel_tracks['latitude'], transform=cartopy.crs.PlateCarree())
+    if vessel_name:
+        plt.title(vessel_name)
     plt.tight_layout()
     if save_fig:
         plt.savefig(save_fig, dpi=300)
