@@ -9,9 +9,7 @@
 %% Please use the following documentclass and journal abbreviations for preprints and final revised papers.
 
 %% 2-column papers and preprints
-\documentclass[journal abbreviation, manuscript]{copernicus}
-
-
+\documentclass[wes, manuscript]{copernicus}
 
 %% Journal abbreviations (please use the same for preprints and final revised papers)
 
@@ -74,11 +72,12 @@
 %\usepackage{float}
 %\usepackage{subfig}
 %\usepackage{rotating}
+\usepackage{booktabs}
 
 
 \begin{document}
 
-\title{I spy with my little eye, or: utilizing satellite data to estimate offshore wind farm installation performance}
+\title{Estimating offshore wind farm insta installation performance with satellite data}
 
 
 % \Author[affil]{given_name}{surname}
@@ -101,9 +100,7 @@
 
 
 \correspondence{A.S. (aljoscha.sander@rug.nl)}
-
 \runningtitle{Performance of Offshore Wind Farm Installations}
-
 \runningauthor{Aljoscha Sander}
 
 
@@ -124,12 +121,15 @@
 
 \begin{abstract}
 
-- Offshore wind maturing, installations are a massive challenge
-- Little public data on offshore wind farm installation performance available
-- Offshore Wind Farm Installation massively influenced by weather limits
-- Combining Automatic Identification System (AIS), ERA5 and public wind farm data allows to assess performance of
+\begin{itemize}
+
+    \item Offshore wind maturing, installations are a massive challenge
+    \item Little public data on offshore wind farm installation performance available
+    \item Offshore Wind Farm Installation massively influenced by weather limits
+    \item Combining Automatic Identification System (AIS), ERA5 and public wind farm data allows to assess performance of
 offshore wind farm installation as a function of metocean data, location, wind turbine type and installation vessel
 
+\end{itemize}
 
 \end{abstract}
 
@@ -138,42 +138,197 @@ offshore wind farm installation as a function of metocean data, location, wind t
 
 
 \introduction  %% \introduction[modified heading if necessary]
-TEXT
+
+With 5,795 offshore wind turbines operational in Europe alone (June 2022),
+offshore wind has become a major source of electricity in several countries, 
+and more than 20 years of installing offshore wind farms has led to a significant
+amount of learning in the industry. While a great deal of scientific 
+literature is available on wind turbine design and operations, the body of 
+literature dealing with offshore wind farm installations is 
+comparatively small, even though installing wind turbines offshore imposes a
+complex and thus scientifically interesting problem.
+
+The installation of an offshore wind farm is by no means an easy undertaking: 
+metocean conditions must be within narrow limits to allow save operations. 
+Specialized equipment, vessels, and crews are required. The continuously 
+increasing size of turbines, as well as increasing water depths, and new locations 
+where little experience is available, add to the risks associated with installations. 
+Unforeseen downtimes are costly and put additional strain on already difficult operations. 
+
+In this study, we investigate how metocean conditions correlate with offshore wind farm 
+installation times. We compile a statistical overview of offshore wind farm installations: 
+from satellite data, we extract correlations between turbine size, wind farm locations, 
+installation vessels and installation duration with metocean conditions during the installation process. Finally, we extract the observed metocean limits for turbine sizes, manufacturers, vessels, and locations
+
+\section{Material and Methods}
+
+\subsection{Vessel tracks}
 
 
-\section{HEADING}
-TEXT
 
+\paragraph{Data acquisition and pre-processing}
 
-\subsection{HEADING}
-TEXT
+To reliably extract installation times for as many offshore wind farms as possible, 
+we acquired hourly \textit{Automatic Identification System} (AIS) vessel data from a 
+data broker. The AIS data includes 9 offshore wind installation vessels over a 
+period of 11 years (see \autoref{tab:ais}).  
 
+\begin{table}[]
+    \caption{AIS vessel data used in this study.}
+    \centering
+    \begin{tabular}{c c c}
+        MMSI & Name & Data time range \\
+        \hline
+        218389000 & Thor & 2010 - 2021 \\
+        218657000 & Vole au Vent & 2013 - 2021 \\
+        219019002 & Sea Challenger & 2013 - 2021 \\
+        229044000 & Brave Tern & 2012 - 2021 \\
+        229080000 & Bold Tern & 2013 - 2021 \\
+        235090598 & Blue Tern & 2015 - 2021 \\
+        245179000 & Aeolus &  2010 - 2021 \\
+        245924000 & MPI Adventure & 2010 - 2021 \\
+        246777000 & MPI Resolution & 2010 - 2021 \\
+    \end{tabular}
+    \label{tab:ais}
+\end{table}
 
-\subsubsection{HEADING}
-TEXT
+Each AIS vessel record includes latitude, longitude, speed, heading, course and a 
+timestamp for a given vessel.
 
+\paragraph{Clustering vessel tracks to extract wind farms}
+To extract installation times per turbine per offshore 
+wind farm, we preselected vessel records where the speed of the vessel was 0 and further 
+removed records where the vessel was close to shore or in port. The vessel records were 
+then automatically clustered using the DBSCAN algorithm as implemented in the 
+scikit-learn python package. 
+\paragraph{Clustering wind farms to extract single turbines}
+To yield vessel records corresponding to single turbine installations, 
+each wind farm cluster was clustered again with the DBSCAN algorithm, yielding vessel 
+records corresponding to individual turbines. Only turbine locations where at least two 
+vessel records were available were kept for further analysis.
+Installation times per turbine were then calculated by assuming, that the first available 
+AIS vessel record corresponds to the beginning of turbine installation activities and the 
+last AIS record marks the end of installation activities.
+
+\subsection{Wind farms}
+These clusters were then cross-referenced with the 
+locations of offshore wind farms to select vessel records within a given radius of a 
+known wind farm. 
+
+\subsection{Metocean data}
+Based on the time stamps of the AIS records per turbine, ERA5 metocean data was 
+requested for the wind farm location. ERA5 data includes wind speed and wind direction at several 
+altitudes, wave direction, wave period and significant wave height. For each wind farm, 
+metadata such as wind turbine model, rated power and foundation type were collected, 
+and all data was combined into a SQLite database. The database will be made available 
+to the public once analysis has been completed. 
+
+\clearpage
+\newpage
+
+\section{Results and Discussion}
+
+\begin{table}
+    \caption[]{Overview of detected wind farms and number of extracted wind turbines per wind farm}
+    \centering
+    \begin{tabular}{lrrrr}
+    \toprule
+     Wind Farm Name &  Number of Turbines &  Rated Turbine Power &  Wind Farm Capacity &  Number of Extracted Wind Turbines \\
+    \midrule
+      Luchterduinen &                  43 &                 3.00 &              129.00 &                                  4 \\
+   Westermost Rough &                  35 &                 6.00 &              210.00 &                                 32 \\
+             Arkona &                  60 &                 6.42 &              385.00 &                                 49 \\
+    East Anglia One &                 102 &                 7.00 &              714.00 &                                 11 \\
+            Dudgeon &                  67 &                 6.00 &              402.00 &                                 61 \\
+   Gode Wind I \& II &                  97 &                 6.00 &              582.00 &                                 61 \\
+            Hornsea &                 174 &                 7.00 &             1218.00 &                                100 \\
+      Borssele I/II &                  94 &                 8.00 &              752.00 &                                 55 \\
+     Humber Gateway &                  73 &                 3.00 &              219.00 &                                 83 \\
+          Northwind &                  72 &                 3.00 &              216.00 &                                 52 \\
+     Deutsche Bucht &                  31 &                 8.40 &              260.40 &                                 14 \\
+          Veja Mate &                  67 &                 6.00 &              402.00 &                                 19 \\
+           Galloper &                  56 &                 6.30 &              352.80 &                                 11 \\
+      Global Tech I &                  80 &                 5.00 &              400.00 &                                 22 \\
+          Butendiek &                  80 &                 3.60 &              288.00 &                                 76 \\
+         Moray East &                 100 &                 9.50 &              950.00 &                                 68 \\
+ Borkum Riffgrund 2 &                  56 &                 8.00 &              448.00 &                                 48 \\
+      Borkum Riﬀgat &                  30 &                 3.77 &              113.25 &                                 20 \\
+             Merkur &                  66 &                 6.00 &              396.00 &                                 59 \\
+   Trianel Borkum 2 &                  32 &                 6.33 &              202.56 &                                  9 \\
+             Gemini &                 150 &                 4.00 &              600.00 &                                 29 \\
+           Albatros &                  16 &                 7.00 &              112.00 &                                 11 \\
+          Nobelwind &                  50 &                 3.30 &              165.00 &                                 41 \\
+      Kriegers Flak &                  72 &                 8.00 &              576.00 &                                 72 \\
+           Wikinger &                  70 &                 5.00 &              350.00 &                                 64 \\
+             Yunlin &                  80 &                 8.00 &              640.00 &                                 11 \\
+        Horns Rev 3 &                  49 &                 8.30 &              406.70 &                                 46 \\
+           Sandbank &                  72 &                 4.00 &              288.00 &                                 73 \\
+           Teesside &                  27 &                 2.30 &               62.10 &                                 25 \\
+            Rampion &                 116 &                 3.45 &              400.20 &                                 41 \\
+     BARD Oﬀshore I &                  80 &                 5.00 &              400.00 &                                 15 \\
+      Northwester 2 &                  23 &                 9.50 &              218.50 &                                 41 \\
+EnBW Baltic II (MP) &                  39 &                 3.60 &              140.40 &                                 42 \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:installations}
+\end{table}
+
+\clearpage
+\newpage
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/installations_overview.png}
+    \caption{Overview of installation data}
+    \label{fig:overview}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/duration_distribution.png}
+    \caption{duration distribution}
+    \label{fig:distribution}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/cumulative_duration.png}
+    \caption{duration distribution}
+    \label{fig:cumsum}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/duration_turbine-size.png}
+    \caption{duration distribution}
+    \label{fig:size}
+\end{figure}
+\conclusions  %% \conclusions[modified heading if necessary]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/duration_wind.png}
+    \caption{duration distribution}
+    \label{fig:wind}
+\end{figure}
+
+\clearpage
+\newpage
 
 \conclusions  %% \conclusions[modified heading if necessary]
-TEXT
+
+
 
 %% The following commands are for the statements about the availability of data sets and/or software code corresponding to the manuscript.
 %% It is strongly recommended to make use of these sections in case data sets and/or software code have been part of your research the article is based on.
 
-\codeavailability{TEXT} %% use this section when having only software code available
 
-All code related to the present publication is available on github under creative-commons licence: \url{https://github.com/k323r/2022_WES_offshore-wind-installation}
-
-
-\dataavailability{TEXT} %% use this section when having only data sets available
-
-
-\codedataavailability{TEXT} %% use this section when having data sets and software code available
+\codedataavailability{All code related to the present publication is available
+on github under creative-commons licence: 
+\url{https://github.com/k323r/2022_WES_offshore-wind-installation}}
 
 
 \sampleavailability{TEXT} %% use this section when having geoscientific samples available
-
-
-\videosupplement{TEXT} %% use this section when having video supplements available
 
 
 \appendix
@@ -197,7 +352,6 @@ All code related to the present publication is available on github under creativ
 \appendixtables   %% needs to be added in front of appendix tables
 
 %% Please add \clearpage between each table and/or figure. Further guidelines on figures and tables can be found below.
-
 
 
 \authorcontribution{TEXT} %% this section is mandatory
