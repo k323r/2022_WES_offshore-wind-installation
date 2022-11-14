@@ -1,0 +1,175 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{\tt #1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{https://doi.org/\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{https://doi.org/\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Acero et~al.(2017)Acero, Gao, and Moan}]{acero_methodology_2017}
+Acero, W., Gao, Z., and Moan, T.: Methodology for assessment of the allowable
+  sea states during installation of an offshore {Wind} turbine transition piece
+  structure onto a monopile foundation, Journal of Offshore Mechanics and
+  Arctic Engineering, 139, \doi{10.1115/1.4037174}, tex.ids=
+  aceroMethodologyAssessmentAllowable2017a, 2017.
+
+\bibitem[{Gintautas and Sorensen(2017)}]{gintautas_improved_2017}
+Gintautas, T. and Sorensen, J.~D.: Improved {Methodology} of {Weather} {Window}
+  {Prediction} for {Offshore} {Operations} {Based} on {Probabilities} of
+  {Operation} {Failure}, Journal of Marine Science and Engineering, 5, 20,
+  \doi{10.3390/jmse5020020}, wOS:000423689700006, 2017.
+
+\bibitem[{Gintautas et~al.(2016)Gintautas, Sorensen, and
+  Vatne}]{gintautas_towards_2016}
+Gintautas, T., Sorensen, J.~D., and Vatne, S.~R.: Towards a risk-based decision
+  support for offshore wind turbine installation and operation \& maintenance,
+  in: 13th {Deep} {Sea} {Offshore} {Wind} {R}\&d {Conference}, {Eera}
+  {Deepwind}'2016, edited by Tande, J. O.~G., Kvamsdal, T., and Muskulus, M.,
+  vol.~94, pp. 207--217, Elsevier Science Bv, Amsterdam, wOS:000387586600021,
+  2016.
+
+\bibitem[{Jiang(2021)}]{jiang_installation_2021}
+Jiang, Z.: Installation of offshore wind turbines: {A} technical review,
+  Renewable and Sustainable Energy Reviews, 139, 110\,576,
+  \doi{10.1016/j.rser.2020.110576}, 2021.
+
+\bibitem[{Lacal-Arántegui et~al.(2018)Lacal-Arántegui, Yusta, and
+  Domínguez-Navarro}]{lacal-arantegui_offshore_2018}
+Lacal-Arántegui, R., Yusta, J.~M., and Domínguez-Navarro, J.~A.: Offshore
+  wind installation: {Analysing} the evidence behind improvements in
+  installation time, Renewable and Sustainable Energy Reviews, 92, 133--145,
+  \doi{10.1016/j.rser.2018.04.044}, tex.ids=
+  lacal-aranteguiOffshoreWindInstallation2018a,
+  lacalaranteguiOffshoreWindInstallation2018, 2018.
+
+\bibitem[{Li et~al.(2016)Li, Guachamin~Acero, Gao, and
+  Moan}]{li_assessment_2016}
+Li, L., Guachamin~Acero, W., Gao, Z., and Moan, T.: Assessment of {Allowable}
+  {Sea} {States} {During} {Installation} of {Offshore} {Wind} {Turbine}
+  {Monopiles} {With} {Shallow} {Penetration} in the {Seabed}, Journal of
+  Offshore Mechanics and Arctic Engineering, 138, 041\,902,
+  \doi{10.1115/1.4033562}, tex.ids= liAssessmentAllowableSea2016a, 2016.
+
+\bibitem[{Li et~al.(2021)Li, Haver, and Berlin}]{li_assessment_2021}
+Li, L., Haver, S., and Berlin, N.: Assessment of operational limits: {Effects}
+  of uncertainties in sea state description, Marine Structures, 77, 102\,975,
+  \doi{10.1016/j.marstruc.2021.102975}, 2021.
+
+\bibitem[{Oelker et~al.(2021)Oelker, Sander, Kreutz, Ait-Alla, and
+  Freitag}]{oelker_evaluation_2021}
+Oelker, S., Sander, A., Kreutz, M., Ait-Alla, A., and Freitag, M.: Evaluation
+  of the {Impact} of {Weather}-{Related} {Limitations} on the {Installation} of
+  {Offshore} {Wind} {Turbine} {Towers}, Energies, 14, 3778,
+  \doi{10.3390/en14133778}, 2021.
+
+\bibitem[{Paterson et~al.(2018)Paterson, D’Amico, Thies, Kurt, and
+  Harrison}]{paterson_offshore_2018}
+Paterson, J., D’Amico, F., Thies, P., Kurt, R., and Harrison, G.: Offshore
+  wind installation vessels – {A} comparative assessment for {UK} offshore
+  rounds 1 and 2, Ocean Engineering, 148, 637--649,
+  \doi{10.1016/j.oceaneng.2017.08.008}, 2018.
+
+\bibitem[{Sander(2020{\natexlab{a}})}]{sander_oscillations_2020}
+Sander, A.: Oscillations of {Offshore} {Wind} {Turbines} undergoing
+  {Installation} {I}: {Raw} {Measurements}, \doi{10.5281/zenodo.4498779}, type:
+  dataset, 2020{\natexlab{a}}.
+
+\bibitem[{Sander(2020{\natexlab{b}})}]{sander_twbii_2020}
+Sander, A.: {TWBII} {Final} {Report}, Tech. rep., University of Bremen, Bremen,
+  2020{\natexlab{b}}.
+
+\bibitem[{Sander et~al.(2020{\natexlab{a}})Sander, Haselsteiner, Barat,
+  Janssen, Oelker, Ohlendorf, and Thoben}]{sander_relative_2020}
+Sander, A., Haselsteiner, A.~F., Barat, K., Janssen, M., Oelker, S., Ohlendorf,
+  J.-H., and Thoben, K.-D.: Relative {Motion} {During} {Single} {Blade}
+  {Installation}: {Measurements} {From} the {North} {Sea}, American Society of
+  Mechanical Engineers Digital Collection, \doi{10.1115/OMAE2020-18935},
+  2020{\natexlab{a}}.
+
+\bibitem[{Sander et~al.(2020{\natexlab{b}})Sander, Meinhardt, and
+  Thoben}]{sander_monitoring_2020}
+Sander, A., Meinhardt, C., and Thoben, K.-D.: {MONITORING} {OF} {OFFSHORE}
+  {WIND} {TURBINES} {UNDER} {WAVE} {AND} {WIND} {LOADING} {DURING}
+  {INSTALLATION}, pp. 2189--2205, Athens, Greece,
+  \doi{10.47964/1120.9178.19731}, 2020{\natexlab{b}}.
+
+\bibitem[{Stroer et~al.(2022)Stroer, Haselsteiner, Sander, and
+  Thoben}]{stroer_statistical_2022}
+Stroer, L., Haselsteiner, A., Sander, A., and Thoben, K.-D.: A {STATISTICAL}
+  {MODEL} {OF} {MOTION} {MAXIMA} {OF} {OFFSHORE} {WIND} {TURBINE} {COMPONENTS}
+  {DURING} {INSTALLATION}, 2022.
+
+\bibitem[{Sørensen et~al.(2001)Sørensen, ApS, Hansen, Vølund, and
+  Denmark}]{sorensen_experience_2001}
+Sørensen, H.~C., ApS, S., Hansen, J., Vølund, P., and Denmark, H.:
+  {EXPERIENCE} {FROM} {THE} {ESTABLISHMENT} {OF} {MIDDELGRUNDEN} 40 {MW}
+  {OFFSHORE} {WIND} {FARM}, p.~4, 2001.
+
+\bibitem[{Tjaberings et~al.(2022)Tjaberings, Fazi, and
+  Ursavas}]{tjaberings_evaluating_2022}
+Tjaberings, J., Fazi, S., and Ursavas, E.: Evaluating operational strategies
+  for the installation of offshore wind turbine substructures, Renewable and
+  Sustainable Energy Reviews, 170, 112\,951, \doi{10.1016/j.rser.2022.112951},
+  2022.
+
+\bibitem[{Tranberg et~al.(2019)Tranberg, Kratmann, and
+  Stege}]{tranberg_determining_2019}
+Tranberg, B., Kratmann, K., and Stege, J.: Determining offshore wind
+  installation times using machine learning and open data, 2019.
+
+\bibitem[{Verma et~al.(2017)Verma, Vedvik, and Gao}]{verma_numerical_2017}
+Verma, A.~S., Vedvik, N.~P., and Gao, Z.: Numerical assessment of wind turbine
+  blade damage due to contact/impact with tower during installation, IOP
+  Conference Series: Materials Science and Engineering, 276, 012\,025,
+  \doi{10.1088/1757-899X/276/1/012025}, publisher: IOP Publishing, 2017.
+
+\bibitem[{Verma et~al.(2019{\natexlab{a}})Verma, Jiang, Ren, Gao, and
+  Vedvik}]{verma_response-based_2019}
+Verma, A.~S., Jiang, Z., Ren, Z., Gao, Z., and Vedvik, N.~P.: Response-{Based}
+  {Assessment} of {Operational} {Limits} for {Mating} {Blades} on
+  {Monopile}-{Type} {Offshore} {Wind} {Turbines}, Energies, 12, 1867,
+  \doi{10.3390/en12101867}, wOS:000471016700046, 2019{\natexlab{a}}.
+
+\bibitem[{Verma et~al.(2019{\natexlab{b}})Verma, Jiang, Vedvik, Gao, and
+  Ren}]{verma_impact_2019}
+Verma, A.~S., Jiang, Z., Vedvik, N.~P., Gao, Z., and Ren, Z.: Impact assessment
+  of a wind turbine blade root during an offshore mating process, Engineering
+  Structures, 180, 205--222, \doi{10.1016/j.engstruct.2018.11.012}, tex.ids=
+  vermaImpactAssessmentWind2019a, 2019{\natexlab{b}}.
+
+\bibitem[{Verma et~al.(2019{\natexlab{c}})Verma, Vedvik, and
+  Gao}]{verma_comprehensive_2019}
+Verma, A.~S., Vedvik, N.~P., and Gao, Z.: A comprehensive numerical
+  investigation of the impact behaviour of an offshore wind turbine blade due
+  to impact loads during installation, Ocean Engineering, 172, 127--145,
+  \doi{10.1016/j.oceaneng.2018.11.021}, 2019{\natexlab{c}}.
+
+\bibitem[{Verma et~al.(2020)Verma, Jiang, Ren, Gao, and
+  Vedvik}]{verma_effects_2020}
+Verma, A.~S., Jiang, Z., Ren, Z., Gao, Z., and Vedvik, N.~P.: Effects of
+  {Wind}-{Wave} {Misalignment} on a {Wind} {Turbine} {Blade} {Mating}
+  {Process}: {Impact} {Velocities}, {Blade} {Root} {Damages} and {Structural}
+  {SafetyAssessment}, Journal of Marine Science and Application,
+  \doi{10.1007/s11804-020-00141-7}, tex.ids=
+  vermaEffectsWindWaveMisalignment2020, 2020.
+
+\bibitem[{windeurope.org(2022)}]{windeuropeorg_offshore_2022}
+windeurope.org: Offshore {Wind} {Energy} 2022 {Mid}-{Year} {Statistics}, Tech.
+  rep.,
+  \urlprefix\url{https://proceedings.windeurope.org/biplatform/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWhNM3B1T1c4NE5HZGxjbVJ4T0c5eFpEWnJhSGs1YzJJNGR6UnVid1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpYjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpJd01qSWdUMlptYzJodmNtVWdkMmx1WkNCdGFXUXRlV1ZoY2k1d1pHWWlPeUJtYVd4bGJtRnRaU285VlZSR0xUZ25Kekl3TWpJbE1qQlBabVp6YUc5eVpTVXlNSGRwYm1RbE1qQnRhV1F0ZVdWaGNpNXdaR1lHT3daVU9oRmpiMjUwWlc1MFgzUjVjR1ZKSWhSaGNIQnNhV05oZEdsdmJpOXdaR1lHT3daVSIsImV4cCI6IjIwMjItMTEtMTRUMjA6MTA6NDAuODQ5WiIsInB1ciI6ImJsb2Jfa2V5In19--3b912d9ed1534dfd86215e04d4a22988ffdd5669/2022%20Offshore%20wind%20mid-year.pdf?content_type=application%2Fpdf&disposition=inline%3B+filename%3D%222022+Offshore+wind+mid-year.pdf%22%3B+filename%2A%3DUTF-8%27%272022%2520Offshore%2520wind%2520mid-year.pdf},
+  2022.
+
+\bibitem[{Wu et~al.(2022)Wu, Gao, and Zhao}]{wu_assessment_2022}
+Wu, M., Gao, Z., and Zhao, Y.: Assessment of allowable sea states for offshore
+  wind turbine blade installation using time-domain numerical models and
+  considering weather forecast uncertainty, Ocean Engineering, 260, 111\,801,
+  \doi{10.1016/j.oceaneng.2022.111801}, 2022.
+
+\bibitem[{Yang et~al.(2022)Yang, Lin, and Dong}]{yang_weather_2022}
+Yang, Z., Lin, Y., and Dong, S.: Weather window and efficiency assessment of
+  offshore wind power construction in {China} adjacent seas using the
+  calibrated {SWAN} model, Ocean Engineering, 259, 111\,933,
+  \doi{10.1016/j.oceaneng.2022.111933}, 2022.
+
+\end{thebibliography}

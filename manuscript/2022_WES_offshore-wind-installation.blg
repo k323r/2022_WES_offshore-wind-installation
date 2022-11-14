@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2022_WES_offshore-wind-installation.aux
+The style file: copernicus.bst
+Database file #1: installation-literature.bib
+Warning--empty booktitle in sander_relative_2020
+Warning--empty booktitle in sander_monitoring_2020
+Warning--empty booktitle in stroer_statistical_2022
+Warning--empty journal in sorensen_experience_2001
+Warning--missing publisher in tranberg_determining_2019
+Warning--missing institution in windeuropeorg_offshore_2022
+You've used 25 entries,
+            2819 wiz_defined-function locations,
+            1170 strings with 16690 characters,
+and the built_in function-call counts, 20967 in all, are:
+= -- 2140
+> -- 833
+< -- 9
++ -- 374
+- -- 255
+* -- 1472
+:= -- 2233
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 146
+chr.to.int$ -- 21
+cite$ -- 81
+duplicate$ -- 2046
+empty$ -- 1213
+format.name$ -- 325
+if$ -- 4148
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 267
+newline$ -- 84
+num.names$ -- 101
+pop$ -- 842
+preamble$ -- 1
+purify$ -- 134
+quote$ -- 0
+skip$ -- 1106
+stack$ -- 0
+substring$ -- 787
+swap$ -- 1638
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 222
+warning$ -- 6
+while$ -- 117
+width$ -- 0
+write$ -- 306
+(There were 6 warnings)

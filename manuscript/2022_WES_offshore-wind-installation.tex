@@ -81,28 +81,67 @@ offshore wind farm installation as a function of metocean data, location, wind t
 
 \introduction  %% \introduction[modified heading if necessary]
 
-With 5,795 offshore wind turbines operational in Europe alone (June 2022),
+With 5,795 offshore wind turbines operational in Europe alone in August of 2022 \citep{windeuropeorg_offshore_2022},
 offshore wind has become a major source of electricity in several countries, 
 and more than 20 years of installing offshore wind farms has led to a significant
 amount of learning in the industry. While a great deal of scientific 
 literature is available on wind turbine design and operations, the body of 
 literature dealing with offshore wind farm installations is 
 comparatively small, even though installing wind turbines offshore imposes a
-complex and thus scientifically interesting problem.
+complex and thus scientifically challenging problem. 
 
-The installation of an offshore wind farm is by no means an easy undertaking: 
-metocean conditions must be within narrow limits to allow save operations. 
-Specialized equipment, vessels, and crews are required. The continuously 
-increasing size of turbines, as well as increasing water depths, and new locations 
-where little experience is available, add to the risks associated with installations. 
-Unforeseen downtimes are costly and put additional strain on already difficult operations. 
+Wind turbines are today among the largest artifacts produced in series, easily surpassing even the larges of planes
+in their dimensions. Hence, installing them in an inherently windy location on the open ocean 
+is by no means an easy undertaking: metocean conditions must be within narrow limits to allow save operations
+as wind and waves will inevitably induce motions of components during installations. 
+\citet{jiang_installation_2021} provides an in-depth technical review of the current state-of-the-art
+of offshore wind farm installations and the associated challenges and potentials.
+In addition to the challenging environment, specialized equipment, vessels, and crews are required
+which due to the high level of specialization may not be available at all times or only at adverse
+cost. Last, the continuously increasing size of turbines, as well as increasing water depths, and new locations 
+where little experience with regards to soil and metocean conditions is available, add to 
+the risks associated with installations. All these factors may add to unforeseen cost which in turn 
+put unnecessary strain on already difficult operations. In a brief review of lessons learned from the 
+installation of one of the first offshore wind farms in Europe, Middelgrunden, \citet{sorensen_experience_2001} 
+already reports the adverse effects of changes in policy or logistics on the successful erection of a wind farm.
+It required a few more years and a considerable uptake in wind turbine rated power and size, 
+until the first studies systematically investigating offshore wind farm installations were published. 
+\citet{gintautas_towards_2016} and \citet{gintautas_improved_2017} noted that, indeed, not the sea state or the wind speed is the limiting
+factor of any offshore wind operation, but the response of components and vessels to the latter. Thus, the authors
+proposed a novel decision making support tool that incorporated not only improved weather forecasts, but
+also the physical response of any components and vessels involved. \citet{li_assessment_2016} derived allowable sea states
+during monopile installation by conducting fully-coupled simulations of a heavy lift vessel and a monopile. \citet{acero_methodology_2017}
+extended this onto the installation of transition pieces. 
+In 2018 \citet{lacal-arantegui_offshore_2018} published a comprehensive study on the evidence behind cost reductions in offshore wind farm
+installations by comparing various key performance indicators; their data set included 87 wind farms installed between 2000 and 2017. Turbine rated power in that period increased by a factor of 4. They observed, that the overall installation duration per turbine stayed constant and the installation duration per monopile only tapered slightly. However, if the installation duration per Megawatt was calculate, a strong reduction in installation duration was observed. \citet{paterson_offshore_2018} investigated how installation vessels performed between the United Kingdoms round one and two using a probabilistic modeling approach. 
+\citet{tranberg_determining_2019} used vessel tracks recorded by the international \textit{Automatic Identification System} (AIS) of offshore wind farm installation vessels to extract turbine installation duration for 16 wind farms using a clustering approach. They showed, that median and average installation duration differ significantly, indicating a highly skewed distribution of installation duration within a wind farm. As an outlook, they also showed installation duration as a function of average wind speed: turbines with a longer installation duration tended to experience higher wind speeds. 
+A series of publications from Verma et al. (see e.g.: \citet{verma_numerical_2017, verma_impact_2019, verma_response-based_2019, verma_comprehensive_2019, verma_effects_2020}) explored the impact of weather onto single blade installation using fully coupled simulations of a wind turbine under installation conditions. In a measurement campaign conducted during the installation of the offshore wind farm \textit{Trianel Windpark Borkum II}, the structural response of 32 wind turbines during installation was recorded and consequentially correlated with the metocean conditions experienced by the turbines. While the structural response of the turbines was stochastic in nature, a clear correlation between maximum tower to displacement, wind speed and significant wave height was observed. The data allowed derivation of structural installation limits, as 	
+opposed wind speed and wave height limits \citep{sander_relative_2020, sander_oscillations_2020, sander_twbii_2020}. During the installation \textit{Trianel Windpark Borkum II}, a tuned mass damper was used to reduce structural response of turbines during installation, effectively increasing the maximum allowable wind speed and significant wave height. The measurements confirmed the effectiveness of the damper \citep{sander_monitoring_2020}. The concept was picked up by \citet{oelker_evaluation_2021}, who modeled the impact of the tuned mass damper as increased wind and wave limits, showing a significant cost saving potential. Further, the measurements also showed, that most of the structural response, limiting the installation was caused by the turbine and not by the blade \citep{stroer_statistical_2022}. 
+
+With the present body of literature dealing with the link between structural response of components and metocean conditions, several questions remain: how long does the installation of turbines take on average? How are installation duration and turbine size, prevailing metocean conditions, vessel size, location and foundation type correlated? These data are necessary if the push towards a response based limits is to be successful. 
+
+\begin{itemize}
+	\item \citet{li_assessment_2021}
+	\item \citet{li_assessment_2021}
+	\item \citet{tjaberings_evaluating_2022}
+	\item \citet{wu_assessment_2022}
+	\item \citet{yang_weather_2022}
+\end{itemize}
 
 In this study, we investigate how metocean conditions correlate with offshore wind farm 
 installation times. We compile a statistical overview of offshore wind farm installations: 
 from satellite data, we extract correlations between turbine size, wind farm locations, 
-installation vessels and installation duration with metocean conditions during the installation process. Finally, we extract the observed metocean limits for turbine sizes, manufacturers, vessels, and locations
+installation vessels and installation duration with metocean conditions during the installation process. 
+Finally, we extract the observed metocean limits for turbine sizes, manufacturers, vessels, and locations. 
 
 \section{Material and Methods}
+
+\begin{figure}[ht]
+	   \centering
+	\includegraphics[width=0.5\textwidth]{figures/analysis_flowchart.png}
+	\caption{analysis flowchart}
+	\label{fig:flowchart}
+\end{figure}
 
 \subsection{Vessel tracks}
 
@@ -234,9 +273,9 @@ on github under creative-commons licence:
 
 
 \appendix
-\section{}    %% Appendix A
+\section{Appendix}    %% Appendix A
 
-\subsection{}     %% Appendix A1, A2, etc.
+\subsection{Wind Farm Gantt Charts}     %% Appendix A1, A2, etc.
 
 
 \noappendix       %% use this to mark the end of the appendix section. Otherwise the figures might be numbered incorrectly (e.g. 10 instead of 1).
@@ -273,16 +312,6 @@ TEXT
 
 %% The reference list is compiled as follows:
 
-\begin{thebibliography}{}
-
-\bibitem[AUTHOR(YEAR)]{LABEL1}
-REFERENCE 1
-
-\bibitem[AUTHOR(YEAR)]{LABEL2}
-REFERENCE 2
-
-\end{thebibliography}
-
 %% Since the Copernicus LaTeX package includes the BibTeX style file copernicus.bst,
 %% authors experienced with BibTeX only have to include the following two lines:
 %%
@@ -293,7 +322,8 @@ REFERENCE 2
 %%
 %% URL = {http://www.xyz.org/~jones/idx_g.htm}
 %% DOI = {10.5194/xyz}
-
+\bibliographystyle{copernicus}
+\bibliography{installation-literature.bib}
 
 %% LITERATURE CITATIONS
 %%
