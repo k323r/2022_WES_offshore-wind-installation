@@ -230,6 +230,13 @@ function plot_matching_windfarms() {
   done
 }
 
+function fetch_era5() {
+    for installation in data/installations/*cluster-*.csv
+    do
+        python3 bin/fetch_era5.py --installation $installation --output-dir data/metocean --verbose
+    done
+}
+
 function build_report() {
  
   cat <<EOF > report.md
@@ -288,7 +295,7 @@ function run_analysis(){
 
   if [[ $era5 == $TRUE ]]
   then
-    echo "downloading era5 data is not implemented yet"
+      fetch_era5
   fi
 
   if [[ $manuscript == $TRUE ]]

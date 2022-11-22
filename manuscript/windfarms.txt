@@ -1,39 +1,39 @@
-\begin{tabular}{lrrrr}
+\begin{tabular}{lrrrrl}
 \toprule
-     Wind Farm Name &  Number of Turbines &  Rated Turbine Power &  Wind Farm Capacity &  Number of Extracted Wind Turbines \\
+          Wind Farm &  Turbines &  Turbine Power (MW) &  Wind Farm Capacity (MW) &  Observed Installations &         Vessel \\
 \midrule
-      Luchterduinen &                  43 &                 3.00 &              129.00 &                                  4 \\
-   Westermost Rough &                  35 &                 6.00 &              210.00 &                                 32 \\
-             Arkona &                  60 &                 6.42 &              385.00 &                                 49 \\
-    East Anglia One &                 102 &                 7.00 &              714.00 &                                 11 \\
-            Dudgeon &                  67 &                 6.00 &              402.00 &                                 61 \\
-   Gode Wind I \& II &                  97 &                 6.00 &              582.00 &                                 61 \\
-            Hornsea &                 174 &                 7.00 &             1218.00 &                                100 \\
-      Borssele I/II &                  94 &                 8.00 &              752.00 &                                 55 \\
-     Humber Gateway &                  73 &                 3.00 &              219.00 &                                 83 \\
-          Northwind &                  72 &                 3.00 &              216.00 &                                 52 \\
-     Deutsche Bucht &                  31 &                 8.40 &              260.40 &                                 14 \\
-          Veja Mate &                  67 &                 6.00 &              402.00 &                                 19 \\
-           Galloper &                  56 &                 6.30 &              352.80 &                                 11 \\
-      Global Tech I &                  80 &                 5.00 &              400.00 &                                 22 \\
-          Butendiek &                  80 &                 3.60 &              288.00 &                                 76 \\
-         Moray East &                 100 &                 9.50 &              950.00 &                                 68 \\
- Borkum Riffgrund 2 &                  56 &                 8.00 &              448.00 &                                 48 \\
-      Borkum Riﬀgat &                  30 &                 3.77 &              113.25 &                                 20 \\
-             Merkur &                  66 &                 6.00 &              396.00 &                                 59 \\
-   Trianel Borkum 2 &                  32 &                 6.33 &              202.56 &                                  9 \\
-             Gemini &                 150 &                 4.00 &              600.00 &                                 29 \\
-           Albatros &                  16 &                 7.00 &              112.00 &                                 11 \\
-          Nobelwind &                  50 &                 3.30 &              165.00 &                                 41 \\
-      Kriegers Flak &                  72 &                 8.00 &              576.00 &                                 72 \\
-           Wikinger &                  70 &                 5.00 &              350.00 &                                 64 \\
-             Yunlin &                  80 &                 8.00 &              640.00 &                                 11 \\
-        Horns Rev 3 &                  49 &                 8.30 &              406.70 &                                 46 \\
-           Sandbank &                  72 &                 4.00 &              288.00 &                                 73 \\
-           Teesside &                  27 &                 2.30 &               62.10 &                                 25 \\
-            Rampion &                 116 &                 3.45 &              400.20 &                                 41 \\
-     BARD Oﬀshore I &                  80 &                 5.00 &              400.00 &                                 15 \\
-      Northwester 2 &                  23 &                 9.50 &              218.50 &                                 41 \\
-EnBW Baltic II (MP) &                  39 &                 3.60 &              140.40 &                                 42 \\
+      Luchterduinen &        43 &                3.00 &                   129.00 &                       4 &         aeolus \\
+   Westermost Rough &        35 &                6.00 &                   210.00 &                      32 & sea challenger \\
+             Arkona &        60 &                6.42 &                   385.00 &                      49 & sea challenger \\
+    East Anglia One &       102 &                7.00 &                   714.00 &                      11 & sea challenger \\
+            Dudgeon &        67 &                6.00 &                   402.00 &                      61 & sea challenger \\
+   Gode Wind I \& II &        97 &                6.00 &                   582.00 &                      61 & sea challenger \\
+            Hornsea &       174 &                7.00 &                  1218.00 &                     100 & sea challenger \\
+      Borssele I/II &        94 &                8.00 &                   752.00 &                      55 & sea challenger \\
+     Humber Gateway &        73 &                3.00 &                   219.00 &                      83 &     resolution \\
+          Northwind &        72 &                3.00 &                   216.00 &                      52 &     resolution \\
+     Deutsche Bucht &        31 &                8.40 &                   260.40 &                      14 &         aeolus \\
+          Veja Mate &        67 &                6.00 &                   402.00 &                      19 &      bold tern \\
+           Galloper &        56 &                6.30 &                   352.80 &                      11 &      bold tern \\
+      Global Tech I &        80 &                5.00 &                   400.00 &                      22 &      bold tern \\
+          Butendiek &        80 &                3.60 &                   288.00 &                      76 &      bold tern \\
+         Moray East &       100 &                9.50 &                   950.00 &                      68 &      blue tern \\
+ Borkum Riffgrund 2 &        56 &                8.00 &                   448.00 &                      48 &      bold tern \\
+      Borkum Riﬀgat &        30 &                3.77 &                   113.25 &                      20 &      bold tern \\
+             Merkur &        66 &                6.00 &                   396.00 &                      59 &      blue tern \\
+   Trianel Borkum 2 &        32 &                6.33 &                   202.56 &                       9 &      blue tern \\
+             Gemini &       150 &                4.00 &                   600.00 &                      29 &         aeolus \\
+           Albatros &        16 &                7.00 &                   112.00 &                      11 &      blue tern \\
+          Nobelwind &        50 &                3.30 &                   165.00 &                      41 &   vole au vent \\
+      Kriegers Flak &        72 &                8.00 &                   576.00 &                      72 &   vole au vent \\
+           Wikinger &        70 &                5.00 &                   350.00 &                      64 &     brave tern \\
+             Yunlin &        80 &                8.00 &                   640.00 &                      11 &     brave tern \\
+        Horns Rev 3 &        49 &                8.30 &                   406.70 &                      46 &     brave tern \\
+           Sandbank &        72 &                4.00 &                   288.00 &                      73 &      adventure \\
+           Teesside &        27 &                2.30 &                    62.10 &                      25 &      adventure \\
+            Rampion &       116 &                3.45 &                   400.20 &                      41 &      adventure \\
+     BARD Oﬀshore I &        80 &                5.00 &                   400.00 &                      15 &           thor \\
+      Northwester 2 &        23 &                9.50 &                   218.50 &                      41 &   vole au vent \\
+EnBW Baltic II (MP) &        39 &                3.60 &                   140.40 &                      42 &   vole au vent \\
 \bottomrule
 \end{tabular}
